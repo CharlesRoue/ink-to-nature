@@ -4,5 +4,612 @@
   "titleCn": "润色之道",
   "descriptionCn": "将草稿打磨为 Nature 级英文",
   "color": "#10B981",
-  "lessons": []
+  "lessons": [
+    {
+      "id": "ap-01",
+      "title": "Polishing Philosophy",
+      "titleCn": "润色哲学",
+      "cards": [
+        {
+          "id": "ap-01-c1",
+          "titleCn": "润色 ≠ 重写：尊重作者的声音",
+          "contentCn": "**润色（Polishing）**与**重写（Rewriting）**有本质区别。润色的目标是让作者的表达更清晰、更符合学术规范，而不是替作者重新思考或改变其论点。润色者必须**保留作者的声音（author's voice）**——即作者的论证逻辑、立场和语气。如果一段话的逻辑是清晰的，只是英语不地道，你改的是语言，不是内容。如果你发现自己正在添加新的论据或改变作者的推理方向，你已经越界进入了重写领域。",
+          "contentEn": "**Polishing** and **rewriting** are fundamentally different. Polishing aims to make the author's expression clearer and more academically conventional, not to rethink or alter their argument. A polisher must **preserve the author's voice** — their reasoning logic, stance, and tone. If a paragraph's logic is sound but the English is awkward, you fix the language, not the content. If you find yourself adding new evidence or redirecting the author's reasoning, you have crossed into rewriting territory.",
+          "example": {
+            "label": "Polishing vs Rewriting",
+            "text": "Original: \"The result is very interesting and maybe suggests that the pathway could be important.\"\nPolished: \"This result suggests that the pathway may play an important role.\"\nRewritten (overreach): \"This result demonstrates that the pathway is the primary driver of the observed phenotype.\""
+          }
+        },
+        {
+          "id": "ap-01-c2",
+          "titleCn": "标记结构性问题，不要凭空修补",
+          "contentCn": "润色过程中，你经常会遇到**结构性问题**——例如引言缺少研究缺口（gap）声明，或讨论段没有回答 \"so what\"。这类问题无法通过语言润色解决，必须由作者补充新内容。正确的做法是**标记问题（flag it）**并给出建议方向，而不是自己编造内容填补空缺。如果你试图替作者写出缺失的逻辑链，你可能会引入错误的科学声明。记住：**润色者修复语言，作者修复逻辑。**",
+          "contentEn": "During polishing, you often encounter **structural issues** — for example, an Introduction missing a gap statement, or a Discussion paragraph that never answers \"so what.\" These cannot be fixed by language polishing alone; the author must supply new content. The correct approach is to **flag the issue** and suggest a direction, not invent content to fill the gap. If you try to write the missing logical chain yourself, you risk introducing incorrect scientific claims. Remember: **polishers fix language; authors fix logic.**",
+          "example": {
+            "label": "Flagging example",
+            "text": "Flag: \"[STRUCTURAL] Discussion paragraph 2 states the result but does not explain its implication. Author should add 1–2 sentences addressing what this finding means for the field.\""
+          }
+        },
+        {
+          "id": "ap-01-c3",
+          "titleCn": "润色优先级：立场 → 失败诊断 → 伦理 → 输出",
+          "contentCn": "润色时应遵循一个**优先级层次结构（priority hierarchy）**。最高优先级：**立场（Stance）**——作者的论点是否清晰、一致？如果论点模糊，所有语言打磨都没有意义。第二优先级：**失败诊断（Failure Diagnosis）**——找出论证链中的断裂：未支撑的声明、缺失的逻辑过渡、自相矛盾。第三优先级：**伦理（Ethics）**——检查是否存在不当声明（overclaiming）、数据误述或引用遗漏。最低优先级：**输出打磨（Output）**——语法、用词、句式多样性。先修大问题，再修小问题。",
+          "contentEn": "Polishing should follow a **priority hierarchy**. Highest priority: **Stance** — is the author's argument clear and consistent? If the argument is vague, all language polish is meaningless. Second: **Failure Diagnosis** — find breaks in the argument chain: unsupported claims, missing logical transitions, contradictions. Third: **Ethics** — check for overclaiming, data misrepresentation, or missing citations. Lowest: **Output** — grammar, word choice, sentence variety. Fix big problems first, then small ones.",
+          "example": {
+            "label": "Priority in action",
+            "text": "If the Discussion claims \"This is the first study to show X\" but the Introduction cites two papers that already showed X — fix the contradiction (stance/failure) before you fix the grammar in the same paragraph."
+          }
+        }
+      ],
+      "exercises": [
+        {
+          "id": "ap-01-e1",
+          "type": "scenario",
+          "questionCn": "以下段落是作者草稿中的一段 Discussion。作为润色者，你应该标记它还是直接润色？",
+          "passage": "The results showed a significant increase in protein X expression. This is consistent with previous studies. However, our study also found that protein X interacts with a novel binding partner, protein Y, which has not been reported before. The implications of this interaction are discussed below. (But the next paragraph jumps to methods limitations without ever explaining the implications.)",
+          "options": [
+            "直接润色——改善语言和句式即可",
+            "标记为结构性问题——作者承诺讨论 implications 但从未兑现，需要作者补充内容",
+            "自己写一段关于 protein X–Y interaction 的 implications 来填补空白",
+            "删除最后一句，因为作者没有展开"
+          ],
+          "correctOption": 1,
+          "explanationCn": "段落声明会讨论 implications，但下一段却转向了方法局限性，这是典型的**结构性缺口**。润色者不能凭空编写 implications（会引入不正确的科学声明），也不能简单删除——这会让读者困惑。正确做法是标记并建议作者补充。",
+          "explanationEn": "The paragraph promises to discuss implications but the next paragraph pivots to methods limitations — a classic **structural gap**. A polisher cannot invent implications (risking incorrect science) or simply delete the sentence (leaving readers confused). The correct action is to flag and recommend the author fill the gap."
+        },
+        {
+          "id": "ap-01-e2",
+          "type": "choice",
+          "questionCn": "在润色优先级中，以下哪个问题应该最先处理？",
+          "options": [
+            "语法错误：主谓不一致",
+            "作者在摘要中声称 'This is the first study' 但引言中引用了两篇同类先行研究",
+            "句式过于单一，缺乏长短句交替",
+            "用词不够学术，'big' 应替换为 'substantial'"
+          ],
+          "correct": 1,
+          "explanationCn": "这是一个**立场/伦理问题**（overclaiming），属于最高优先级。语法、句式、用词都属于输出层面，是最低优先级。先修核心问题，再修语言细节。",
+          "explanationEn": "This is a **stance/ethics issue** (overclaiming) — highest priority. Grammar, sentence rhythm, and word choice are all output-level — lowest priority. Fix the core problem first, then polish the language."
+        }
+      ]
+    },
+    {
+      "id": "ap-02",
+      "title": "Published Article Patterns",
+      "titleCn": "已发表文章模式",
+      "cards": [
+        {
+          "id": "ap-02-c1",
+          "titleCn": "三种高频句式模式",
+          "contentCn": "Nature 级论文中有三种反复出现的**句式模式（sentence patterns）**。**Topic-first（主题先行）**：先说主题，再给细节——\"CRISPR-Cas9 editing efficiency varies across cell types, with primary T cells showing 2–3-fold lower rates than immortalized lines.\" **Hedge-then-claim（先抑制后主张）**：先用限定语降低调子，再给出主张——\"Although preliminary, these data suggest that…\" **Evidence-then-conclusion（先证据后结论）**：先呈现数据，再给出解读——\"Expression of marker X increased 4-fold (p < 0.001), indicating activation of the pathway.\" 掌握这三种模式可以覆盖 80% 的学术句子。",
+          "contentEn": "Three **sentence patterns** recur throughout Nature-tier papers. **Topic-first**: state the topic, then provide detail — \"CRISPR-Cas9 editing efficiency varies across cell types, with primary T cells showing 2–3-fold lower rates than immortalized lines.\" **Hedge-then-claim**: soften with a qualifier, then assert — \"Although preliminary, these data suggest that…\" **Evidence-then-conclusion**: present data first, then interpretation — \"Expression of marker X increased 4-fold (p < 0.001), indicating activation of the pathway.\" Mastering these three patterns covers roughly 80% of academic sentences.",
+          "example": {
+            "label": "Pattern comparison",
+            "text": "Topic-first: \"Mitochondrial fission is regulated by DRP1 phosphorylation at Ser616.\"\nHedge-then-claim: \"While limited to in vitro conditions, these findings suggest a role for DRP1 in metabolic reprogramming.\"\nEvidence-then-conclusion: \"DRP1-S616 phosphorylation increased 3.2-fold upon glucose deprivation (Fig. 2a), consistent with a stress-responsive regulatory mechanism.\""
+          }
+        },
+        {
+          "id": "ap-02-c2",
+          "titleCn": "Hedging 语言：\"suggests\" vs \"demonstrates\"",
+          "contentCn": "**Hedging（限定语）**是学术写作的核心技巧。不同动词传达不同的**确定性等级（certainty level）**。从低到高排列：**suggests / indicates / is consistent with**（暗示）→ **supports / provides evidence for**（支持）→ **demonstrates / establishes / confirms**（证明）。Nature 审稿人对 overclaiming 非常敏感。如果你的数据只是一个相关性研究，用 \"demonstrates\" 会被挑战。选择动词时问自己：我的实验设计能支持这个强度的声明吗？**相关 ≠ 因果，体外 ≠ 体内，初步 ≠ 确定。**",
+          "contentEn": "**Hedging language** is a core academic writing skill. Different verbs convey different **certainty levels**. From lowest to highest: **suggests / indicates / is consistent with** → **supports / provides evidence for** → **demonstrates / establishes / confirms**. Nature reviewers are highly sensitive to overclaiming. If your data are correlational, using \"demonstrates\" will be challenged. When choosing a verb, ask: does my experimental design support this strength of claim? **Correlation ≠ causation, in vitro ≠ in vivo, preliminary ≠ definitive.**",
+          "example": {
+            "label": "Certainty calibration",
+            "text": "Weak design: \"These results suggest a link between X and Y.\" (observational)\nModerate design: \"These results provide evidence that X promotes Y.\" (interventional in vitro)\nStrong design: \"These results demonstrate that X drives Y in vivo.\" (knockout + rescue in animal model)"
+          }
+        },
+        {
+          "id": "ap-02-c3",
+          "titleCn": "主动语态 vs 被动语态的选择",
+          "contentEn": "**Active voice** highlights the agent (who did what); **passive voice** highlights the action or the object. In Nature papers, use active voice for **key actions and contributions**: \"We developed a new algorithm\" (not \"A new algorithm was developed\"). Use passive voice for **routine methods** where the agent is obvious: \"Samples were centrifuged at 10,000 × g\" (not \"We centrifuged the samples\"). The rule of thumb: if the sentence is about YOUR contribution, use active voice; if it is about a standard procedure, passive is fine.",
+          "contentCn": "**主动语态**突出行动者（谁做了什么）；**被动语态**突出行动本身或对象。在 Nature 论文中，对**关键行动和贡献**使用主动语态：\"We developed a new algorithm\"（而非 \"A new algorithm was developed\"）。对**常规方法**使用被动语态：\"Samples were centrifuged at 10,000 × g\"（而非 \"We centrifuged the samples\"）。经验法则：如果句子是关于**你的贡献**，用主动语态；如果是关于标准操作流程，被动语态更合适。",
+          "example": {
+            "label": "Voice selection",
+            "text": "Active (contribution): \"We identified three novel binding sites using ChIP-seq.\"\nPassive (routine): \"Proteins were separated by SDS-PAGE and transferred to PVDF membranes.\"\nAwkward passive (hides contribution): \"A new algorithm was developed to predict binding affinity.\" → Better: \"We developed a new algorithm to predict binding affinity.\""
+          }
+        },
+        {
+          "id": "ap-02-c4",
+          "titleCn": "段落节奏：短-长-短",
+          "contentCn": "好的段落有**节奏感（rhythm）**。Nature 论文的段落通常遵循**短-长-短（short-long-short）**模式：**开头短句**（topic sentence）清晰宣告本段主题；**中间长句**展开论证、提供证据和分析细节；**结尾短句**收束本段，过渡到下一段或强调要点。全段都是长句会让读者窒息；全是短句则显得碎片化。这种节奏让学术文章既有密度又可读。注意：这不是死规则，而是当你感觉段落读起来沉闷时的**诊断工具**。",
+          "contentEn": "Good paragraphs have **rhythm**. Nature paper paragraphs often follow a **short-long-short** pattern: a **short opening sentence** (topic sentence) clearly announces the paragraph's subject; **longer middle sentences** develop the argument with evidence and analysis; a **short closing sentence** wraps up the paragraph or transitions to the next. A paragraph of all long sentences suffocates the reader; all short sentences feels fragmented. This rhythm gives academic writing both density and readability. Note: this is not a rigid rule but a **diagnostic tool** when a paragraph feels labored.",
+          "example": {
+            "label": "Short-long-short in practice",
+            "text": "[Short] Mitochondrial dynamics are tightly linked to cellular metabolism. [Long] Under nutrient-replete conditions, fusion proteins MFN1/2 and OPA1 dominate, creating elongated networks that maximize oxidative phosphorylation efficiency through cristae remodeling and cytochrome c retention. [Short] Fasting reverses this balance."
+          }
+        }
+      ],
+      "exercises": [
+        {
+          "id": "ap-02-e1",
+          "type": "fill",
+          "questionCn": "将以下句子用 Topic-first 模式重写。原句是一个 Hedge-then-claim 句子，你需要改变结构，让主题先行。",
+          "passage": "Although the sample size was small, the data point toward a potential role for gut microbiota in modulating anxiety-like behavior in mice.",
+          "modelAnswer": "Gut microbiota appear to modulate anxiety-like behavior in mice, although the small sample size warrants caution in interpreting these results.",
+          "criteria": [
+            "主题（gut microbiota 与 anxiety）出现在句首",
+            "hedging 信息（small sample size）移至句中或句末",
+            "科学含义不变",
+            "句子语法正确且流畅"
+          ]
+        },
+        {
+          "id": "ap-02-e2",
+          "type": "choice",
+          "questionCn": "以下句子使用了哪种句式模式？\"Phosphorylation of STAT3 at Tyr705 increased 5.8-fold in treated cells compared with controls (Fig. 3b), consistent with activation of the JAK-STAT signaling axis.\"",
+          "options": [
+            "Topic-first（主题先行）",
+            "Hedge-then-claim（先抑制后主张）",
+            "Evidence-then-conclusion（先证据后结论）",
+            "以上都不是"
+          ],
+          "correct": 2,
+          "explanationCn": "句子先给出了具体数据证据（磷酸化增加 5.8 倍），然后用 \"consistent with\" 给出了解读（JAK-STAT 通路的激活），这是典型的 **Evidence-then-conclusion** 模式。",
+          "explanationEn": "The sentence first presents quantitative evidence (5.8-fold increase in phosphorylation), then interprets it with \"consistent with\" (activation of JAK-STAT). This is the classic **Evidence-then-conclusion** pattern."
+        }
+      ]
+    },
+    {
+      "id": "ap-03",
+      "title": "Academic Phrasebank in Practice",
+      "titleCn": "学术Phrasebank实战",
+      "cards": [
+        {
+          "id": "ap-03-c1",
+          "titleCn": "Manchester Phrasebank 六大类别概览",
+          "contentCn": "曼彻斯特学术 Phrasebank（Manchester Academic Phrasebank）将学术写作常用句式归为**六大类别**：**1) Introducing（引入）**——用于引言开头建立背景；**2) Describing Methods（描述方法）**——用于方法部分说明流程和理由；**3) Reporting Results（报告结果）**——用于客观呈现数据；**4) Discussing Findings（讨论发现）**——用于解读结果和推理；**5) Transitions（过渡）**——用于段落和论点之间的衔接；**6) Concluding（总结）**——用于总结贡献和指出局限。每个类别下有数十个即用型句式模板。",
+          "contentEn": "The Manchester Academic Phrasebank organizes academic writing phrases into **six categories**: **1) Introducing** — establishing background at the start of the Introduction; **2) Describing Methods** — explaining procedures and rationale in the Methods section; **3) Reporting Results** — presenting data objectively; **4) Discussing Findings** — interpreting results and reasoning; **5) Transitions** — connecting paragraphs and arguments; **6) Concluding** — summarizing contributions and noting limitations. Each category contains dozens of ready-to-use sentence templates.",
+          "example": {
+            "label": "Category examples",
+            "text": "Introducing: \"In recent years, there has been increasing interest in…\"\nReporting: \"As can be seen from Table 2, …\"\nDiscussing: \"These findings suggest that…\"\nConcluding: \"This study has shown that…\""
+          }
+        },
+        {
+          "id": "ap-03-c2",
+          "titleCn": "Introducing 与 Describing Methods 类别详解",
+          "contentCn": "**Introducing（引入）**类别用于引言部分建立语境。常用句式包括：\"X is a major area of research in…\"（定位领域），\"However, little is known about…\"（揭示缺口），\"The aim of this study is to…\"（声明目的）。注意：Phrasebank 中有些引入句式过于通用（如 \"Since the dawn of time…\"类型），在 Nature 级期刊中显得空洞。选择能**精确定位你的研究缺口**的句式。**Describing Methods** 类别强调**选择理由**——不只是说你做了什么，还要说为什么这么做。例如 \"X was chosen because…\" 比 \"X was used\" 更有说服力。",
+          "contentEn": "The **Introducing** category builds context in the Introduction. Common patterns: \"X is a major area of research in…\" (positioning the field), \"However, little is known about…\" (revealing a gap), \"The aim of this study is to…\" (stating the purpose). Note: some Phrasebank introductions are too generic (the \"Since the dawn of time…\" type) and feel hollow in Nature-tier journals. Choose phrases that **precisely locate your research gap**. **Describing Methods** emphasizes **rationale for choices** — not just what you did, but why. For example, \"X was chosen because…\" is more compelling than \"X was used.\"",
+          "example": {
+            "label": "Weak vs strong introduction phrases",
+            "text": "Weak: \"There has been increasing interest in protein folding.\"\nStrong: \"Despite decades of study, the mechanism by which chaperone X recognizes misfolded substrates remains unclear.\"\nWeak methods: \"RNA was extracted using Trizol.\"\nStrong methods: \"RNA was extracted using Trizol to preserve small RNA species that are lost with column-based methods.\""
+          }
+        },
+        {
+          "id": "ap-03-c3",
+          "titleCn": "Reporting Results 与 Discussing Findings 类别详解",
+          "contentCn": "**Reporting Results** 类别的核心是**客观呈现**——只说数据是什么，不说它意味着什么。典型句式：\"As shown in Fig. X, …\"，\"There was a significant increase in…\"，\"X was found to be…\"。关键规则：**Results 部分不应出现解读性语言**。**Discussing Findings** 类别则恰恰相反——你需要解读、推理和联系文献。典型句式：\"These results suggest that…\"，\"One possible explanation is…\"，\"This is consistent with the findings of…\"。两个类别混淆是初学者最常见的问题——在 Results 里解读，或在 Discussion 里重新报告数据。",
+          "contentEn": "The **Reporting Results** category focuses on **objective presentation** — stating what the data show without interpretation. Typical phrases: \"As shown in Fig. X, …\", \"There was a significant increase in…\", \"X was found to be…\" Key rule: **the Results section should not contain interpretive language**. The **Discussing Findings** category does the opposite — you interpret, reason, and connect to the literature. Typical phrases: \"These results suggest that…\", \"One possible explanation is…\", \"This is consistent with the findings of…\" Mixing these two categories is a common beginner mistake — interpreting in Results or re-reporting data in Discussion.",
+          "example": {
+            "label": "Results vs Discussion phrases",
+            "text": "Results (correct): \"Cell viability decreased by 47% in the treatment group (p < 0.001, Fig. 2a).\"\nResults (incorrect — interpretive): \"Cell viability decreased by 47%, demonstrating the drug's potent cytotoxic effect.\"\nDiscussion (correct): \"The 47% reduction in viability suggests that the drug exerts potent cytotoxic effects, possibly through mitochondrial dysfunction.\""
+          }
+        },
+        {
+          "id": "ap-03-c4",
+          "titleCn": "Transitions 与 Concluding 类别详解",
+          "contentCn": "**Transitions（过渡）**类别连接论点和段落，是论文流畅度的关键。常用句式按功能分类：**对比**——\"In contrast, …\"，\"However, …\"；**递进**——\"Furthermore, …\"，\"In addition, …\"；**因果**——\"As a result, …\"，\"Consequently, …\"；**让步**——\"Nevertheless, …\"，\"Despite this, …\"。避免过度使用 \"Moreover\" 和 \"Furthermore\"——Nature 论文中 \"However\" 和 \"In contrast\" 出现频率更高。**Concluding** 类别用于总结贡献和承认局限：\"This study provides evidence that…\"，\"A limitation of this work is…\"，\"Future studies should address…\"。好的结论句既要自信又不能过度声明。",
+          "contentEn": "The **Transitions** category connects arguments and paragraphs and is key to paper fluency. Phrases by function: **Contrast** — \"In contrast, …\", \"However, …\"; **Addition** — \"Furthermore, …\", \"In addition, …\"; **Causation** — \"As a result, …\", \"Consequently, …\"; **Concession** — \"Nevertheless, …\", \"Despite this, …\" Avoid overusing \"Moreover\" and \"Furthermore\" — in Nature papers, \"However\" and \"In contrast\" appear more frequently. The **Concluding** category summarizes contributions and acknowledges limitations: \"This study provides evidence that…\", \"A limitation of this work is…\", \"Future studies should address…\" A good concluding sentence is confident without overclaiming.",
+          "example": {
+            "label": "Transition frequency in Nature",
+            "text": "High-frequency: \"However\", \"In contrast\", \"Notably\", \"Consistent with this\"\nOverused by non-native writers: \"Moreover\", \"Furthermore\", \"It is worth mentioning that\"\nConcluding balance: \"Together, these findings indicate…\" (confident) vs \"These results might perhaps hint at…\" (too weak)"
+          }
+        },
+        {
+          "id": "ap-03-c5",
+          "titleCn": "将 Phrasebank 作为模板而非拐杖",
+          "contentCn": "Phrasebank 是一个**脚手架工具（scaffolding tool）**——它帮你快速搭建句子框架，但你必须用自己的内容填充。常见错误：**1) 直接复制不改编**——使用 \"It has been widely reported that…\" 却不加具体引用，变成空洞套话。**2) 混搭不兼容的句式**——把两个模板拼在一起导致语法断裂。**3) 依赖模板而丧失个性**——整篇论文读起来像 Phrasebank 练习题。正确用法：先用 Phrasebank 句式写出初稿，然后**逐句修改**使其贴合你的具体研究语境，最终让读者感觉不到模板的存在。",
+          "contentEn": "The Phrasebank is a **scaffolding tool** — it helps you quickly build sentence frames, but you must fill them with your own content. Common mistakes: **1) Copying without adaptation** — using \"It has been widely reported that…\" without specific citations creates empty boilerplate. **2) Mixing incompatible patterns** — splicing two templates together, producing grammatical breaks. **3) Over-reliance that erases voice** — the whole paper reads like a Phrasebank exercise. Correct usage: draft with Phrasebank phrases first, then **revise sentence by sentence** to fit your specific research context, until the reader cannot detect the template.",
+          "example": {
+            "label": "Template evolution",
+            "text": "Phrasebank: \"There is growing evidence that X plays a role in Y.\"\nDraft: \"There is growing evidence that mTOR plays a role in aging.\"\nRevised (natural): \"Multiple lines of evidence implicate mTOR signaling in the regulation of lifespan across model organisms.\""
+          }
+        }
+      ],
+      "exercises": [
+        {
+          "id": "ap-03-e1",
+          "type": "choice",
+          "questionCn": "以下句式最可能属于 Phrasebank 的哪个类别？\"Nevertheless, the observed differences in gene expression patterns warrant further investigation in larger cohorts.\"",
+          "options": [
+            "Introducing（引入）",
+            "Reporting Results（报告结果）",
+            "Discussing Findings（讨论发现）",
+            "Concluding（总结）"
+          ],
+          "correct": 3,
+          "explanationCn": "\"Nevertheless\" 表示让步，\"warrant further investigation\" 是典型的总结局限和未来方向的语言。这属于 **Concluding** 类别——承认局限并指出未来工作。",
+          "explanationEn": "\"Nevertheless\" signals concession, and \"warrant further investigation\" is typical language for summarizing limitations and future directions. This belongs to the **Concluding** category."
+        },
+        {
+          "id": "ap-03-e2",
+          "type": "fill",
+          "questionCn": "使用 Phrasebank 的 Reporting Results 句式完成以下句子。要求：只客观报告数据，不加解读。",
+          "passage": "（数据：治疗组小鼠肿瘤体积比对照组减小了 62%，p < 0.001，见图 3c。）请用一个英文句子报告这一结果：",
+          "modelAnswer": "As shown in Fig. 3c, tumour volume was reduced by 62% in the treatment group compared with controls (p < 0.001).",
+          "criteria": [
+            "使用了 Reporting Results 句式（如 As shown in Fig. X, …）",
+            "只报告数据，不含解读性词汇（如 suggest, demonstrate, indicate）",
+            "包含统计值（p 值）和图表引用",
+            "语法正确"
+          ]
+        },
+        {
+          "id": "ap-03-e3",
+          "type": "scenario",
+          "questionCn": "以下句子出现在论文的 Results 部分。这个句式是否适合该部分？",
+          "passage": "The marked decrease in mitochondrial membrane potential strongly suggests that the compound disrupts the electron transport chain, which is consistent with our hypothesis that it acts as a mitochondrial uncoupler.",
+          "options": [
+            "适合——Results 部分可以包含合理的推断",
+            "不适合——句子包含解读性语言（\"suggests\", \"consistent with our hypothesis\"），应移至 Discussion",
+            "适合——只要数据准确，Results 部分可以讨论假说",
+            "不适合——句子太长了，应该拆分成两个短句"
+          ],
+          "correctOption": 1,
+          "explanationCn": "\"strongly suggests\" 和 \"consistent with our hypothesis\" 都是**解读性语言**，属于 Discussion 类别。Results 部分应只客观呈现数据：\"Mitochondrial membrane potential decreased by X% in compound-treated cells (Fig. Y)。\" 解读应留给 Discussion。",
+          "explanationEn": "\"Strongly suggests\" and \"consistent with our hypothesis\" are **interpretive language** belonging to the Discussion category. The Results section should objectively present data: \"Mitochondrial membrane potential decreased by X% in compound-treated cells (Fig. Y).\" Interpretation belongs in the Discussion."
+        }
+      ]
+    },
+    {
+      "id": "ap-04",
+      "title": "Section Rhetorical Moves",
+      "titleCn": "段落修辞手法",
+      "cards": [
+        {
+          "id": "ap-04-c1",
+          "titleCn": "Introduction 的修辞手法：漏斗结构",
+          "contentCn": "Introduction 的核心修辞手法是**漏斗（Funnel）**——从宽到窄。四层结构：**1) 宽泛背景**——用 1-2 句建立大领域（\"Cancer immunotherapy has transformed…\"）。**2) 收窄问题**——聚焦到你的具体研究方向（\"However, checkpoint inhibitors show limited efficacy in…\"）。**3) 揭示缺口**——用转折词指出未知领域（\"A critical gap remains: …\"）。**4) 声明贡献**——用 \"Here we show\" 或 \"Here we report\" 直接给出你的核心发现。每一层比上一层更具体，读者被自然引导到你的贡献。跳过任何一层都会让读者迷失。",
+          "contentEn": "The Introduction's core rhetorical move is the **Funnel** — from broad to narrow. Four layers: **1) Broad background** — establish the field in 1–2 sentences (\"Cancer immunotherapy has transformed…\"). **2) Narrowed problem** — focus on your specific research area (\"However, checkpoint inhibitors show limited efficacy in…\"). **3) Gap statement** — use a transition to reveal what is unknown (\"A critical gap remains: …\"). **4) Contribution statement** — use \"Here we show\" or \"Here we report\" to state your core finding directly. Each layer is more specific than the last, naturally guiding the reader to your contribution. Skipping any layer loses the reader.",
+          "example": {
+            "label": "Funnel in action",
+            "text": "[Broad] Antibiotic resistance is projected to cause 10 million deaths annually by 2050. [Narrow] Among resistant pathogens, carbapenem-resistant Enterobacteriaceae pose the greatest clinical threat. [Gap] Yet no new antibiotic class targeting these organisms has entered clinical use in over two decades. [Contribution] Here we report a novel class of β-lactamase inhibitors that restore carbapenem activity in resistant clinical isolates."
+          }
+        },
+        {
+          "id": "ap-04-c2",
+          "titleCn": "Methods 的修辞手法：每个选择都需要理由",
+          "contentCn": "Methods 部分的修辞手法不是简单地列出操作步骤——而是为**每个关键方法选择提供理由（justification for each choice）**。审稿人想知道的不只是你做了什么，更是**你为什么这么做而不是别的**。对每个重要的方法决定，加入简短理由：\"We used X rather than Y because…\"，\"X was selected based on its superior sensitivity for…\"。尤其需要理由的选择包括：**样本量的确定依据**、**统计方法的选择原因**、**对照组的设置逻辑**。没有理由的 Methods 会被审稿人要求补充信息。",
+          "contentEn": "The Methods section's rhetorical move is not simply listing procedures — it is providing **justification for each key methodological choice**. Reviewers want to know not just what you did but **why you chose that approach over alternatives**. For each important methodological decision, include a brief rationale: \"We used X rather than Y because…\", \"X was selected based on its superior sensitivity for…\". Choices that especially need justification: **sample size determination**, **statistical method selection**, **control group design**. Methods without rationale invite reviewer requests for additional information.",
+          "example": {
+            "label": "With vs without justification",
+            "text": "Without: \"Western blotting was performed to detect protein expression.\"\nWith: \"Protein expression was quantified by western blotting rather than ELISA because the antibody panel available detects both phosphorylated and total forms, enabling direct calculation of activation ratios.\""
+          }
+        },
+        {
+          "id": "ap-04-c3",
+          "titleCn": "Results 的修辞手法：数据-然后-解读",
+          "contentCn": "Results 部分遵循**数据-然后-解读（Data-then-Interpretation）**模式。每个结果段落结构：**1) 数据呈现**——客观描述你观察到了什么（\"Expression of gene X increased 3-fold…\"），引用图表。**2) 微型解读**——用一句话点出数据的直接含义，但不过度推断（\"…consistent with pathway activation\"）。注意：Results 中的解读必须是**即时的、局部的**——只解读当前数据点，不做整体推论。整体推论属于 Discussion。另一个关键手法：**按逻辑顺序而非时间顺序组织结果**——先放最重要的发现，再放支撑性实验。",
+          "contentEn": "The Results section follows the **Data-then-Interpretation** pattern. Each results paragraph: **1) Data presentation** — objectively describe what you observed (\"Expression of gene X increased 3-fold…\"), citing figures. **2) Mini-interpretation** — one sentence noting the direct implication without overextending (\"…consistent with pathway activation\"). Note: interpretation in Results must be **immediate and local** — only interpreting the current data point, not drawing broad conclusions. Broad interpretation belongs in the Discussion. Another key move: **organize results by logical importance, not chronological order** — lead with the most important finding, then present supporting experiments.",
+          "example": {
+            "label": "Data-then-Interpretation pattern",
+            "text": "[Data] Treatment with compound X reduced tumour volume by 62% compared with vehicle controls (p < 0.001; Fig. 3a). [Mini-interpretation] This reduction is comparable to that achieved by first-line chemotherapeutic agents in this model. [Data] Immunohistochemistry revealed a 4-fold increase in cleaved caspase-3 staining (Fig. 3b). [Mini-interpretation] These data indicate that tumour reduction is mediated, at least in part, through apoptosis."
+          }
+        },
+        {
+          "id": "ap-04-c4",
+          "titleCn": "Discussion 的修辞手法：主张-证据-含义",
+          "contentCn": "Discussion 的核心修辞手法是**主张-证据-含义（Claim-Evidence-Implication, CEI）**三段式。每个 Discussion 段落围绕一个主张展开：**1) 主张（Claim）**——你的发现说明了什么（\"Our findings indicate that X regulates Y through a novel mechanism\"）。**2) 证据（Evidence）**——回溯你的数据并引用文献支持（\"This is supported by the 5-fold increase in Y phosphorylation (Fig. 4) and is consistent with previous reports showing…\"）。**3) 含义（Implication）**——这对领域意味着什么（\"These results suggest that targeting the X-Y interaction could provide a new therapeutic strategy\"）。缺少任何一环，段落就不完整：没有主张 = 重述结果；没有证据 = 空谈；没有含义 = 没有回答 \"so what\"。",
+          "contentEn": "The Discussion's core rhetorical move is the **Claim-Evidence-Implication (CEI)** triplet. Each Discussion paragraph revolves around one claim: **1) Claim** — what your finding shows (\"Our findings indicate that X regulates Y through a novel mechanism\"). **2) Evidence** — refer back to your data and cite supporting literature (\"This is supported by the 5-fold increase in Y phosphorylation (Fig. 4) and is consistent with previous reports showing…\"). **3) Implication** — what this means for the field (\"These results suggest that targeting the X-Y interaction could provide a new therapeutic strategy\"). Missing any element leaves the paragraph incomplete: no claim = restating results; no evidence = unsupported assertion; no implication = failing to answer \"so what.\"",
+          "example": {
+            "label": "CEI triplet",
+            "text": "[Claim] Our data reveal that mitochondrial DNA release is an early event in neuroinflammation. [Evidence] Cytosolic mtDNA was detected in microglia as early as 2 weeks before plaque deposition (Fig. 5a), and blocking the cGAS-STING pathway prevented downstream cytokine production (Fig. 5b–d), consistent with the role of innate immune sensing in neurodegeneration (Smith et al., 2023). [Implication] These findings suggest that early intervention targeting mitochondrial DNA sensing may delay disease onset."
+          }
+        }
+      ],
+      "exercises": [
+        {
+          "id": "ap-04-e1",
+          "type": "choice",
+          "questionCn": "以下段落使用了哪个部分的修辞手法？\"We chose single-cell RNA sequencing over bulk RNA-seq because the heterogeneous cell composition of tumour biopsies would obscure cell-type-specific expression changes. To control for batch effects, we included spike-in standards from the External RNA Controls Consortium.\"",
+          "options": [
+            "Introduction 的漏斗结构",
+            "Methods 的选择理由（justification for each choice）",
+            "Results 的数据-解读模式",
+            "Discussion 的 CEI 三段式"
+          ],
+          "correct": 1,
+          "explanationCn": "段落为两个关键方法选择提供了理由：为什么选 scRNA-seq 而不是 bulk RNA-seq，以及为什么加入 spike-in 对照。这是典型的 **Methods 修辞手法**——每个选择都有 justification。",
+          "explanationEn": "The paragraph justifies two key methodological choices: why scRNA-seq over bulk RNA-seq, and why spike-in controls were added. This is the classic **Methods rhetorical move** — justification for each choice."
+        },
+        {
+          "id": "ap-04-e2",
+          "type": "order",
+          "questionCn": "将以下句子按 Discussion 段落的正确修辞顺序（Claim → Evidence → Implication）排列：",
+          "items": [
+            "Our results establish that DRP1-mediated mitochondrial fission is a prerequisite for metabolic reprogramming in activated T cells.",
+            "DRP1-knockout T cells failed to upregulate glycolytic genes upon activation (Fig. 6a,b) and showed impaired IFN-γ production (Fig. 6c), consistent with the link between mitochondrial morphology and bioenergetic flexibility reported in macrophages (O'Neill et al., 2023).",
+            "These findings suggest that pharmacological modulation of mitochondrial dynamics could be used to tune T-cell function in adoptive immunotherapy, potentially improving persistence and effector capacity of engineered T cells."
+          ],
+          "explanationCn": "正确顺序遵循 CEI 三段式：1) **Claim**——DRP1 介导的线粒体分裂是 T 细胞代谢重编程的前提（主张）；2) **Evidence**——DRP1 敲除导致糖酵解基因上调失败和 IFN-γ 产生受损，并引用文献支持（证据）；3) **Implication**——调控线粒体动力学可用于调节免疫治疗中 T 细胞功能（含义）。"
+        }
+      ]
+    },
+    {
+      "id": "ap-05",
+      "title": "Style Guardrails",
+      "titleCn": "风格护栏",
+      "cards": [
+        {
+          "id": "ap-05-c1",
+          "titleCn": "你可以写的：限定声明、具体数据、主动语态",
+          "contentCn": "**风格护栏（Style Guardrails）**定义了学术写作的允许范围。**你可以写的三类内容：** 1) **限定声明（Hedged claims）**——用 \"suggests\"、\"is consistent with\"、\"may\" 等限定词表达尚未完全证实的结论。这不会被认为不自信，反而显示你对证据边界的尊重。2) **具体数据**——永远用数字而非形容词：\"increased 3.2-fold\" 而非 \"increased significantly\"（除非你附上 p 值）。3) **关键行动的主动语态**——\"We developed…\"，\"We identified…\" 清晰表明你的贡献。这三个是你写作的基本工具。",
+          "contentEn": "**Style Guardrails** define the permitted range of academic writing. **Three types of content you CAN write:** 1) **Hedged claims** — use \"suggests\", \"is consistent with\", \"may\" to express conclusions not yet fully proven. This is not seen as weak but shows respect for the boundaries of your evidence. 2) **Specific data** — always use numbers rather than adjectives: \"increased 3.2-fold\" rather than \"increased significantly\" (unless you include a p-value). 3) **Active voice for key actions** — \"We developed…\", \"We identified…\" clearly signal your contribution. These three are your basic writing tools.",
+          "example": {
+            "label": "Guardrail-compliant writing",
+            "text": "Hedged claim: \"These data suggest a previously unrecognized role for X in Y regulation.\"\nSpecific data: \"Knockdown of X reduced cell migration by 73% (from 340 ± 12 to 92 ± 8 cells/field; p < 0.001).\"\nActive voice: \"We designed a dual-reporter system to simultaneously track transcription and translation dynamics.\""
+          }
+        },
+        {
+          "id": "ap-05-c2",
+          "titleCn": "你不能写的：无支撑声明、模糊量化、未定义术语",
+          "contentCn": "**违反护栏的三类内容：** 1) **无支撑声明（Unsupported claims）**——任何没有数据或引用支持的断言都是不可接受的。\"It is well known that…\" 后面必须跟引用，否则删除。\"X is important\" 需要证据或引用证明其重要性。2) **模糊量化（Vague quantifiers）**——\"many studies\"、\"a large number of\"、\"significantly\" （不带 p 值）、\"very\"、\"quite\" 都是禁止的。用具体数字替代。3) **未定义的术语（Jargon without definition）**——首次使用的缩写和专业术语必须定义。\"CRISPR-Cas9\" 可以在 Nature 中不定义，但 \"scFv\" 在你首次使用时需要写 \"single-chain variable fragment (scFv)\"。",
+          "contentEn": "**Three types of content that violate guardrails:** 1) **Unsupported claims** — any assertion without data or citation is unacceptable. \"It is well known that…\" must be followed by a citation, or deleted. \"X is important\" needs evidence or a citation to justify its importance. 2) **Vague quantifiers** — \"many studies\", \"a large number of\", \"significantly\" (without a p-value), \"very\", \"quite\" are all forbidden. Replace with specific numbers. 3) **Jargon without definition** — abbreviations and technical terms must be defined at first use. \"CRISPR-Cas9\" may go undefined in Nature, but \"scFv\" needs expansion at first mention: \"single-chain variable fragment (scFv)\".",
+          "example": {
+            "label": "Violations and fixes",
+            "text": "Violation: \"Many studies have shown that inflammation plays a role.\" → Fix: \"At least 12 studies since 2019 have linked chronic inflammation to tumour progression (refs 1–12).\"\nViolation: \"The results were very significant.\" → Fix: \"The difference was statistically significant (p = 0.003, two-tailed t-test).\"\nViolation: \"We measured BFI using standard protocols.\" → Fix: \"We measured the biofilm formation index (BFI) using standard protocols.\""
+          }
+        },
+        {
+          "id": "ap-05-c3",
+          "titleCn": "Hedging 语言指南：精确控制确定性",
+          "contentCn": "**Hedging 不是弱化你的结论，而是精确校准你的确定性等级。**按证据强度选择语言：**初步/相关性数据** → \"is associated with\"、\"correlates with\"、\"is consistent with\"；**干预性体外实验** → \"suggests\"、\"provides evidence that\"、\"indicates\"；**体内功能验证** → \"demonstrates\"、\"establishes\"、\"confirms\"；**多实验室重复验证** → \"conclusively shows\"。常见错误：**该强则弱**（你有 knockout 数据却写 \"may be involved\"）和**该弱则强**（你只有相关性数据却写 \"demonstrates\"）。两种都会让审稿人不信任你。",
+          "contentEn": "**Hedging is not weakening your conclusion — it is precisely calibrating your certainty level.** Match language to evidence strength: **preliminary/correlational data** → \"is associated with\", \"correlates with\", \"is consistent with\"; **interventional in vitro experiments** → \"suggests\", \"provides evidence that\", \"indicates\"; **in vivo functional validation** → \"demonstrates\", \"establishes\", \"confirms\"; **multi-lab replication** → \"conclusively shows\". Common errors: **under-claiming** (you have knockout data but write \"may be involved\") and **over-claiming** (you only have correlational data but write \"demonstrates\"). Both erode reviewer trust.",
+          "example": {
+            "label": "Calibrating certainty",
+            "text": "Over-claim: \"Our study demonstrates that X causes Y.\" (based on correlation alone)\nUnder-claim: \"X may possibly be related to Y.\" (based on knockout + rescue in vivo)\nCalibrated: \"These data provide strong evidence that X drives Y in vivo, as demonstrated by the rescue experiments (Fig. 4d).\""
+          }
+        },
+        {
+          "id": "ap-05-c4",
+          "titleCn": "时态规范：过去式用于方法，现在式用于已知事实",
+          "contentCn": "学术论文有严格的**时态规范（tense conventions）**。**过去式（Past tense）**用于：你做了什么（\"We measured…\"）、你发现了什么（\"Expression increased…\"）、别人过去发现了什么（\"Smith et al. reported…\"）。**现在式（Present tense）**用于：已确立的科学事实（\"DNA replication is semiconservative\"）、图表引用（\"Fig. 3 shows…\"）、普遍接受的知识（\"Apoptosis is a form of programmed cell death\"）。**现在完成式（Present perfect）**用于：连接过去研究到当前状态（\"Several studies have examined…\"）。最常见的错误：在 Results 中用现在式描述你的发现（\"We find that…\" 应该用 \"We found that…\"），或在 Introduction 中用过去式描述已确立的事实。",
+          "contentEn": "Academic papers follow strict **tense conventions**. **Past tense** for: what you did (\"We measured…\"), what you found (\"Expression increased…\"), what others found previously (\"Smith et al. reported…\"). **Present tense** for: established scientific facts (\"DNA replication is semiconservative\"), figure references (\"Fig. 3 shows…\"), generally accepted knowledge (\"Apoptosis is a form of programmed cell death\"). **Present perfect** for: connecting past research to the current state (\"Several studies have examined…\"). Most common errors: using present tense in Results to describe your findings (\"We find that…\" should be \"We found that…\"), or using past tense in the Introduction for established facts.",
+          "example": {
+            "label": "Tense selection",
+            "text": "Past (your work): \"We treated cells with 10 μM compound X for 24 h and measured ATP levels.\"\nPresent (established fact): \"ATP is the primary energy currency of the cell.\"\nPresent (figure ref): \"Figure 2a shows the dose-response curve.\"\nPresent perfect (literature bridge): \"Previous studies have linked mitochondrial dysfunction to insulin resistance (refs 1–5).\""
+          }
+        }
+      ],
+      "exercises": [
+        {
+          "id": "ap-05-e1",
+          "type": "scenario",
+          "questionCn": "以下句子是否违反了风格护栏？",
+          "passage": "It is widely accepted that this new class of compounds represents a very promising breakthrough in the treatment of various neurodegenerative diseases, and many experts believe it could revolutionize the field.",
+          "options": [
+            "没有违反——语言流畅且表达了积极态度",
+            "违反了多处护栏：无引用支撑 'widely accepted' 和 'many experts believe'，模糊量化 'very promising'、'various'、'many'，且无任何具体数据",
+            "只违反了 'very' 的使用规则，其余可接受",
+            "违反了时态规则——应该使用过去式"
+          ],
+          "correctOption": 1,
+          "explanationCn": "句子违反了三条护栏：1) \"widely accepted\" 和 \"many experts believe\" 是无引用的无支撑声明；2) \"very promising\"、\"various\"、\"many\" 是模糊量化；3) 全句无任何具体数据或引用。这种句子在 Nature 论文中不可接受。",
+          "explanationEn": "The sentence violates three guardrails: 1) \"widely accepted\" and \"many experts believe\" are unsupported claims without citations; 2) \"very promising\", \"various\", \"many\" are vague quantifiers; 3) the entire sentence contains no specific data or citations. Such sentences are unacceptable in Nature papers."
+        },
+        {
+          "id": "ap-05-e2",
+          "type": "choice",
+          "questionCn": "以下句子中，哪个时态使用是正确的？",
+          "options": [
+            "\"In our experiment, we find that protein X levels decrease upon treatment.\"（描述你在实验中观察到的结果）",
+            "\"Smith et al. (2021) show that the pathway is activated by oxidative stress.\"（引用他人已发表的具体研究）",
+            "\"As shown in Fig. 3, treatment with compound X reduced cell viability by 45%.\"（引用图表并报告你的数据）",
+            "\"DNA is composed of four nucleotide bases.\"（描述已确立的科学事实）与 C 同时正确"
+          ],
+          "correct": 3,
+          "explanationCn": "A 错误——描述你的实验发现应用过去式 \"we found\"。B 错误——引用他人具体研究应用过去式 \"showed\"（虽然 \"show\" 在某些风格中可接受，但 Nature 偏好过去式）。C 和 D 都正确：C 用过去式报告你的数据并引用图表，D 用现在式描述已确立事实。",
+          "explanationEn": "A is wrong — describing your experimental finding requires past tense \"we found\". B is debatable but Nature prefers past tense \"showed\" for specific prior studies. Both C and D are correct: C uses past tense for your data with a figure reference, D uses present tense for an established fact."
+        },
+        {
+          "id": "ap-05-e3",
+          "type": "fill",
+          "questionCn": "为以下句子添加适当的 hedging 语言。原始句子 overclaiming 了——你只有体外实验数据，但用了 \"demonstrates\"。请修改使其与证据强度匹配。",
+          "passage": "This study demonstrates that compound X inhibits tumour growth through the PI3K/AKT pathway.",
+          "modelAnswer": "This study provides evidence that compound X may inhibit tumour growth, potentially through modulation of the PI3K/AKT pathway.",
+          "criteria": [
+            "将 \"demonstrates\" 替换为更弱的限定动词（如 \"suggests\"、\"provides evidence that\"）",
+            "添加了 hedging 修饰语（如 \"may\"、\"potentially\"、\"possibly\"）",
+            "保持了核心科学含义不变",
+            "语法正确且自然"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ap-06",
+      "title": "Writing Strategy",
+      "titleCn": "写作策略",
+      "cards": [
+        {
+          "id": "ap-06-c1",
+          "titleCn": "何时详写：新方法、意外结果",
+          "contentCn": "**详写（Detailing）**是你对读者说 \"这里需要你的注意力\" 的方式。两种情况必须详写：**1) 新方法（Novel methods）**——如果你的方法是论文的核心贡献之一，必须详细描述每一步、每个参数和选择理由。读者需要能够重复你的实验。例如，一个新型 CRISPR 筛选流程需要逐步描述 guide RNA 设计、转染条件、筛选阈值。**2) 意外结果（Surprising results）**——如果结果违反直觉，你需要提供比常规结果更多的证据。审稿人会对意外声明要求更高标准的证据。给出多个角度的验证实验，并主动讨论替代解释。",
+          "contentEn": "**Detailing** is how you tell the reader \"pay attention here.\" Two situations demand detail: **1) Novel methods** — if your method is a core contribution, describe every step, parameter, and rationale in full. Readers must be able to reproduce your experiments. For example, a novel CRISPR screening pipeline requires step-by-step description of guide RNA design, transfection conditions, and selection thresholds. **2) Surprising results** — if results are counterintuitive, provide more evidence than for routine findings. Reviewers hold surprising claims to higher evidentiary standards. Present validation from multiple angles and proactively discuss alternative explanations.",
+          "example": {
+            "label": "When to detail",
+            "text": "Novel method (detail): \"We designed a two-step enrichment protocol: first, size-selection on 2% agarose gels to isolate fragments 200–500 bp; second, immunoprecipitation with anti-5mC antibody (clone 33D3) at 4°C overnight to capture methylated DNA.\"\nRoutine method (don't detail): \"Genomic DNA was extracted using the DNeasy Blood & Tissue Kit (Qiagen) according to the manufacturer's protocol.\""
+          }
+        },
+        {
+          "id": "ap-06-c2",
+          "titleCn": "何时引用：非显而易见的声明、已建立的方案",
+          "contentCn": "**引用（Citing）**是学术诚信的基础。两种情况必须引用：**1) 非显而易见的声明（Non-obvious claims）**——任何不是领域常识的事实性声明都需要引用。\"Breast cancer is the most common cancer in women\" 需要引用 WHO 或 GLOBOCAN 数据。\"Protein X has been implicated in cancer\" 需要引用具体研究。判断标准：如果一个新入行的研究生不知道这个说法，它就需要引用。**2) 已建立的方案（Established protocols）**——使用别人开发的方法时，引用原始论文。即使你修改了方案，也要引用并说明你改了什么：\"We adapted the protocol from Smith et al. (2020) by increasing the incubation time to 48 h.\" 不引用 = 抄袭风险。",
+          "contentEn": "**Citing** is the foundation of academic integrity. Two situations demand citations: **1) Non-obvious claims** — any factual assertion that is not common knowledge in the field needs a citation. \"Breast cancer is the most common cancer in women\" requires a WHO or GLOBOCAN reference. \"Protein X has been implicated in cancer\" needs specific study citations. The test: if a new graduate student in the field would not know this claim, it needs a citation. **2) Established protocols** — when using methods developed by others, cite the original paper. Even if you modified the protocol, cite and note your changes: \"We adapted the protocol from Smith et al. (2020) by increasing the incubation time to 48 h.\" No citation = plagiarism risk.",
+          "example": {
+            "label": "Citation needed or not?",
+            "text": "Needs citation: \"The global incidence of hepatocellular carcinoma has increased by 25% over the past decade.\" (specific statistic)\nNeeds citation: \"We performed RNA-seq following the Smart-seq2 protocol.\" (established method by others)\nNo citation needed: \"DNA is transcribed into RNA.\" (universal textbook fact)\nNo citation needed: \"We centrifuged samples at 10,000 × g.\" (universal lab technique)"
+          }
+        },
+        {
+          "id": "ap-06-c3",
+          "titleCn": "何时概括：背景知识、已知方法",
+          "contentCn": "**概括（Summarizing）**是对读者说 \"这个你已经知道了，我快速带过\" 的方式。两种情况应该概括：**1) 背景知识（Background）**——引言中建立语境时，不要详细展开每篇引用的论文。用一句话概括多篇文献的共同发现：\"Several studies have established that X regulates Y through Z mechanism (refs 1–8).\" 读者不需要你在引言中复述每篇论文的方法。**2) 已知方法（Known methods）**——如果方法已发表且你没有修改，一句话引用即可：\"Immunohistochemistry was performed as previously described (ref).\" 把篇幅留给新内容。详写已知方法会让审稿人觉得你在凑字数。",
+          "contentEn": "**Summarizing** is how you tell the reader \"you already know this; I'll move past it quickly.\" Two situations call for summarizing: **1) Background** — when establishing context in the Introduction, do not detail every cited paper. Summarize shared findings across multiple references in one sentence: \"Several studies have established that X regulates Y through Z mechanism (refs 1–8).\" Readers do not need you to recap each paper's methods in the Introduction. **2) Known methods** — if a method is published and unmodified, one sentence with a citation suffices: \"Immunohistochemistry was performed as previously described (ref).\" Save space for what is new. Detailing known methods makes reviewers think you are padding the word count.",
+          "example": {
+            "label": "Detail vs summarize",
+            "text": "Over-detailed background: \"Smith et al. (2020) used CRISPR to knockout gene X in HeLa cells and found that proliferation decreased by 40%. Jones et al. (2021) used siRNA to knockdown gene X in MCF-7 cells and observed a 30% reduction…\"\nSummarized: \"Multiple groups have shown that gene X depletion reduces proliferation in cancer cell lines (refs 1–5).\""
+          }
+        }
+      ],
+      "exercises": [
+        {
+          "id": "ap-06-e1",
+          "type": "scenario",
+          "questionCn": "以下段落描述了一种方法。根据写作策略，应该详写还是概括？",
+          "passage": "For protein extraction, cells were lysed in RIPA buffer (50 mM Tris-HCl pH 7.4, 150 mM NaCl, 1% NP-40, 0.5% sodium deoxycholate, 0.1% SDS) supplemented with protease inhibitor cocktail (Roche), and protein concentration was determined by BCA assay (Thermo Fisher). Western blotting was performed using standard protocols with the following primary antibodies: anti-β-actin (1:5000, Sigma), anti-phospho-AKT (1:1000, Cell Signaling).",
+          "options": [
+            "应该详写——RIPA buffer 配方的每个成分都很重要",
+            "应该概括——这是标准的蛋白提取和 Western blot 流程，没有新方法，应简化为 'Protein extraction and western blotting were performed as previously described (ref)' 并只列出抗体信息",
+            "当前详略程度刚好",
+            "应该完全删除——Methods 部分不需要这些信息"
+          ],
+          "correctOption": 1,
+          "explanationCn": "RIPA 裂解和 Western blot 是**标准的已知方法**，没有新颖之处。根据写作策略，应该概括并引用已发表的方案，只保留必要的特异性信息（抗体和稀释比例）。详写已知方法浪费篇幅，也让审稿人觉得论文缺乏重点。",
+          "explanationEn": "RIPA lysis and western blotting are **standard, well-established methods** with nothing novel. Per writing strategy, these should be summarized with a citation to the published protocol, retaining only essential specifics (antibodies and dilutions). Detailing known methods wastes space and signals to reviewers that the paper lacks focus."
+        },
+        {
+          "id": "ap-06-e2",
+          "type": "choice",
+          "questionCn": "以下哪个声明最需要添加引用？",
+          "options": [
+            "\"We used phosphate-buffered saline (PBS) for all washing steps.\"",
+            "\"Mitochondria are double-membrane organelles responsible for ATP production.\"",
+            "\"Recent clinical trials have shown that PD-1 inhibitors improve 5-year survival in melanoma patients by 20–30%.\"",
+            "\"Statistical analyses were performed using GraphPad Prism version 9.0.\""
+          ],
+          "correct": 2,
+          "explanationCn": "C 是一个**具体的、非显而易见的统计声明**（特定的生存率提升百分比），必须引用临床试验数据支撑。A 和 D 是常规方法描述，通常不需要引用（虽然引用软件版本是好习惯）。B 是教科书级别的常识，不需要引用。",
+          "explanationEn": "C is a **specific, non-obvious statistical claim** (particular survival improvement percentages) that must be backed by a clinical trial citation. A and D describe routine methods that typically do not require citations (though citing software is good practice). B is textbook-level common knowledge that needs no citation."
+        }
+      ]
+    },
+    {
+      "id": "ap-07",
+      "title": "LaTeX Layout Fixes",
+      "titleCn": "LaTeX排版修正",
+      "cards": [
+        {
+          "id": "ap-07-c1",
+          "titleCn": "孤立标题（Stranded Headings）",
+          "contentCn": "**孤立标题（Stranded headings）**是指章节标题出现在页面底部，而其正文内容被推到下一页。这在视觉上打断了阅读流，让读者困惑。LaTeX 默认行为有时会导致此问题，尤其是使用 `\\section{}` 或 `\\subsection{}` 时。**解决方法：** 1) 在标题前添加 `\\enlargethispage{2\\baselineskip}` 扩展当前页面空间。2) 使用 `\\usepackage{needspace}` 并在标题前添加 `\\needspace{4\\baselineskip}`，确保标题至少有 4 行空间。3) 在紧急情况下，在标题前使用 `\\newpage` 强制新页。**避免使用** `\\samepage` 或 `\\nopagebreak`——它们可能导致页面底部出现大片空白。",
+          "contentEn": "**Stranded headings** occur when a section title appears at the bottom of a page while its body text is pushed to the next page. This visually disrupts reading flow and confuses readers. LaTeX default behavior sometimes causes this, especially with `\\section{}` or `\\subsection{}`. **Fixes:** 1) Add `\\enlargethispage{2\\baselineskip}` before the heading to expand the current page. 2) Use `\\usepackage{needspace}` and add `\\needspace{4\\baselineskip}` before the heading to ensure at least 4 lines of space. 3) In urgent cases, use `\\newpage` before the heading to force a new page. **Avoid** `\\samepage` or `\\nopagebreak` — they can cause large blank areas at page bottoms.",
+          "example": {
+            "label": "Fix comparison",
+            "text": "Problem: Section title \"3.2 Results\" appears alone at the bottom of page 5.\nBad fix: \\samepage (may create huge whitespace gap)\nGood fix: \\needspace{4\\baselineskip}\\subsection{Results}\nEmergency fix: \\newpage\\subsection{Results}"
+          }
+        },
+        {
+          "id": "ap-07-c2",
+          "titleCn": "浮动图形问题（Figure Placement）",
+          "contentCn": "LaTeX 的**浮动体（floats）**机制意味着图片和表格不一定出现在你放置的位置。常见问题：**1) 图片跑到章节末尾甚至文章末尾**——这是因为 LaTeX 积累了太多未放置的浮动体。**2) 图片占据了整页而留下大片空白**——LaTeX 的默认参数限制了每页浮动体的比例。**解决策略：** 1) 使用 `[!htbp]` 替代 `[h]`——`h` 过于严格会导致图片积压。2) 调整浮动体参数：`\\renewcommand{\\topfraction}{0.9}` 允许页面顶部占 90%。3) 使用 `\\usepackage{placeins}` 和 `\\FloatBarrier` 命令强制浮动体在指定位置前放置。4) 对于关键图片，使用 `\\begin{figure}[H]`（需要 `\\usepackage{float}`）——但慎用，可能导致排版空隙。",
+          "contentEn": "LaTeX **floats** mechanism means figures and tables may not appear where you placed them. Common problems: **1) Figures drifting to the end of sections or the paper** — caused by too many unplaced floats accumulating. **2) Figures consuming a full page with large blank areas** — LaTeX default parameters limit the float proportion per page. **Fixes:** 1) Use `[!htbp]` instead of `[h]` — `h` is too restrictive and causes float backlogs. 2) Adjust float parameters: `\\renewcommand{\\topfraction}{0.9}` allows 90% of the page top for floats. 3) Use `\\usepackage{placeins}` and the `\\FloatBarrier` command to force floats to be placed before a specified point. 4) For critical figures, use `\\begin{figure}[H]` (requires `\\usepackage{float}`) — but use sparingly as it may create layout gaps.",
+          "example": {
+            "label": "Figure placement strategy",
+            "text": "Standard figure: \\begin{figure}[!htbp] (flexible, works 90% of the time)\nMust-stay figure: \\begin{figure}[H] + \\FloatBarrier after (use for key results figures)\nFloat overload fix: Add \\clearpage before a new section to flush all pending floats"
+          }
+        },
+        {
+          "id": "ap-07-c3",
+          "titleCn": "参考文献格式问题",
+          "contentCn": "参考文献是 LaTeX 论文中最常见的格式问题来源。**常见问题：** 1) **引用编号不连续**——删除引用后忘记重新编译 BibTeX（需要 LaTeX → BibTeX → LaTeX → LaTeX 四次编译）。2) **URL 溢出边距**——长 URL 在参考文献列表中超出页面边界。**修复方法**：使用 `\\usepackage{url}` 或 `\\usepackage[hyphens]{url}` 允许 URL 在连字符处断行。3) **参考文献样式不符**——Nature 使用 `naturemag` 或 `unsrtnat` 样式。使用 `\\bibliographystyle{naturemag}` 并确保 `.bst` 文件在路径中。4) **未排序引用**——Nature 要求按出现顺序编号，使用 `\\usepackage[sort&compress]{natbib}` 确保多引用合并为 [1–3] 而非 [1,2,3]。",
+          "contentEn": "Bibliography is the most common source of formatting issues in LaTeX papers. **Common problems:** 1) **Non-consecutive citation numbers** — forgetting to recompile BibTeX after deleting citations (requires LaTeX → BibTeX → LaTeX → LaTeX, four compilations). 2) **URLs overflowing margins** — long URLs in the reference list extend beyond page boundaries. **Fix:** use `\\usepackage{url}` or `\\usepackage[hyphens]{url}` to allow line breaks at hyphens. 3) **Wrong bibliography style** — Nature uses `naturemag` or `unsrtnat` style. Use `\\bibliographystyle{naturemag}` and ensure the `.bst` file is in your path. 4) **Unsorted citations** — Nature requires citation-order numbering; use `\\usepackage[sort&compress]{natbib}` to merge multiple citations into [1–3] instead of [1,2,3].",
+          "example": {
+            "label": "BibTeX compilation sequence",
+            "text": "Correct sequence: pdflatex main.tex → bibtex main → pdflatex main.tex → pdflatex main.tex\nCommon mistake: Running pdflatex only once after editing citations → numbers don't update\nURL fix: Add \\usepackage[hyphens]{url} in preamble → long URLs break correctly"
+          }
+        }
+      ],
+      "exercises": [
+        {
+          "id": "ap-07-e1",
+          "type": "choice",
+          "questionCn": "你的 LaTeX 论文中，Figure 3 应该出现在 Results 部分，但它实际出现在了 Discussion 部分的末尾。以下哪个是最佳修复方案？",
+          "options": [
+            "将 \\begin{figure}[h] 改为 \\begin{figure}[H] 并在图形后添加 \\FloatBarrier",
+            "删除图形并用 \\includegraphics 直接内联插入",
+            "使用 \\samepage 强制图形和文本在同一页",
+            "在 Discussion 开始前添加 \\clearpage 刷新所有浮动体，并将 Figure 3 的放置参数改为 [!htbp]"
+          ],
+          "correct": 3,
+          "explanationCn": "图形漂移到 Discussion 说明浮动体积压。在 Discussion 前使用 `\\clearpage` 可以清空所有待放置的浮动体，确保 Figure 3 出现在 Results 部分。同时将放置参数改为 `[!htbp]` 给 LaTeX 更多灵活性。`[H]` 过于强制可能导致排版问题，内联插入违反了浮动体设计初衷。",
+          "explanationEn": "The figure drifting to Discussion indicates float accumulation. Using `\\clearpage` before Discussion flushes all pending floats, ensuring Figure 3 appears in Results. Changing placement to `[!htbp]` gives LaTeX more flexibility. `[H]` is too forceful and may cause layout gaps; inline insertion defeats the purpose of the float system."
+        },
+        {
+          "id": "ap-07-e2",
+          "type": "scenario",
+          "questionCn": "你删除了论文中的 3 个引用，重新编译了 LaTeX，但参考文献编号仍然不连续（出现了 [15] 和 [18] 但缺少 [16] 和 [17]）。最可能的原因和修复是什么？",
+          "passage": "After removing three \\cite{} commands from the manuscript, the author ran 'pdflatex main.tex' once. The bibliography still shows gaps in the numbering sequence: references [15], [18], [19] appear but [16] and [17] are missing.",
+          "options": [
+            "LaTeX 文件损坏——需要删除 .aux 文件并重新编译",
+            "只运行了一次 pdflatex——BibTeX 需要完整的四次编译序列（pdflatex → bibtex → pdflatex → pdflatex）才能更新引用编号",
+            "需要手动编辑 .bib 文件删除对应条目",
+            "这是 natbib 宏包的 bug——需要更新宏包"
+          ],
+          "correctOption": 1,
+          "explanationCn": "删除引用后，必须运行完整的 **pdflatex → bibtex → pdflatex → pdflatex** 序列。第一次 pdflatex 更新 .aux 文件（记录哪些引用被删除），bibtex 重新生成 .bbl 文件（更新参考文献列表），后两次 pdflatex 将新编号写入文档。只运行一次 pdflatex 无法触发 BibTeX 更新。",
+          "explanationEn": "After removing citations, the full **pdflatex → bibtex → pdflatex → pdflatex** sequence is required. The first pdflatex updates the .aux file (recording which citations were removed), bibtex regenerates the .bbl file (updating the reference list), and the subsequent two pdflatex passes write the new numbers into the document. A single pdflatex run cannot trigger the BibTeX update."
+        }
+      ]
+    },
+    {
+      "id": "ap-08",
+      "title": "Comprehensive Drill",
+      "titleCn": "综合实战",
+      "cards": [
+        {
+          "id": "ap-08-c1",
+          "titleCn": "润色原则总复习",
+          "contentCn": "本模块涵盖的所有润色原则：**1) 润色哲学**——尊重作者声音，标记结构性问题而非凭空修补，按优先级（立场→失败诊断→伦理→输出）处理问题。**2) 已发表文章模式**——掌握三种句式（Topic-first、Hedge-then-claim、Evidence-then-conclusion），精确校准 hedging 语言，主动/被动语态的合理选择，段落短-长-短节奏。**3) Phrasebank 实战**——六大类别按需取用，作为模板而非拐杖，Results 与 Discussion 的语言严格分离。**4) 修辞手法**——Introduction 漏斗、Methods 理由、Results 数据-解读、Discussion CEI 三段式。**5) 风格护栏**——可写/不可写的边界，时态规范。**6) 写作策略**——详写/引用/概括的时机判断。**7) LaTeX 排版**——孤立标题、浮动图形、参考文献格式。润色是一个**系统工程**——不是逐句修改，而是先诊断整体问题，再按优先级逐层修复。",
+          "contentEn": "All polishing principles covered in this module: **1) Philosophy** — respect the author's voice, flag structural issues rather than invent fixes, follow the priority hierarchy (stance → failure diagnosis → ethics → output). **2) Published patterns** — master three sentence patterns (Topic-first, Hedge-then-claim, Evidence-then-conclusion), calibrate hedging language precisely, choose active/passive voice deliberately, use short-long-short paragraph rhythm. **3) Phrasebank** — draw from six categories as needed, use as templates not crutches, strictly separate Results and Discussion language. **4) Rhetorical moves** — Introduction funnel, Methods justification, Results data-then-interpretation, Discussion CEI triplet. **5) Style guardrails** — what you can and cannot write, tense conventions. **6) Writing strategy** — when to detail, cite, or summarize. **7) LaTeX layout** — stranded headings, floating figures, bibliography formatting. Polishing is a **systematic process** — not sentence-by-sentence editing, but whole-document diagnosis followed by priority-ordered fixes.",
+          "example": {
+            "label": "Systematic polishing workflow",
+            "text": "Step 1: Read the full paper, note all stance/structural issues (Priority 1–2)\nStep 2: Check for overclaiming and ethics issues (Priority 3)\nStep 3: Polish language, sentence patterns, hedging (Priority 4)\nStep 4: Fix LaTeX layout issues\nStep 5: Final read for rhythm and flow"
+          }
+        }
+      ],
+      "exercises": [
+        {
+          "id": "ap-08-e1",
+          "type": "fill",
+          "questionCn": "重写以下段落，同时应用多项润色原则：修正 overclaiming、改善句式模式（使用 Evidence-then-conclusion）、添加具体数据替代模糊量化、修正时态错误、使用正确的 hedging 语言。",
+          "passage": "We find that our novel compound shows very promising results in killing cancer cells. It is well known that this pathway is important. Many studies have shown similar things. Our compound is significantly better than existing drugs.",
+          "modelAnswer": "Our novel compound reduced viability of MCF-7 cells by 78% at 10 μM (p < 0.001; Fig. 2a), suggesting potent cytotoxic activity. The PI3K/AKT pathway has been implicated in breast cancer progression (refs 1–5). Compared with the clinical standard doxorubicin (IC50 = 8.2 μM), our compound showed a 3.4-fold lower IC50 (2.4 μM; Fig. 2b), indicating enhanced potency under these in vitro conditions.",
+          "criteria": [
+            "消除了所有 overclaiming（'very promising'、'significantly better' 等）",
+            "使用 Evidence-then-conclusion 句式（先数据后解读）",
+            "用具体数据替代了所有模糊量化（'very'、'many'、'significantly'）",
+            "将 'We find' 修正为过去式 'found' 或重构句子",
+            "添加了无引用声明的引用占位",
+            "使用了适当的 hedging 语言（'suggesting'、'indicating'）"
+          ]
+        },
+        {
+          "id": "ap-08-e2",
+          "type": "scenario",
+          "questionCn": "以下 Discussion 段落存在多处问题。识别所有问题并选择最全面的诊断。",
+          "passage": "Our study demonstrates for the first time that protein X is involved in regulating mitochondrial dynamics in neurons. We found that knocking down protein X caused mitochondria to become fragmented (Fig. 4a). This is very interesting and suggests that protein X could be a potential therapeutic target for many neurodegenerative diseases. Previous studies have also looked at this. In conclusion, our findings are highly significant and open up exciting new avenues for research.",
+          "options": [
+            "主要问题是 hedging 不足——'demonstrates' 应改为 'suggests'",
+            "主要问题是结构性的——段落缺少 Evidence 和 Implication 的展开",
+            "存在多重问题：1) overclaiming ('demonstrates', 'for the first time', 'highly significant')，2) 模糊量化 ('very interesting', 'many', 'exciting')，3) 无引用声明 ('Previous studies have also looked at this')，4) Results 语言混入 Discussion ('We found that…caused mitochondria to become fragmented')，5) 缺乏 CEI 结构——claim 有但 evidence 和 implication 未充分展开",
+            "主要问题是时态错误——Discussion 应全部使用现在式"
+          ],
+          "correctOption": 2,
+          "explanationCn": "这段文字的问题是多层次的：语言层面有 overclaiming 和模糊量化；结构层面有 Results 语言混入 Discussion 和 CEI 结构不完整；伦理层面有无引用的声明。这正好体现了润色优先级：先解决立场和结构问题（CEI 不完整、Results/Discussion 混淆），再解决伦理问题（无引用声明、overclaiming），最后解决语言细节（模糊量化）。",
+          "explanationEn": "The problems in this paragraph are multi-layered: language-level overclaiming and vague quantifiers; structural mixing of Results language into Discussion and incomplete CEI structure; ethics-level unsupported claims. This illustrates the polishing priority hierarchy: fix stance/structure first (incomplete CEI, Results/Discussion mixing), then ethics (unsupported claims, overclaiming), then language details (vague quantifiers)."
+        },
+        {
+          "id": "ap-08-e3",
+          "type": "order",
+          "questionCn": "将以下 Discussion 段落的句子按正确的修辞顺序（Claim → Evidence → Implication）排列，使其形成完整的 CEI 结构：",
+          "items": [
+            "These results identify DRP1-dependent mitochondrial fission as a critical checkpoint in T-cell metabolic reprogramming, positioning mitochondrial dynamics upstream of the glycolytic switch.",
+            "Upon activation, DRP1-knockout T cells failed to increase glycolytic flux (Fig. 6a, b), accumulated dysfunctional hyperfused mitochondria (Fig. 6c), and produced 70% less IFN-γ than wild-type controls (Fig. 6d), consistent with the bioenergetic requirements for effector function described in CD8+ T cells (Buck et al., 2023) and macrophages (O'Neill et al., 2022).",
+            "Targeting DRP1 pharmacologically — for example, with the selective inhibitor Mdivi-1 — may therefore offer a strategy to modulate T-cell function in settings where effector responses are either insufficient (immunotherapy) or excessive (autoimmunity)."
+          ],
+          "explanationCn": "正确顺序遵循 CEI 三段式：1) **Claim**——DRP1 依赖的线粒体分裂是 T 细胞代谢重编程的关键检查点（核心主张）；2) **Evidence**——DRP1 敲除导致糖酵解通量增加失败、线粒体异常融合、IFN-γ 产生减少 70%，并引用支持文献（具体证据）；3) **Implication**——靶向 DRP1 可用于调节免疫治疗和自身免疫中的 T 细胞功能（对领域的含义）。注意 Evidence 部分使用了具体的数据（70% less IFN-γ）和图表引用，而非模糊描述。"
+        }
+      ]
+    }
+  ]
 }
