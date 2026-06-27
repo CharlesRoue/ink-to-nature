@@ -4,5 +4,456 @@
   "titleCn": "回复之道",
   "descriptionCn": "系统性回复审稿意见",
   "color": "#8B5CF6",
-  "lessons": []
+  "lessons": [
+    {
+      "id": "rm-01",
+      "title": "The Nature of Response Letters",
+      "titleCn": "回复信的本质",
+      "cards": [
+        {
+          "id": "rm-01-c1",
+          "titleCn": "写给编辑，而非审稿人",
+          "contentCn": "回复信（Response Letter）的**第一受众是编辑（Editor）**，而非审稿人。虽然你在逐条回应审稿意见，但最终做出接受/拒绝决定的是编辑。这意味着：**1) 你的回复必须让编辑能够快速判断你是否充分解决了问题**——编辑可能不会细读每一条回复，但会评估整体态度和完成度。**2) 你需要帮助编辑做出有利于你的决定**——清晰地展示你做了哪些修改、为什么这些修改足以回应审稿人的担忧。**3) 编辑在意的是你与审稿人互动的方式**——你是否认真对待每一条意见？是否在分歧中保持了专业？即使你不同意某条意见，你的回复应该让编辑觉得你是理性且合理的。记住：**审稿人提供建议，编辑做出决定**。一封好的回复信本质上是一封给编辑的说服信。",
+          "contentEn": "The **primary audience of a response letter is the editor**, not the reviewers. Although you are addressing reviewer comments point-by-point, the editor makes the accept/reject decision. This means: **1) Your response must enable the editor to quickly judge whether you adequately addressed the concerns** — the editor may not read every reply in detail but will assess overall attitude and completeness. **2) You need to help the editor make a favorable decision** — clearly show what changes you made and why they sufficiently address the reviewers' concerns. **3) The editor cares about how you engage with reviewers** — did you take every comment seriously? Did you remain professional in disagreements? Even when you disagree, your response should make the editor see you as rational and reasonable. Remember: **reviewers advise; editors decide**. A good response letter is, in essence, a persuasive letter to the editor.",
+          "example": {
+            "label": "Audience awareness",
+            "text": "Wrong mindset: \"I need to convince Reviewer 2 that their statistical criticism is misguided.\"\nRight mindset: \"I need to show the editor that I engaged thoughtfully with Reviewer 2's statistical concern, provided additional analysis, and the manuscript now meets the journal's rigor standards.\""
+          }
+        },
+        {
+          "id": "rm-01-c2",
+          "titleCn": "永远不要争辩——承认并解决",
+          "contentCn": "回复审稿意见的黄金法则是：**永远不要争辩（Never Argue）**。争辩意味着你在情绪上对抗审稿人，这会让编辑对你产生负面印象。正确的做法是**承认并解决（Acknowledge and Address）**。**承认**：\"We thank the reviewer for raising this important point.\" 这不是虚伪——它表明你尊重审稿过程。**解决**：紧接着说明你做了什么修改来回应这个担忧。即使审稿人明显错了，也不要说\"The reviewer is wrong\"。而是说\"We appreciate this observation and wish to clarify...\"然后提供你的证据。关键心态转变：**审稿人不是在攻击你，而是在帮你改进论文**。即使语气严厉，意见通常出于对科学严谨性的关切。你的回复应该传达出\"我与审稿人站在同一边——我们都想让这篇论文更好\"的态度。",
+          "contentEn": "The golden rule of responding to reviewer comments is: **never argue**. Arguing means you are emotionally opposing the reviewer, which creates a negative impression with the editor. The correct approach is to **acknowledge and address**. **Acknowledge**: \"We thank the reviewer for raising this important point.\" This is not insincere — it demonstrates respect for the review process. **Address**: immediately follow up by explaining what changes you made to address the concern. Even when the reviewer is clearly wrong, do not write \"The reviewer is wrong.\" Instead write \"We appreciate this observation and wish to clarify...\" then present your evidence. Key mindset shift: **the reviewer is not attacking you but helping you improve the paper**. Even when the tone is harsh, comments usually stem from concern for scientific rigor. Your response should convey \"I am on the same side as the reviewer — we both want this paper to be better.\"",
+          "example": {
+            "label": "Argue vs. acknowledge",
+            "text": "Arguing: \"The reviewer's claim that our sample size is inadequate is simply incorrect and reflects a misunderstanding of our power analysis.\"\nAcknowledging: \"We appreciate the reviewer's concern regarding sample size. We have added a formal power analysis (Supplementary Fig. S7) demonstrating that our sample of n=30 per group provides 87% power to detect the reported effect size (Cohen's d = 0.8) at α = 0.05.\""
+          }
+        },
+        {
+          "id": "rm-01-c3",
+          "titleCn": "始终保持专业语气",
+          "contentCn": "回复信的**语气（Tone）**必须始终保持专业、冷静和尊重，即使在面对不公正或尖锐的审稿意见时也是如此。**专业语气的基本原则：** 1) **不使用情绪化语言**——避免 \"surprised\"、\"disappointed\"、\"frustrated\" 等表达情绪的词。2) **不使用防御性语言**——避免 \"As we clearly stated...\"（暗示审稿人没仔细读）、\"This is a common misconception...\"（暗示审稿人无知）。3) **使用客观、数据驱动的表达**——用数据说话，不用形容词说话。**常见的语气陷阱：** \"We are surprised the reviewer missed our explanation in the original manuscript\" — 这句话同时包含了情绪化（surprised）和指责（missed）两个问题。改为：\"We apologize if our original explanation was insufficiently clear. We have now expanded the discussion (page 12, lines 8-15) to provide more detail.\" 记住：**编辑在看你如何处理压力——保持优雅比赢得争论更重要。**",
+          "contentEn": "The **tone** of a response letter must remain professional, calm, and respectful at all times, even when facing unfair or sharp reviewer comments. **Core principles of professional tone:** 1) **No emotional language** — avoid words like \"surprised,\" \"disappointed,\" \"frustrated.\" 2) **No defensive language** — avoid \"As we clearly stated...\" (implies the reviewer did not read carefully), \"This is a common misconception...\" (implies the reviewer is ignorant). 3) **Use objective, data-driven expressions** — let data speak, not adjectives. **Common tone traps:** \"We are surprised the reviewer missed our explanation in the original manuscript\" — this sentence contains both emotional (surprised) and accusatory (missed) problems. Revise to: \"We apologize if our original explanation was insufficiently clear. We have now expanded the discussion (page 12, lines 8-15) to provide more detail.\" Remember: **the editor is watching how you handle pressure — maintaining grace matters more than winning an argument.**",
+          "example": {
+            "label": "Tone transformation",
+            "text": "Unprofessional: \"We strongly disagree with Reviewer 3's unfounded assertion that our methodology is flawed. Any expert in the field would recognize that this is the standard approach.\"\nProfessional: \"We respectfully note that the methodology described in Section 2.3 follows the established protocol of Smith et al. (2021, Nature Methods), which has been adopted by over 40 laboratories worldwide. We have added a clarifying sentence (page 5, line 22) to make this connection more explicit.\""
+          }
+        },
+        {
+          "id": "rm-01-c4",
+          "titleCn": "回复信的三大组成部分",
+          "contentCn": "一封完整的回复信由**三个部分组成**：**1) 封面信（Cover Letter）**——写给编辑的简短信件（半页到一页），概括性地说明你做了哪些主要修改，表达对审稿人建设性意见的感谢，并重申论文的核心价值。封面信不需要逐条回复，只需提供全局视角。**2) 逐条回复（Point-by-Point Response）**——这是回复信的核心。将每位审稿人的每条意见逐一列出（用不同格式区分原文和你的回复），然后给出清晰的答复和对应的修改。通常使用 **quote-respond-map** 格式：引用审稿原文 → 给出你的回复 → 映射到修改后的稿件位置。**3) 修改稿（Revised Manuscript）**——提交标注了修改的版本（通常用 track changes 或高亮标记）和一份干净版本。三个部分缺一不可：封面信建立整体印象，逐条回复展示细节工作，修改稿体现实际改进。",
+          "contentEn": "A complete response letter consists of **three parts**: **1) Cover Letter** — a brief letter (half to one page) to the editor, summarizing the major revisions made, thanking the reviewers for their constructive feedback, and reaffirming the paper's core value. The cover letter does not require point-by-point replies; it provides the big-picture view. **2) Point-by-Point Response** — the core of the response. List each reviewer's comment individually (using different formatting to distinguish the original comment from your response), then provide a clear reply and the corresponding manuscript change. Typically use the **quote-respond-map** format: quote the reviewer's text → give your response → map to the revised manuscript location. **3) Revised Manuscript** — submit a marked-up version (usually with track changes or highlights) and a clean version. All three parts are essential: the cover letter builds the overall impression, the point-by-point response demonstrates detailed work, and the revised manuscript embodies the actual improvements.",
+          "example": {
+            "label": "Three-part structure",
+            "text": "Cover Letter: \"Dear Editor, we thank the reviewers for their insightful comments... We have addressed all concerns... Major changes include new validation experiments (Fig. 5) and expanded statistical analysis (Supplementary Table S3)...\"\nPoint-by-Point: \"Reviewer 1, Comment 3: [quoted text] → Response: We agree... → Change: Page 8, lines 12-18, new paragraph added.\"\nRevised Manuscript: Tracked-changes version highlighting all modifications in yellow."
+          }
+        }
+      ],
+      "exercises": [
+        {
+          "id": "rm-01-e1",
+          "type": "scenario",
+          "questionCn": "以下是一位作者回复审稿人批评的四种方式。哪种回复的语气和策略最为恰当？",
+          "passage": "审稿人评论：\"The authors' use of a single cell line (HeLa) to validate their findings significantly limits the generalizability of their conclusions. At minimum, validation in one additional cell line is needed.\"\n\n作者回复选项如下：\n\n回复A：\"We strongly disagree. HeLa is the gold standard in cell biology and results from this line are widely accepted.\"\n\n回复B：\"The reviewer raises a valid concern about generalizability. We have now validated our key findings in two additional cell lines (HEK293 and A549), confirming consistent results across all three lines (new Fig. 4d-f, page 9). The sample sizes and statistical analyses are identical to those used for HeLa cells.\"\n\n回复C：\"We are surprised by this comment as HeLa cells are used in the vast majority of studies in this field.\"\n\n回复D：\"While we acknowledge this limitation, performing additional experiments was beyond the scope of this revision given the tight deadline.\"",
+          "options": [
+            "回复A——直接反驳审稿人的意见，捍卫自己的方法",
+            "回复B——承认担忧，用具体行动（新实验、新数据）解决问题，并精确映射到修改稿",
+            "回复C——用领域惯例来为自己辩护，语气委婉",
+            "回复D——诚实地说明时间限制，承认局限性"
+          ],
+          "correctOption": 1,
+          "explanationCn": "回复B 是最佳选择，因为它完美执行了\"承认并解决\"策略：**1) 承认**审稿人的担忧是有效的（\"valid concern\"）；**2) 用行动解决**——在两个额外细胞系中验证了结果；**3) 提供了精确映射**——新图表位置（Fig. 4d-f）和页码（page 9）；**4) 保持了专业语气**——没有情绪化或防御性语言。回复A 直接争辩，回复C 使用了防御性的\"surprised\"，回复D 虽然诚实但未解决问题——编辑不会接受\"没时间\"作为不做必要实验的理由。",
+          "explanationEn": "Response B is the best choice because it perfectly executes the \"acknowledge and address\" strategy: **1) Acknowledges** the reviewer's concern as valid; **2) Addresses with action** — validated results in two additional cell lines; **3) Provides precise mapping** — new figure location (Fig. 4d-f) and page number (page 9); **4) Maintains professional tone** — no emotional or defensive language. Response A directly argues, Response C uses defensive \"surprised,\" and Response D, while honest, does not address the concern — an editor will not accept \"no time\" as a reason to skip necessary experiments."
+        },
+        {
+          "id": "rm-01-e2",
+          "type": "choice",
+          "questionCn": "回复信（Response Letter）的第一受众（primary audience）是谁？",
+          "options": [
+            "A) 审稿人——因为是他们提出的意见，需要逐条说服他们",
+            "B) 编辑——因为编辑做出最终决定，回复信需要帮助编辑判断修改是否充分",
+            "C) 期刊的读者——因为他们会阅读回复信来理解论文的修改历程",
+            "D) 共同作者——因为回复信需要获得所有作者的认可"
+          ],
+          "correct": 1,
+          "explanationCn": "回复信的第一受众是**编辑**。虽然你在逐条回应审稿人的意见，但最终做出接受/拒绝决定的是编辑。你的回复需要让编辑能够快速评估：1) 你是否认真对待了每条意见；2) 你做的修改是否充分；3) 你在分歧中是否表现出专业和理性。审稿人提供建议，但编辑做决定——因此回复信本质上是写给编辑的说服信。",
+          "explanationEn": "The primary audience of a response letter is the **editor**. Although you address reviewer comments point-by-point, the editor makes the final accept/reject decision. Your response must enable the editor to quickly assess: 1) whether you took every comment seriously; 2) whether your revisions are sufficient; 3) whether you showed professionalism and rationality in disagreements. Reviewers advise, but editors decide — the response letter is essentially a persuasive letter to the editor."
+        }
+      ]
+    },
+    {
+      "id": "rm-02",
+      "title": "The Ten-Step Workflow",
+      "titleCn": "十步工作流",
+      "cards": [
+        {
+          "id": "rm-02-c1",
+          "titleCn": "步骤1-3：接收、冷静与分类",
+          "contentCn": "收到审稿意见后的**前三个步骤**决定了整个回复过程的质量。**步骤1：通读所有意见（Read All Comments）**——不要边读边回复。先完整阅读所有审稿人的全部意见，了解整体基调和关键担忧。第一遍阅读的目的是获取全局视角，而不是细节反应。**步骤2：给自己24小时冷静期（Take 24 Hours to Cool Down）**——审稿意见可能令人沮丧甚至愤怒，尤其是你觉得不公正的批评。不要在情绪激动时开始写回复。把意见放在一边，24小时后再回来——你会发现很多意见其实是有道理的。**步骤3：分类每条意见（Classify Each Comment）**——将所有意见分为三类：**主要（Major）**——影响核心结论的问题，需要新实验或重大修改；**次要（Minor）**——不影响结论但影响质量的问题，如表述不清或图表需改进；**编辑性（Editorial）**——格式、拼写、参考文献等技术性问题。分类帮助你合理分配时间和精力。",
+          "contentEn": "The **first three steps** after receiving reviewer comments determine the quality of the entire response process. **Step 1: Read All Comments** — do not respond as you read. First, read every comment from every reviewer completely to understand the overall tone and key concerns. The purpose of this first pass is to gain the big picture, not to react to details. **Step 2: Take 24 Hours to Cool Down** — reviewer comments can be frustrating or even infuriating, especially criticisms you consider unfair. Do not start writing responses while emotional. Set the comments aside and return after 24 hours — you will find many comments are actually reasonable. **Step 3: Classify Each Comment** — categorize all comments into three tiers: **Major** — issues affecting core conclusions, requiring new experiments or substantial changes; **Minor** — issues not affecting conclusions but impacting quality, such as unclear writing or figure improvements needed; **Editorial** — formatting, spelling, references, and other technical matters. Classification helps you allocate time and energy wisely.",
+          "example": {
+            "label": "Steps 1-3 in action",
+            "text": "Day 0, 3 PM: Receive decision letter with 3 reviewers, 47 total comments.\nStep 1 (3-4 PM): Read all 47 comments without writing anything. Note: \"Reviewer 1 is mostly positive, Reviewer 2 wants more experiments, Reviewer 3 is harsh on statistics.\"\nStep 2: Close laptop. Go for a walk. Sleep on it.\nDay 1, 9 AM: Return with fresh eyes. Start Step 3 — classify: 8 major, 22 minor, 17 editorial. Realize Reviewer 3's harsh statistical comments are actually valid."
+          }
+        },
+        {
+          "id": "rm-02-c2",
+          "titleCn": "步骤4-6：起草、映射与协作",
+          "contentCn": "**步骤4：起草逐条回复（Draft Responses）**——按分类顺序回复：先处理主要问题，再处理次要问题，最后处理编辑性问题。对每条意见，使用 **quote-respond-map** 格式（引用原文→回复→映射到修改位置）。先写出完整草稿，不要一边写一边修改稿件。**步骤5：映射到稿件修改（Map to Manuscript Changes）**——逐条检查你的回复，确保每条回复都对应了一个具体的稿件修改。如果某条回复只说了\"we thank the reviewer\"但没有做任何修改，你需要要么做出修改，要么提供充分的理由解释为什么不需要修改。**步骤6：获取共同作者意见（Get Co-Author Input）**——将你的回复草稿和拟做的修改清单发给所有共同作者，尤其是通讯作者。每位作者可能从不同角度发现问题：方法学家会检查技术回复，统计学家会审核数据分析回复。**给共同作者设定明确的反馈截止日期**，确保不耽误提交。",
+          "contentEn": "**Step 4: Draft Responses** — respond in classification order: handle major issues first, then minor issues, then editorial ones. For each comment, use the **quote-respond-map** format (quote original text → respond → map to manuscript change). Write the complete draft first; do not revise the manuscript while drafting responses. **Step 5: Map to Manuscript Changes** — review each response to ensure it corresponds to a specific manuscript change. If a response only says \"we thank the reviewer\" without any action, you must either make a change or provide a compelling reason why no change is needed. **Step 6: Get Co-Author Input** — send your draft responses and planned change list to all co-authors, especially the corresponding author. Each author may spot issues from different perspectives: methodologists check technical responses, statisticians audit data analysis replies. **Set a clear feedback deadline** for co-authors to avoid delaying submission.",
+          "example": {
+            "label": "Steps 4-6 workflow",
+            "text": "Step 4 draft: \"Reviewer 2, Comment 5: [The sample size is too small] → We have increased sample size from n=8 to n=20 per group and re-performed all analyses → New data in revised Table 2 and Fig. 3.\"\nStep 5 check: Is there a real manuscript change? Yes — Table 2 updated, Fig. 3 remade, Methods section revised.\nStep 6 email: \"Dear co-authors, please review the attached response draft by Friday. Especially need input from Dr. Wang on the statistical responses (Comments 3, 7, 12) and Dr. Li on the experimental design responses (Comments 1, 5, 9).\""
+          }
+        },
+        {
+          "id": "rm-02-c3",
+          "titleCn": "步骤7-9：修改、检查与终审",
+          "contentCn": "**步骤7：修改稿件（Revise Manuscript）**——根据步骤5的映射清单，系统性地修改稿件。建议先做结构性修改（新实验数据、新图表、方法部分的增补），再做文字性修改（讨论部分的调整、结论的修改），最后做编辑性修改（格式、参考文献、拼写）。**步骤8：检查一致性（Check Consistency）**——这是最容易被忽视的步骤。确保：1) 回复信中声称的修改在稿件中确实存在；2) 新增数据的编号与现有图表编号连贯；3) 摘要、结果和讨论中对同一发现的描述一致；4) 所有引用了新数据的段落都已更新。不一致是审稿人最恼火的问题之一——如果你在回复信中说\"已在第8页添加\"但第8页没有变化，审稿人会怀疑你是否认真对待了整个回复过程。**步骤9：最终通读（Final Read-Through）**——请一位未参与写作的同事通读修改后的全文，检查流畅性和逻辑连贯性。",
+          "contentEn": "**Step 7: Revise Manuscript** — systematically revise the manuscript according to the change map from Step 5. Recommended order: structural changes first (new experimental data, new figures, methods additions), then textual changes (discussion adjustments, conclusion modifications), then editorial changes (formatting, references, spelling). **Step 8: Check Consistency** — the most frequently overlooked step. Ensure: 1) every change claimed in the response letter actually exists in the manuscript; 2) new data numbering is continuous with existing figures; 3) descriptions of the same finding are consistent across abstract, results, and discussion; 4) all paragraphs referencing updated data have been revised. Inconsistency is one of the most infuriating problems for reviewers — if you claim \"added on page 8\" in your response but page 8 shows no change, reviewers will doubt you took the entire response process seriously. **Step 9: Final Read-Through** — have a colleague who was not involved in writing read the entire revised manuscript for flow and logical coherence.",
+          "example": {
+            "label": "Consistency check failures",
+            "text": "Failure 1: Response says \"We have revised the abstract to reflect the new data\" — but the abstract is unchanged.\nFailure 2: New experiment reports n=20 in the response letter, but the revised Fig. 3 still shows error bars for n=8.\nFailure 3: Discussion paragraph 2 cites the old p-value (p = 0.08, \"marginally significant\") but the new analysis gives p = 0.03 — the discussion text was not updated.\nAll three failures undermine reviewer confidence."
+          }
+        },
+        {
+          "id": "rm-02-c4",
+          "titleCn": "步骤10：提交与追踪",
+          "contentCn": "**步骤10：提交并追踪（Submit and Track）**——提交修改稿时确保所有必需的文件齐全：**1) 回复信**（封面信 + 逐条回复）；**2) 标注版稿件**（track changes 或高亮修改）；**3) 干净版稿件**（不含标注的最终版本）；**4) 任何新增的补充材料**。提交后的追踪策略：**记录提交日期和预期时间线**。大多数期刊在修改稿提交后 2-4 周内给出决定。如果超过预期时间，可以礼貌地发邮件询问编辑进展。但**不要在提交后一周内催问**——这会给编辑留下不专业的印象。如果修改稿被再次送回修改（第二轮审稿），重复整个十步流程——每一轮都是新的审稿过程。关键心态：**修改稿的接受率与回复质量直接相关**。一项研究表明，认真逐条回复的论文接受率比草率回复的高出 30-40%。",
+          "contentEn": "**Step 10: Submit and Track** — when submitting the revised manuscript, ensure all required files are complete: **1) Response letter** (cover letter + point-by-point response); **2) Marked-up manuscript** (track changes or highlighted revisions); **3) Clean manuscript** (final version without markup); **4) Any new supplementary materials**. Post-submission tracking strategy: **record the submission date and expected timeline**. Most journals provide a decision within 2-4 weeks of revised manuscript submission. If the expected time has passed, you may politely email the editor to inquire about progress. But **do not inquire within one week of submission** — this creates an unprofessional impression. If the revised manuscript is sent back for another round of review, repeat the entire ten-step workflow — each round is a new review process. Key mindset: **revised manuscript acceptance rates are directly correlated with response quality**. One study found that papers with thorough point-by-point responses have 30-40% higher acceptance rates than those with perfunctory responses.",
+          "example": {
+            "label": "Submission checklist",
+            "text": "Submission package:\n- Cover letter to editor (0.5-1 page)\n- Point-by-point response document (15 pages)\n- Revised manuscript with tracked changes (highlighted version)\n- Clean revised manuscript (final version)\n- New Supplementary Table S4 (added per Reviewer 2's request)\n- Updated Source Data files for revised Fig. 3 and Fig. 5\n- All co-authors have approved the revised version"
+          }
+        }
+      ],
+      "exercises": [
+        {
+          "id": "rm-02-e1",
+          "type": "order",
+          "questionCn": "将回复审稿意见的十步工作流按正确顺序排列：",
+          "items": [
+            "通读所有审稿意见，获取全局视角 (Read all comments)",
+            "给自己24小时冷静期，避免情绪化反应 (Cool down 24h)",
+            "将每条意见分类为主要/次要/编辑性 (Classify comments)",
+            "起草逐条回复，使用quote-respond-map格式 (Draft responses)",
+            "确保每条回复映射到具体的稿件修改 (Map to changes)",
+            "获取共同作者对回复草稿的反馈 (Get co-author input)",
+            "系统性地修改稿件：结构→文字→编辑性 (Revise manuscript)",
+            "检查回复信与稿件之间的一致性 (Check consistency)",
+            "请未参与写作的同事通读修改后的全文 (Final read-through)",
+            "提交所有必需文件并记录提交日期 (Submit and track)"
+          ],
+          "explanationCn": "十步工作流的逻辑顺序是：先理解（1-3）→ 再规划（4-6）→ 然后执行（7-9）→ 最后提交（10）。每个阶段都建立在前一阶段的基础上：不通读就无法分类，不分类就无法起草，不起草就无法映射，不映射就无法修改，不修改就无法检查一致性。跳过任何步骤都会导致返工或遗漏。"
+        },
+        {
+          "id": "rm-02-e2",
+          "type": "scenario",
+          "questionCn": "以下场景中，作者跳过了十步工作流中的哪一步，导致了严重问题？",
+          "passage": "Dr. Chen received reviewer comments on Monday morning. She read through all 35 comments, immediately classified them, and spent Tuesday through Thursday drafting thorough responses and revising the manuscript. On Friday, she submitted the revised manuscript. Two weeks later, the editor wrote back: \"Reviewer 2 notes that while the response letter claims the statistical analysis was updated to use mixed-effects models, the Methods section on page 4 still describes the original ANOVA approach. Additionally, the new Fig. 7 referenced in the response does not appear in the revised manuscript. The reviewer has serious concerns about the thoroughness of the revision.\"",
+          "options": [
+            "跳过了步骤2（24小时冷静期）——导致回复语气不够专业",
+            "跳过了步骤6（获取共同作者意见）——共同作者可能发现了问题",
+            "跳过了步骤8（检查一致性）——回复信中声称的修改在稿件中没有落实",
+            "跳过了步骤9（最终通读）——未能发现文字上的逻辑问题"
+          ],
+          "correctOption": 2,
+          "explanationCn": "编辑的反馈明确指出了**一致性问题**：回复信中声称更新了统计方法（mixed-effects models），但 Methods 部分仍描述原来的 ANOVA 方法；回复信中引用了新 Fig. 7，但修改稿中没有这张图。这正是**步骤8（Check Consistency）**需要发现的问题。步骤8要求逐条核对：回复信中声称的每项修改是否确实在稿件中得到了落实。跳过这一步是最常见的错误之一，也是审稿人最恼火的问题——它让审稿人怀疑你是否认真对待了整个修改过程。",
+          "explanationEn": "The editor's feedback clearly identifies **consistency problems**: the response letter claims the statistical analysis was updated to mixed-effects models, but the Methods section still describes ANOVA; the response letter references a new Fig. 7, but it does not appear in the revised manuscript. This is exactly what **Step 8 (Check Consistency)** should have caught. Step 8 requires verifying that every change claimed in the response letter is actually implemented in the manuscript. Skipping this step is one of the most common errors and one of the most infuriating problems for reviewers — it makes them doubt whether you took the entire revision process seriously."
+        }
+      ]
+    },
+    {
+      "id": "rm-03",
+      "title": "Classifying Comments",
+      "titleCn": "意见分类",
+      "cards": [
+        {
+          "id": "rm-03-c1",
+          "titleCn": "三层分类法：主要/次要/编辑性",
+          "contentCn": "将审稿意见分为**三个层次**是高效回复的基础。**主要意见（Major）**——影响论文核心结论的问题。典型例子：缺少关键对照实验、统计方法不当、数据不支持因果声明、样本量不足、结论过度推断。主要意见通常需要**新实验、重新分析或重大文字修改**，是决定论文能否被接受的关键。**次要意见（Minor）**——不影响核心结论但降低论文质量的问题。典型例子：图表标注不够清晰、某些段落表述含糊、讨论部分遗漏了重要的相关文献、方法部分缺少某些参数细节。次要意见通常只需要**文字修改或补充说明**。**编辑性意见（Editorial）**——格式和技术性问题。典型例子：拼写错误、参考文献格式不一致、图表分辨率不足、缩写首次出现时未定义。编辑性意见通常**快速修复**即可。时间分配建议：**70% 的时间用于主要意见，20% 用于次要意见，10% 用于编辑性意见**。",
+          "contentEn": "Categorizing reviewer comments into **three tiers** is the foundation of efficient responses. **Major comments** — issues that affect the paper's core conclusions. Typical examples: missing critical control experiments, inappropriate statistical methods, data not supporting causal claims, insufficient sample size, over-interpreted conclusions. Major comments typically require **new experiments, reanalysis, or substantial text revisions** and are the key determinants of acceptance. **Minor comments** — issues that do not affect core conclusions but reduce paper quality. Typical examples: unclear figure annotations, vague paragraphs, missing relevant literature in discussion, missing parameter details in methods. Minor comments usually require only **textual revisions or additional explanations**. **Editorial comments** — formatting and technical matters. Typical examples: spelling errors, inconsistent reference formatting, insufficient figure resolution, abbreviations not defined at first use. Editorial comments are typically **quick fixes**. Recommended time allocation: **70% on major comments, 20% on minor comments, 10% on editorial comments**.",
+          "example": {
+            "label": "Three-tier classification",
+            "text": "Major: \"The authors claim compound X inhibits tumor growth, but the vehicle control group is missing, making it impossible to distinguish drug effects from natural regression.\" → Requires new experiment.\nMinor: \"The discussion does not mention the recent study by Zhang et al. (2024) which reached similar conclusions using a different approach.\" → Requires adding a citation and brief discussion.\nEditorial: \"Fig. 2b y-axis label is cut off at the bottom.\" → Quick figure fix."
+          }
+        },
+        {
+          "id": "rm-03-c2",
+          "titleCn": "识别隐藏的关切：审稿人真正想要什么",
+          "contentCn": "审稿人的文字评论背后往往有**隐藏的关切（Hidden Concerns）**——他们没有直接说出来的真正担忧。识别隐藏关切是高水平回复的关键技能。**常见隐藏关切模式：** 1) **审稿人要求添加实验**——表面看是要求更多数据，但隐藏关切可能是\"你的核心证据不够有力\"。解决方案不仅是添加实验，还要**加强证据链的论述**。**2) 审稿人要求与某篇特定论文比较**——表面上是要求引用，但隐藏关切可能是\"你的创新性声明需要更有说服力的基准对比\"。**3) 审稿人反复提到某个主题**——如果同一位审稿人在多条意见中提到同一个问题（如统计方法），这表明这是他们的**核心关切**，你需要在这个方面做特别充分的回应。**识别方法：在读完所有意见后，问自己\"如果审稿人只能用一句话总结他们的担忧，那会是什么？\"**",
+          "contentEn": "Behind reviewers' written comments often lie **hidden concerns** — their real worries that they did not explicitly state. Identifying hidden concerns is a key skill for high-level responses. **Common hidden concern patterns:** 1) **Reviewer requests additional experiments** — on the surface it is a request for more data, but the hidden concern may be \"your core evidence is not strong enough.\" The solution is not just adding experiments but also **strengthening the narrative of the evidence chain**. **2) Reviewer requests comparison with a specific paper** — on the surface it is a citation request, but the hidden concern may be \"your novelty claim needs more convincing benchmarking.\" **3) Reviewer repeatedly mentions a theme** — if the same reviewer mentions the same issue across multiple comments (e.g., statistical methods), this indicates their **core concern**, and you need to respond especially thoroughly in this area. **Identification method: after reading all comments, ask yourself \"If the reviewer could summarize their concern in one sentence, what would it be?\"**",
+          "example": {
+            "label": "Hidden concern analysis",
+            "text": "Surface comment: \"The authors should validate their findings in an independent patient cohort.\"\nHidden concern: \"I am not confident the current cohort is representative, and the results might be cohort-specific artifacts.\"\nSuperficial response: Add validation data only.\nStrategic response: Add validation data AND explain why the original cohort was well-designed, provide demographic comparisons between cohorts, and discuss potential cohort-specific limitations."
+          }
+        },
+        {
+          "id": "rm-03-c3",
+          "titleCn": "字里行间：解码审稿人的含蓄表达",
+          "contentCn": "审稿人（尤其是 Nature 级期刊的审稿人）通常使用**含蓄的语言**表达批评，不会直接说\"这是错的\"。你需要学会**解码（decode）**这些含蓄表达。**常见含蓄表达及其真实含义：** 1) \"The authors **might consider** adding...\" = \"**请添加这个**——这不是可选的。\"2) \"It **would be interesting** to see...\" = \"**你需要展示这个数据**来支持你的结论。\"3) \"The analysis **appears** sound...\" = \"**我对你的分析有疑虑**，需要你提供更多细节来说服我。\"4) \"This is an **interesting** approach...\" = \"**我对这个方法持保留态度**，你需要解释为什么选择它。\"5) \"**While the study has merit**, there are several concerns...\" = \"**我倾向于拒绝**，但给作者一次修改的机会。\"6) \"The authors **may wish to clarify**...\" = \"**这段写得不够清楚**，请重写。\"理解这些含蓄表达帮助你准确评估每条意见的真实权重——哪些是\"必须做\"，哪些是\"最好做\"，哪些是\"可以做\"。",
+          "contentEn": "Reviewers (especially at Nature-tier journals) often use **hedged language** to express criticism rather than saying \"this is wrong\" directly. You need to learn to **decode** these expressions. **Common hedged expressions and their true meanings:** 1) \"The authors **might consider** adding...\" = \"**Please add this** — it is not optional.\" 2) \"It **would be interesting** to see...\" = \"**You need to show this data** to support your conclusion.\" 3) \"The analysis **appears** sound...\" = \"**I have reservations about your analysis** and need more details to be convinced.\" 4) \"This is an **interesting** approach...\" = \"**I have reservations about this method** and you need to justify the choice.\" 5) \"**While the study has merit**, there are several concerns...\" = \"**I lean toward rejection** but am giving the authors a chance to revise.\" 6) \"The authors **may wish to clarify**...\" = \"**This passage is unclear** — please rewrite it.\" Understanding these hedged expressions helps you accurately assess the true weight of each comment — which are \"must-do,\" which are \"should-do,\" and which are \"nice-to-do.\"",
+          "example": {
+            "label": "Decoding reviewer language",
+            "text": "Reviewer writes: \"The authors might consider discussing the limitations of their approach more thoroughly, particularly regarding the small sample size and the single-center design.\"\nDecoded: \"Your limitations section is inadequate. You MUST discuss sample size and single-center design limitations explicitly, or I will recommend rejection.\"\nPriority: Major — despite the polite \"might consider,\" this is a non-negotiable request."
+          }
+        }
+      ],
+      "exercises": [
+        {
+          "id": "rm-03-e1",
+          "type": "choice",
+          "questionCn": "审稿人写道：\"The statistical methods section could benefit from additional detail regarding the multiple comparison correction procedure used. It would strengthen the paper to see this addressed.\"这条意见应如何分类？",
+          "options": [
+            "A) 主要意见（Major）——审稿人在质疑统计分析的有效性，需要补充方法细节并可能重新检验结果",
+            "B) 次要意见（Minor）——审稿人只是要求补充方法描述的文字，不涉及核心分析结果",
+            "C) 编辑性意见（Editorial）——这只是一个格式问题，添加一句话即可",
+            "D) 无法分类——需要更多信息才能判断"
+          ],
+          "correct": 0,
+          "explanationCn": "虽然审稿人使用了含蓄的语言（\"could benefit from\"、\"would strengthen\"），但这条意见实际上是一个**主要意见**。原因：**1) 多重比较校正（multiple comparison correction）**直接影响统计分析的有效性——如果校正方法不当或缺失，所有显著的 p 值都可能是假阳性；**2) 审稿人说\"would strengthen the paper to see this addressed\"是一个典型的含蓄表达，真实含义是\"你需要解决这个问题，否则我对统计严谨性持保留态度\"**；**3) 这不仅是添加一句话的问题——你可能需要详细说明校正方法、确认结果在校正后仍然成立，甚至重新进行分析。**不要被礼貌的语气迷惑——涉及统计严谨性的意见几乎都是主要意见。**",
+          "explanationEn": "Although the reviewer uses hedged language (\"could benefit from,\" \"would strengthen\"), this is actually a **major comment**. Reasons: **1) Multiple comparison correction** directly affects the validity of statistical analyses — if the correction method is inappropriate or missing, all significant p-values may be false positives; **2) \"Would strengthen the paper to see this addressed\" is a typical hedged expression whose true meaning is \"you need to fix this or I will have reservations about statistical rigor\"**; **3) This is not just adding one sentence — you may need to detail the correction method, confirm results remain significant after correction, and possibly re-run analyses. **Do not be misled by polite language — comments involving statistical rigor are almost always major.**"
+        },
+        {
+          "id": "rm-03-e2",
+          "type": "scenario",
+          "questionCn": "以下审稿意见的真正\"隐藏关切\"是什么？",
+          "passage": "Reviewer 2 wrote four comments about a machine learning paper:\n\nComment 1: \"The authors might consider reporting confidence intervals for the AUC values in Table 3.\"\nComment 2: \"It would be interesting to see how the model performs on datasets from different institutions.\"\nComment 3: \"The training-validation split procedure could benefit from more detailed description.\"\nComment 4: \"The authors may wish to discuss potential sources of bias in the training data.\"\n\nAll four comments appear to be phrased as optional suggestions.",
+          "options": [
+            "审稿人只是在提供友好的可选建议，没有隐藏关切",
+            "审稿人的隐藏关切是\"我对模型的可靠性和泛化能力缺乏信心\"——四条意见共同指向对结果可信度的系统性质疑",
+            "审稿人的隐藏关切是\"你们的写作不够清楚\"——所有意见都与表述不清有关",
+            "审稿人的隐藏关切是\"你们应该与其他模型进行比较\"——所有意见都暗示需要基准测试"
+          ],
+          "correctOption": 1,
+          "explanationCn": "四条意见虽然措辞礼貌（\"might consider\"、\"would be interesting\"、\"could benefit from\"、\"may wish to\"），但它们共同指向一个**隐藏关切：审稿人对模型的可靠性和泛化能力缺乏信心**。Comment 1（置信区间）→ 不确定报告的 AUC 是否可靠；Comment 2（不同机构数据）→ 不确定模型能否泛化；Comment 3（数据划分细节）→ 不确定训练/验证过程是否合理；Comment 4（训练数据偏差）→ 不确定数据质量。当同一位审稿人的多条意见指向同一个主题时，这就是他们的核心关切。你需要在回复中系统性地解决这个信任问题，而不仅是逐条回答表面问题。",
+          "explanationEn": "Although all four comments use polite phrasing (\"might consider,\" \"would be interesting,\" \"could benefit from,\" \"may wish to\"), they collectively point to one **hidden concern: the reviewer lacks confidence in the model's reliability and generalizability**. Comment 1 (confidence intervals) → uncertain whether reported AUC is reliable; Comment 2 (different institutions) → uncertain whether the model can generalize; Comment 3 (split procedure details) → uncertain whether training/validation was sound; Comment 4 (training data bias) → uncertain about data quality. When multiple comments from the same reviewer point to the same theme, that is their core concern. You need to systematically address this trust issue in your response, not just answer each surface-level comment individually."
+        }
+      ]
+    },
+    {
+      "id": "rm-04",
+      "title": "Point-by-Point Technique",
+      "titleCn": "逐条回复技巧",
+      "cards": [
+        {
+          "id": "rm-04-c1",
+          "titleCn": "Quote-Respond-Map 模式",
+          "contentCn": "**Quote-Respond-Map（引用-回复-映射）**是逐条回复的标准模式，确保每条回复都完整、可追溯。**Quote（引用）**——用斜体或不同颜色完整引用审稿人的原文。不要截断或改写审稿人的话——即使评论很长，也要完整引用。这样编辑可以独立核实你是否准确理解了审稿人的意思。**Respond（回复）**——清晰、直接地回答审稿人的关切。首先表示认可（\"We agree...\"或\"We appreciate this concern...\"），然后说明你做了什么。**Map（映射）**——精确指出修改在稿件中的位置：页码、行号、图表编号。例如\"(Revised manuscript, page 8, lines 12-18; new Supplementary Fig. S4)\"。三者缺一不可：没有引用，编辑不知道你回应的是什么；没有回复，引用只是摆设；没有映射，编辑无法验证你是否真的做了修改。",
+          "contentEn": "**Quote-Respond-Map** is the standard pattern for point-by-point responses, ensuring each reply is complete and traceable. **Quote** — reproduce the reviewer's original text in full, using italics or a different color. Do not truncate or paraphrase the reviewer's words — even if the comment is long, quote it completely. This allows the editor to independently verify that you accurately understood the reviewer's intent. **Respond** — clearly and directly address the reviewer's concern. First acknowledge (\"We agree...\" or \"We appreciate this concern...\"), then state what you did. **Map** — precisely indicate where the change appears in the manuscript: page number, line number, figure number. For example, \"(Revised manuscript, page 8, lines 12-18; new Supplementary Fig. S4).\" All three are essential: without quoting, the editor does not know what you are responding to; without responding, the quote is just decoration; without mapping, the editor cannot verify you actually made the change.",
+          "example": {
+            "label": "Quote-Respond-Map example",
+            "text": "Reviewer 1, Comment 4: *\"The error bars in Fig. 3 appear to represent standard deviation rather than standard error. For comparing group means, standard error or confidence intervals would be more appropriate.\"*\n\nResponse: We thank the reviewer for this careful observation. We agree that standard error bars are more appropriate for comparing group means. We have recalculated and redrawn all error bars in Fig. 3 to represent standard error of the mean (SEM). The revised Fig. 3 (page 7) now includes SEM error bars, and we have added a clarifying statement in the figure legend: \"Error bars represent SEM (n = 12 per group).\"\n\n(Revised manuscript: Fig. 3 redrawn, page 7; figure legend updated, page 7, lines 22-24)"
+          }
+        },
+        {
+          "id": "rm-04-c2",
+          "titleCn": "外交辞令模板",
+          "contentCn": "掌握**外交辞令（Diplomatic Language Patterns）**能让你的回复既专业又有说服力。以下是高频场景的标准表达：**同意审稿人时：** \"We agree with the reviewer that...\" / \"We appreciate this insightful observation and have...\" / \"This is an excellent point. We have now...\"**需要澄清时：** \"We apologize for the lack of clarity in the original manuscript. We have revised...\" / \"We wish to clarify that...\" / \"We regret that our original description may have been misleading.\"**礼貌地不同意时：** \"We respectfully note that...\" / \"While we understand the reviewer's concern, our data suggest...\" / \"We appreciate this perspective; however, we would like to offer an alternative interpretation...\"**提供补充证据时：** \"To address this concern, we have performed additional experiments...\" / \"We have added a new analysis (Supplementary Fig. S5) that demonstrates...\"关键原则：**永远用第一人称\"we\"而非\"I\"（代表团队），永远不说\"you\"（不直接指向审稿人）。**",
+          "contentEn": "Mastering **diplomatic language patterns** makes your responses both professional and persuasive. Here are standard expressions for high-frequency scenarios: **When agreeing with the reviewer:** \"We agree with the reviewer that...\" / \"We appreciate this insightful observation and have...\" / \"This is an excellent point. We have now...\" **When clarifying:** \"We apologize for the lack of clarity in the original manuscript. We have revised...\" / \"We wish to clarify that...\" / \"We regret that our original description may have been misleading.\" **When respectfully disagreeing:** \"We respectfully note that...\" / \"While we understand the reviewer's concern, our data suggest...\" / \"We appreciate this perspective; however, we would like to offer an alternative interpretation...\" **When providing additional evidence:** \"To address this concern, we have performed additional experiments...\" / \"We have added a new analysis (Supplementary Fig. S5) that demonstrates...\" Key principle: **always use first-person \"we\" not \"I\" (representing the team), and never say \"you\" (do not address the reviewer directly).**",
+          "example": {
+            "label": "Diplomatic phrasing transformations",
+            "text": "Raw thought: \"The reviewer is wrong — our method IS the standard in the field.\"\nDiplomatic version: \"We respectfully note that this approach has been widely adopted in the field (Smith et al., 2022; Zhang et al., 2023), and we have added these references to strengthen the methodological justification (page 4, lines 15-17).\"\n\nRaw thought: \"We already explained this in the original paper — the reviewer didn't read carefully.\"\nDiplomatic version: \"We apologize if our original explanation was insufficiently clear. We have expanded this section to provide a more detailed description (page 6, lines 8-22).\""
+          }
+        },
+        {
+          "id": "rm-04-c3",
+          "titleCn": "何时反驳：用证据说话",
+          "contentCn": "虽然\"永远不要争辩\"是基本原则，但有时你确实需要**有理有据地反驳（Push Back with Evidence）**审稿人的意见。**可以反驳的情况：** 1) **审稿人基于错误的事实假设**——例如审稿人说\"你的方法在文献中从未被使用过\"，但你可以提供多个使用相同方法的已发表论文。**2) 审稿人要求超出了论文范围**——例如要求你做一个全新的研究项目来回答一个相关但不同的问题。**3) 审稿人之间存在矛盾**——审稿人 A 要求增加更多分析，审稿人 B 认为分析已经过多。此时你需要做出判断并向编辑解释。**反驳的正确方式：** 1) 首先表示尊重（\"We appreciate this perspective...\"）；2) 提供**具体证据**（已发表的文献、你的数据、统计分析结果）；3) 解释你为什么认为当前方法/结论是合理的；4) 即使反驳，也提供一个**折中方案**（\"While we believe the current approach is appropriate, we have added a discussion of this alternative perspective...\"）。**永远不要在没有证据的情况下反驳。**",
+          "contentEn": "While \"never argue\" is the fundamental principle, there are times when you need to **push back with evidence**. **When pushing back is appropriate:** 1) **The reviewer is working from an incorrect factual premise** — e.g., the reviewer says \"your method has never been used in the literature,\" but you can cite multiple published papers using the same method. **2) The reviewer's request exceeds the paper's scope** — e.g., asking you to conduct an entirely new research project to answer a related but different question. **3) Reviewers disagree with each other** — Reviewer A demands more analysis, Reviewer B thinks the analysis is already excessive. Here you must exercise judgment and explain your reasoning to the editor. **How to push back correctly:** 1) First show respect (\"We appreciate this perspective...\"); 2) Provide **specific evidence** (published literature, your data, statistical analysis results); 3) Explain why you believe the current approach/conclusion is justified; 4) Even when pushing back, offer a **compromise** (\"While we believe the current approach is appropriate, we have added a discussion of this alternative perspective...\"). **Never push back without evidence.**",
+          "example": {
+            "label": "Evidence-based pushback",
+            "text": "Reviewer comment: \"The authors should use the Jones et al. (2020) algorithm instead of their current method, which is clearly superior.\"\n\nResponse with evidence: \"We appreciate the reviewer's suggestion regarding the Jones et al. algorithm. We respectfully note that this algorithm was designed for bulk RNA-seq data and has been shown to underperform on single-cell data (Park et al., 2022, Nature Methods, Fig. 3). Since our study uses single-cell RNA-seq, we selected the Chen et al. method which was specifically benchmarked for this data type (Chen et al., 2023, Genome Biology). We have added a brief justification in the Methods section (page 4, lines 28-32) and included a comparison in Supplementary Table S6 showing that our chosen method outperforms the Jones et al. algorithm on our dataset.\""
+          }
+        },
+        {
+          "id": "rm-04-c4",
+          "titleCn": "处理模糊评论：礼貌地请求澄清",
+          "contentCn": "审稿人有时会给出**模糊的评论（Vague Comments）**——你不确定他们具体要你做什么。例如：\"The discussion section needs improvement.\" 或 \"The experimental approach could be strengthened.\" 面对模糊评论，**不要猜测**——猜错了会浪费大量时间且让审稿人觉得你没有理解他们的问题。**正确做法：礼貌地请求澄清**。在回复中写：\"We appreciate the reviewer's feedback and wish to ensure we address the concern fully. Could the reviewer kindly specify which aspects of the discussion would benefit from improvement? In the meantime, we have made the following revisions based on our best interpretation: [列出你做的修改]\"这个策略的好处：1) 表明你在积极回应（不是等待澄清而什么都不做）；2) 给审稿人机会细化他们的要求；3) 如果审稿人在第二轮仍然模糊，编辑会注意到你已经尽力了。",
+          "contentEn": "Reviewers sometimes give **vague comments** — you are unsure what they specifically want you to do. Examples: \"The discussion section needs improvement.\" or \"The experimental approach could be strengthened.\" When facing vague comments, **do not guess** — guessing wrong wastes significant time and makes the reviewer feel you did not understand their concern. **Correct approach: politely request clarification.** Write in your response: \"We appreciate the reviewer's feedback and wish to ensure we address the concern fully. Could the reviewer kindly specify which aspects of the discussion would benefit from improvement? In the meantime, we have made the following revisions based on our best interpretation: [list the changes you made].\" Benefits of this strategy: 1) It shows you are actively responding (not waiting for clarification while doing nothing); 2) It gives the reviewer an opportunity to refine their request; 3) If the reviewer remains vague in the second round, the editor will note that you made a good-faith effort.",
+          "example": {
+            "label": "Handling vague comments",
+            "text": "Vague reviewer comment: \"The statistical analysis should be improved.\"\n\nPoor response (guessing): Completely redo all statistical analyses using Bayesian methods (when the reviewer may have just wanted error bars added).\n\nGood response (clarify + best effort): \"We appreciate this feedback. We have strengthened the statistical analysis in several ways: (1) added Bonferroni correction for multiple comparisons (Methods, page 5, line 18), (2) replaced paired t-tests with mixed-effects models for repeated measures (Results, page 7, paragraph 2), and (3) added effect size estimates with 95% confidence intervals for all key comparisons (Table 2). If the reviewer had specific additional statistical concerns in mind, we would welcome the opportunity to address them.\""
+          }
+        }
+      ],
+      "exercises": [
+        {
+          "id": "rm-04-e1",
+          "type": "fill",
+          "questionCn": "以下是一位审稿人给出的尖锐批评。请撰写一段**外交性的回复**，要求：1) 使用 Quote-Respond-Map 模式；2) 承认审稿人的关切；3) 说明你做了什么具体修改；4) 映射到稿件中的具体位置。",
+          "passage": "审稿人评论：\"The authors claim their algorithm achieves state-of-the-art performance, yet they only compare against two baselines from 2019. This is unacceptable for a paper claiming novelty. At least three recent methods (2022-2024) should be included as baselines.\"\n\n你的研究确实只比较了两个较旧的基线方法，但你的实验室在投稿后补充了与三个新方法（2022-2024）的比较实验，结果显示你的方法在两个指标上优于新方法，在第三个指标上略逊。",
+          "modelAnswer": "We sincerely thank the reviewer for this important criticism. We agree that comparing against only two 2019 baselines was insufficient for a paper claiming state-of-the-art performance. Since submission, we have conducted additional benchmarking experiments against three recent methods: AlphaNet (Li et al., 2022), DeepStruct (Wang et al., 2023), and ProteinBERT-X (Kim et al., 2024). Our method outperforms all three baselines on accuracy (p < 0.01, paired t-test) and runtime (2.3x faster), while achieving comparable performance on structural similarity score (our method: 0.87 vs. ProteinBERT-X: 0.89, p = 0.34). We have completely revised Table 2 (page 6) to include all five baselines, added a new comparison figure (Fig. 4, page 8), and toned down our novelty claim from \"state-of-the-art\" to \"competitive with or superior to recent methods on key metrics\" (Abstract, page 1, line 8; Discussion, page 11, paragraph 3).",
+          "criteria": [
+            "使用了 Quote-Respond-Map 模式的三个要素",
+            "以承认/感谢开头，而非争辩（如\"We agree...\"或\"We thank the reviewer...\"）",
+            "提供了具体的新数据（三个新基线的名称和比较结果）",
+            "精确映射到稿件修改位置（Table 2、Fig. 4、Abstract、Discussion 的具体页码和行号）",
+            "展示了适当的修改（不仅添加了新数据，还调低了过度声明）"
+          ]
+        },
+        {
+          "id": "rm-04-e2",
+          "type": "scenario",
+          "questionCn": "以下场景中，作者是否有充分理由反驳审稿人的意见？",
+          "passage": "Reviewer 3 of a clinical trial paper writes: \"The authors should extend their follow-up period from 12 months to at least 36 months to capture long-term outcomes. A 12-month follow-up is insufficient for a study claiming lasting therapeutic benefit.\"\n\nThe authors' situation: The trial is a Phase II study specifically designed to assess short-term safety and preliminary efficacy over 12 months. A separate Phase III trial (already registered, NCT00XXXXX) is planned to assess long-term outcomes at 36 and 60 months. Extending the current Phase II trial to 36 months would delay publication by 2+ years and is outside the registered protocol.",
+          "options": [
+            "应该反驳——审稿人的要求超出了 Phase II 试验的设计范围，作者有充分的制度和科学理由不延长随访期",
+            "不应该反驳——审稿人的意见总是应该被完全接受，作者应该延长随访期",
+            "应该忽略这条意见——因为它不合理，所以不需要在回复中提及",
+            "应该部分接受——添加36个月的数据但不修改其他内容"
+          ],
+          "correctOption": 0,
+          "explanationCn": "作者有**充分理由反驳**。审稿人要求将 Phase II 试验的随访期从 12 个月延长到 36 个月，但这超出了试验的注册方案（registered protocol）和设计目的（Phase II 评估短期安全性和初步疗效）。作者可以提供以下证据：1) Phase II 试验的注册信息明确标注了 12 个月随访期；2) 已有独立的 Phase III 试验（NCT00XXXXX）计划评估长期结果；3) 延长当前试验将延迟发表 2 年以上且违反方案。正确的做法是**礼貌地解释研究设计的逻辑**，同时将\"36个月随访的局限性\"添加到讨论部分，并引用已注册的 Phase III 试验作为后续研究的证据。",
+          "explanationEn": "The authors have **valid grounds to push back**. The reviewer asks to extend a Phase II trial from 12 to 36 months, but this exceeds the registered protocol and the design purpose (Phase II assesses short-term safety and preliminary efficacy). The authors can provide evidence: 1) the Phase II trial registration specifies a 12-month follow-up; 2) a separate Phase III trial (NCT00XXXXX) is already planned for long-term outcomes; 3) extending the current trial would delay publication by 2+ years and violate the protocol. The correct approach is to **politely explain the study design rationale**, add the \"12-month follow-up limitation\" to the discussion, and reference the registered Phase III trial as evidence of planned follow-up research."
+        },
+        {
+          "id": "rm-04-e3",
+          "type": "choice",
+          "questionCn": "审稿人写道：\"The methodology section is somewhat confusing and could be presented more clearly.\"以下哪种回复措辞最为恰当？",
+          "options": [
+            "A) \"We are surprised by this comment as the methodology was written following the standard format used in all our previous publications.\"",
+            "B) \"The reviewer is incorrect. The methodology section follows the CONSORT guidelines precisely and is perfectly clear.\"",
+            "C) \"We apologize if the methodology section was not sufficiently clear. We have restructured Section 2 to improve readability: methods are now presented in chronological order (2.1 Study Design → 2.2 Sample Collection → 2.3 Data Analysis), and we have added a workflow diagram (Fig. 1) to provide a visual overview.\"",
+            "D) \"We have rewritten the entire methodology section from scratch.\""
+          ],
+          "correct": 2,
+          "explanationCn": "C 是最佳回复。它包含了所有要素：**1) 外交性承认**（\"We apologize if...was not sufficiently clear\"）——不指责审稿人没读懂，而是承认自己的表述可能不够清晰；**2) 具体行动**——重组了章节结构，按时间顺序排列；**3) 增加可视化辅助**——添加了工作流程图；**4) 映射到具体修改位置**。A 使用了\"surprised\"（情绪化）并暗示审稿人应该觉得清楚（防御性）。B 直接说审稿人\"incorrect\"（争辩）。D 虽然采取了行动但没有解释做了什么具体修改，也没有映射。",
+          "explanationEn": "C is the best response. It contains all elements: **1) Diplomatic acknowledgment** (\"We apologize if...was not sufficiently clear\") — does not blame the reviewer for not understanding, but acknowledges the description may have been unclear; **2) Specific action** — restructured the section in chronological order; **3) Added visual aid** — added a workflow diagram; **4) Maps to specific changes**. A uses \"surprised\" (emotional) and implies the reviewer should have found it clear (defensive). B directly says the reviewer is \"incorrect\" (arguing). D takes action but does not explain what specific changes were made or provide mapping."
+        }
+      ]
+    },
+    {
+      "id": "rm-05",
+      "title": "Change Mapping",
+      "titleCn": "修改映射",
+      "cards": [
+        {
+          "id": "rm-05-c1",
+          "titleCn": "每条回复都需要对应的稿件修改",
+          "contentCn": "修改映射（Change Mapping）的核心原则是：**每条回复都必须对应一个可验证的稿件修改**。仅仅写\"We thank the reviewer for this suggestion\"而不做任何修改是不够的——审稿人和编辑会认为你在敷衍。**三种\"无行动回复\"及其修正：** 1) **空洞感谢**：\"We thank the reviewer for this insightful comment.\" → 修正：加上你做了什么修改以及修改位置。2) **口头承诺**：\"We agree that this is an important limitation.\" → 修正：在讨论部分添加对该局限性的具体讨论（映射到页码和行号）。3) **模糊回应**：\"We have clarified this point in the revised manuscript.\" → 修正：指出具体在哪里、如何做了澄清。**例外情况**：当审稿人的要求确实不合理时（如要求完全新的研究方向），你可以解释为什么不做修改，但必须提供**充分的理由和证据**，并在可能的情况下提供折中方案（如在讨论部分添加相关说明）。",
+          "contentEn": "The core principle of change mapping is: **every response must correspond to a verifiable manuscript change**. Simply writing \"We thank the reviewer for this suggestion\" without making any change is insufficient — reviewers and editors will perceive this as perfunctory. **Three \"no-action responses\" and their fixes:** 1) **Empty thanks**: \"We thank the reviewer for this insightful comment.\" → Fix: add what change you made and where. 2) **Verbal commitment**: \"We agree that this is an important limitation.\" → Fix: add a specific discussion of that limitation in the Discussion section (mapped to page and line number). 3) **Vague response**: \"We have clarified this point in the revised manuscript.\" → Fix: specify where and how the clarification was made. **Exception**: when the reviewer's request is genuinely unreasonable (e.g., demanding an entirely new research direction), you may explain why no change was made, but you must provide **compelling reasons and evidence**, and where possible offer a compromise (such as adding a note in the discussion).",
+          "example": {
+            "label": "No-action vs. action responses",
+            "text": "No-action (bad): \"We thank the reviewer for highlighting the potential confounding effect of age. We agree this is an important consideration.\"\n→ Problem: What did you actually DO about it?\n\nAction (good): \"We thank the reviewer for highlighting the potential confounding effect of age. We have now performed an age-stratified subgroup analysis (Supplementary Table S8), which confirms that our main findings hold across all age groups (18-40, 41-60, 61-80). We have added this analysis to the Results section (page 9, lines 14-22) and discussed age as a potential confounder in the Limitations paragraph (page 13, lines 5-8).\""
+          }
+        },
+        {
+          "id": "rm-05-c2",
+          "titleCn": "追踪修改：行号、高亮与标注",
+          "contentCn": "有效的修改追踪（Change Tracking）让审稿人和编辑能够**快速找到并验证你的每一处修改**。**三种标准追踪方式：** 1) **行号标注（Line Numbers）**——在回复中精确引用\"page X, lines Y-Z\"。大多数期刊要求稿件带连续行号，确保你的回复与修改稿的行号一致。2) **高亮标记（Highlighted Text）**——用黄色或其他颜色高亮所有修改过的文字。有些期刊要求用不同颜色标记不同轮次的修改（如第一轮黄色，第二轮蓝色）。3) **Track Changes 文件**——提交一份 Word track changes 版本或 LaTeX 的 diff 文件，显示删除（红色删除线）和添加（蓝色下划线）。**最佳实践是同时提供行号引用和高亮版本**——行号方便精确查找，高亮方便快速浏览。确保修改标注版本和干净版本都包含在提交材料中。",
+          "contentEn": "Effective change tracking enables reviewers and editors to **quickly locate and verify every modification**. **Three standard tracking methods:** 1) **Line Numbers** — cite \"page X, lines Y-Z\" precisely in your responses. Most journals require continuous line numbers in the manuscript; ensure your response references match the revised manuscript's line numbers. 2) **Highlighted Text** — use yellow or another color to highlight all modified text. Some journals require different colors for different revision rounds (e.g., yellow for first revision, blue for second). 3) **Track Changes File** — submit a Word track changes version or LaTeX diff file showing deletions (red strikethrough) and additions (blue underline). **Best practice is to provide both line number references and a highlighted version** — line numbers enable precise lookup, highlights enable quick scanning. Ensure both the marked-up and clean versions are included in the submission package.",
+          "example": {
+            "label": "Change tracking formats",
+            "text": "In response letter: \"We have added a power analysis (page 6, lines 18-25, highlighted in yellow).\"\nIn marked-up manuscript: [Yellow highlighted text] \"A post-hoc power analysis confirmed that our sample size (n=25 per group) provides 82% power to detect the observed effect size (Cohen's d = 0.75) at a significance level of α = 0.05.\"\nIn track-changes version: [Blue underline] \"A post-hoc power analysis confirmed...\" (showing this text is newly added)"
+          }
+        },
+        {
+          "id": "rm-05-c3",
+          "titleCn": "补充材料作为证据支撑",
+          "contentCn": "当修改涉及**大量新数据或详细分析**时，补充材料（Supplementary Materials）是关键的证据支撑工具。**何时使用补充材料：** 1) **新增实验数据**——如额外的对照实验、验证实验、敏感性分析，数据量大但不适合放在正文中。2) **详细方法描述**——如新添加的分析流程的详细参数、代码片段、协议细节。3) **扩展的统计结果**——如完整的统计表、亚组分析结果、敏感性分析报告。**补充材料的引用规范**：在回复信和正文中都要明确引用补充材料，例如\"(see Supplementary Table S5)\"。确保补充材料的编号连续、与正文引用一致。**常见错误：** 1) 回复信中说\"详见 Supplementary Fig. S3\"但补充材料中没有这张图；2) 补充材料更新了但回复信中仍引用旧的编号；3) 补充文件太大（>50MB）导致审稿人无法下载。保持补充材料精炼且可访问。",
+          "contentEn": "When revisions involve **substantial new data or detailed analyses**, supplementary materials serve as critical supporting evidence. **When to use supplementary materials:** 1) **New experimental data** — additional control experiments, validation experiments, sensitivity analyses that are data-heavy but unsuitable for the main text. 2) **Detailed method descriptions** — detailed parameters of newly added analysis pipelines, code snippets, protocol details. 3) **Extended statistical results** — complete statistical tables, subgroup analysis results, sensitivity analysis reports. **Citation standards for supplementary materials**: cite them explicitly in both the response letter and the main text, e.g., \"(see Supplementary Table S5).\" Ensure supplementary material numbering is sequential and consistent with main-text references. **Common errors:** 1) Response letter says \"see Supplementary Fig. S3\" but the figure does not exist in the supplementary materials; 2) Supplementary materials were updated but the response letter still references old numbering; 3) Supplementary files are too large (>50MB) preventing reviewers from downloading. Keep supplementary materials concise and accessible.",
+          "example": {
+            "label": "Supplementary evidence mapping",
+            "text": "Reviewer asked for: \"Additional validation of the antibody specificity.\"\nResponse: \"We have performed comprehensive antibody validation including: (1) Western blot with knockout cell lysates confirming band specificity (Supplementary Fig. S7a), (2) immunofluorescence in knockout cells showing loss of signal (Supplementary Fig. S7b), and (3) peptide blocking experiments (Supplementary Fig. S7c). All validation data are compiled in Supplementary Fig. S7 (pages S15-S17), and we have added a brief description in the Methods section (page 4, lines 30-35).\""
+          }
+        }
+      ],
+      "exercises": [
+        {
+          "id": "rm-05-e1",
+          "type": "scenario",
+          "questionCn": "以下作者的回复是否完整？如果不完整，缺少了什么？",
+          "passage": "Reviewer comment: \"The authors should discuss how their findings relate to the recent work by Martinez et al. (2023) which reported contradictory results using a similar methodology.\"\n\nAuthor's response: \"We thank the reviewer for bringing this important reference to our attention. We agree that the relationship between our findings and those of Martinez et al. (2023) warrants discussion. We have carefully considered the differences between the two studies and believe they are complementary rather than contradictory.\"\n\nThe author did not add anything to the manuscript.",
+          "options": [
+            "回复完整——作者充分解释了与 Martinez 等人研究的关系",
+            "回复不完整——缺少对稿件的具体修改（没有添加讨论、没有引用文献、没有映射到页码和行号）",
+            "回复完整——作者已表明两项研究是互补的，不需要在稿件中做额外修改",
+            "回复不完整——作者应该反驳审稿人，说明为什么 Martinez 等人的研究不相关"
+          ],
+          "correctOption": 1,
+          "explanationCn": "回复**不完整**。虽然作者在回复信中表达了\"两项研究是互补的\"这一观点，但**没有将此写入稿件**。这是一个典型的\"口头承诺无行动\"问题。审稿人和编辑无法在修改稿中找到任何关于 Martinez et al. (2023) 的讨论。完整的回复应该包括：**1) 在讨论部分添加一段关于两项研究异同的具体讨论**；**2) 引用 Martinez et al. (2023) 的文献**；**3) 映射到修改稿中的具体位置**（如\"Revised Discussion, page 12, lines 15-22\"）。仅在回复信中解释而不修改稿件，审稿人会认为你没有认真对待这条意见。",
+          "explanationEn": "The response is **incomplete**. Although the author expresses in the response letter that \"the two studies are complementary,\" **nothing was added to the manuscript**. This is a classic \"verbal commitment without action\" problem. Reviewers and editors cannot find any discussion of Martinez et al. (2023) in the revised manuscript. A complete response should include: **1) adding a paragraph in the Discussion comparing the two studies**; **2) citing Martinez et al. (2023)**; **3) mapping to a specific location** in the revised manuscript (e.g., \"Revised Discussion, page 12, lines 15-22\"). Explaining only in the response letter without modifying the manuscript makes reviewers think you did not take the comment seriously."
+        },
+        {
+          "id": "rm-05-e2",
+          "type": "choice",
+          "questionCn": "以下哪种修改映射方式最为规范和完整？",
+          "options": [
+            "A) \"We have revised the manuscript accordingly.\"",
+            "B) \"We have added the requested analysis. See revised manuscript.\"",
+            "C) \"We have performed a sensitivity analysis excluding outliers (>3 SD from the mean), which confirmed the robustness of our main findings (all p-values remained <0.05). This new analysis is presented in Supplementary Table S6 (pages S22-S23), referenced in the Results section (page 8, lines 25-30, highlighted in yellow), and the Methods section has been updated to describe the outlier exclusion criteria (page 5, lines 14-18).\"",
+            "D) \"Done. See Supplementary Table S6.\""
+          ],
+          "correct": 2,
+          "explanationCn": "C 是最规范和完整的修改映射，因为它包含了所有必要要素：**1) 说明了做了什么**（sensitivity analysis excluding outliers >3 SD）；**2) 给出了关键结果**（all p-values remained <0.05）；**3) 精确映射到补充材料**（Supplementary Table S6, pages S22-S23）；**4) 映射到正文修改**（Results page 8 lines 25-30, Methods page 5 lines 14-18）；**5) 标注了追踪方式**（highlighted in yellow）。A 和 D 过于模糊，没有任何具体信息。B 虽然提到了\"requested analysis\"但没有说明分析内容、结果或精确位置。",
+          "explanationEn": "C is the most complete and standardized change mapping because it contains all necessary elements: **1) States what was done** (sensitivity analysis excluding outliers >3 SD); **2) Reports key results** (all p-values remained <0.05); **3) Maps precisely to supplementary materials** (Supplementary Table S6, pages S22-S23); **4) Maps to main-text changes** (Results page 8 lines 25-30, Methods page 5 lines 14-18); **5) Indicates tracking method** (highlighted in yellow). A and D are too vague with no specific information. B mentions \"requested analysis\" but does not state the analysis content, results, or precise location."
+        }
+      ]
+    },
+    {
+      "id": "rm-06",
+      "title": "Comprehensive Drill",
+      "titleCn": "综合实战",
+      "cards": [
+        {
+          "id": "rm-06-c1",
+          "titleCn": "综合实战场景：一篇论文，三位审稿人",
+          "contentCn": "以下综合实战练习基于一篇**模拟论文**：题为\"NanoSensor-X: A Wearable Nanoparticle-Based Biosensor for Real-Time Glucose Monitoring in Sweat\"的论文投稿至 Nature Biomedical Engineering。**核心声明**：作者开发了一种可穿戴纳米粒子生物传感器（NanoSensor-X），能够通过汗液实时、无创地监测血糖水平，精度接近传统血糖仪。**方法**：在 50 名健康志愿者和 30 名 2 型糖尿病患者中进行了为期 7 天的连续监测测试。**主要结果**：NanoSensor-X 的血糖读数与标准指尖血糖仪的相关系数 r = 0.91，平均绝对相对差（MARD）为 11.2%。**三位审稿人的关键意见**：**Reviewer 1**（生物传感器专家）：(1) 汗液葡萄糖浓度与血糖浓度的生理相关性尚未充分建立——汗液中的葡萄糖可能来自皮肤代谢而非血液；(2) 7天的测试期太短，无法评估传感器的长期稳定性和皮肤生物相容性；(3) 图3B的校准曲线缺少95%置信区间。**Reviewer 2**（临床医生）：(1) 30名糖尿病患者的样本量太小，且缺乏 1 型糖尿病患者群体；(2) 没有报告低血糖事件（<3.9 mmol/L）的检测准确率——这对临床安全至关重要；(3) MARD 为 11.2% 虽然不错，但距离 FDA 要求的 <10% 仍有差距。**Reviewer 3**（材料科学家）：(1) 纳米粒子的长期降解产物及其潜在毒性未被评估；(2) 传感器的制造过程描述不够详细，可复现性存疑；(3) 建议添加与现有商用电化学葡萄糖传感器的性能对比表。请综合运用本模块所学的所有技能——分类意见、逐条回复、修改映射——来完成以下练习。",
+          "contentEn": "This comprehensive drill is based on a **mock paper**: \"NanoSensor-X: A Wearable Nanoparticle-Based Biosensor for Real-Time Glucose Monitoring in Sweat,\" submitted to Nature Biomedical Engineering. **Core claim**: The authors developed a wearable nanoparticle-based biosensor (NanoSensor-X) that can monitor blood glucose levels non-invasively through sweat in real time, with accuracy approaching conventional glucometers. **Method**: 7-day continuous monitoring tests in 50 healthy volunteers and 30 type 2 diabetes patients. **Key result**: NanoSensor-X glucose readings correlated with standard fingerstick glucometer at r = 0.91, with a mean absolute relative difference (MARD) of 11.2%. **Three reviewers' key comments**: **Reviewer 1** (biosensor expert): (1) The physiological correlation between sweat glucose and blood glucose has not been adequately established — glucose in sweat may originate from skin metabolism rather than blood; (2) The 7-day test period is too short to evaluate long-term sensor stability and skin biocompatibility; (3) The calibration curve in Fig. 3B lacks 95% confidence intervals. **Reviewer 2** (clinician): (1) The sample of 30 diabetes patients is too small and lacks type 1 diabetes patients; (2) No detection accuracy reported for hypoglycemic events (<3.9 mmol/L) — critical for clinical safety; (3) MARD of 11.2% is decent but still above the FDA requirement of <10%. **Reviewer 3** (materials scientist): (1) Long-term degradation products of nanoparticles and their potential toxicity have not been assessed; (2) Sensor fabrication process description is insufficiently detailed, raising reproducibility concerns; (3) Suggests adding a performance comparison table with existing commercial electrochemical glucose sensors. Apply all skills from this module — classifying comments, point-by-point responses, change mapping — to complete the following exercises.",
+          "example": {
+            "label": "Mock paper at a glance",
+            "text": "Paper: NanoSensor-X wearable sweat glucose biosensor\nJournal: Nature Biomedical Engineering\nResults: r = 0.91, MARD = 11.2%, n = 50 healthy + 30 T2D, 7-day test\nR1 (biosensor): sweat-blood correlation, 7-day too short, Fig.3B missing CI\nR2 (clinician): n=30 too small, no T1D, hypoglycemia detection, MARD >10%\nR3 (materials): nanoparticle toxicity, fabrication details, commercial comparison"
+          }
+        }
+      ],
+      "exercises": [
+        {
+          "id": "rm-06-e1",
+          "type": "choice",
+          "questionCn": "将以下九条审稿意见按主要/次要/编辑性进行分类。哪一组分类最为准确？\n\nR1-1: 汗液葡萄糖与血糖的生理相关性未充分建立\nR1-2: 7天测试期太短，无法评估长期稳定性\nR1-3: 图3B的校准曲线缺少95%置信区间\nR2-1: 30名糖尿病患者样本量太小且缺乏1型糖尿病\nR2-2: 未报告低血糖事件的检测准确率\nR2-3: MARD为11.2%，距FDA要求的<10%仍有差距\nR3-1: 纳米粒子长期降解产物及毒性未评估\nR3-2: 传感器制造过程描述不够详细\nR3-3: 建议添加与商用电化学传感器的性能对比表",
+          "options": [
+            "A) 主要: R1-1, R1-2, R2-1, R2-2, R2-3, R3-1; 次要: R1-3, R3-2, R3-3",
+            "B) 主要: R1-1, R2-1, R2-2, R3-1; 次要: R1-2, R1-3, R2-3, R3-2; 编辑性: R3-3",
+            "C) 主要: R1-1, R1-2, R2-1, R2-2, R3-1; 次要: R2-3, R3-2, R3-3; 编辑性: R1-3",
+            "D) 主要: R1-1, R2-2, R3-1; 次要: R1-2, R2-1, R2-3, R3-2, R3-3; 编辑性: R1-3"
+          ],
+          "correct": 0,
+          "explanationCn": "A 组分类最准确。**主要意见（6条）**：R1-1（生理相关性——质疑核心科学假设）、R1-2（测试期太短——影响可靠性声明）、R2-1（样本量不足——影响结论普适性）、R2-2（低血糖检测——涉及临床安全）、R2-3（MARD>10%——不满足监管标准）、R3-1（毒性未评估——涉及安全性）。这些都直接影响论文的核心结论或临床适用性。**次要意见（3条）**：R1-3（缺少置信区间——统计报告问题，可补充）、R3-2（制造细节不足——可补充文字）、R3-3（对比表——增强论文但非必需）。这些不影响核心结论，可通过文字修改解决。R1-3 容易被误判为次要意见，但置信区间缺失是一个统计报告规范问题，不会改变核心结论，归为次要是合理的。",
+          "explanationEn": "Classification A is most accurate. **Major (6)**: R1-1 (physiological correlation — challenges core scientific premise), R1-2 (test period too short — affects reliability claims), R2-1 (sample size — affects generalizability), R2-2 (hypoglycemia detection — clinical safety), R2-3 (MARD >10% — does not meet regulatory standard), R3-1 (toxicity — safety concern). All directly affect the paper's core conclusions or clinical applicability. **Minor (3)**: R1-3 (missing confidence intervals — statistical reporting issue, can be added), R3-2 (fabrication details — can be supplemented), R3-3 (comparison table — enhances but is not essential). These do not affect core conclusions and can be addressed through textual revisions."
+        },
+        {
+          "id": "rm-06-e2",
+          "type": "fill",
+          "questionCn": "在所有九条审稿意见中，**R1-1（汗液葡萄糖与血糖的生理相关性未充分建立）**是最具挑战性的，因为它质疑了论文的核心科学假设。请为这条意见撰写一段完整的外交性回复。",
+          "passage": "Reviewer 1, Comment 1: \"The fundamental premise of this study — that sweat glucose levels reliably reflect blood glucose levels — has not been adequately established. The authors present a correlation (r = 0.91) but do not address the well-documented physiological concern that glucose in sweat may originate from local skin metabolism rather than blood diffusion. Without addressing this mechanistic question, the clinical utility claims are premature.\"\n\n假设你的团队有以下可用资源：1) 一项已完成的离体实验显示 NanoSensor-X 的葡萄糖检测对血液来源的葡萄糖有特异性响应（但对皮肤代谢产物无响应）；2) 一篇已发表的微透析研究（Lee et al., 2023, Nature Communications）证明汗腺中的葡萄糖主要来自血液扩散。",
+          "modelAnswer": "We sincerely thank Reviewer 1 for raising this fundamental and important question regarding the physiological basis of sweat glucose monitoring. We agree that the mechanistic link between sweat glucose and blood glucose is critical to validate. To address this concern, we have added two lines of evidence:\n\nFirst, we performed an in vitro specificity assay demonstrating that NanoSensor-X responds selectively to blood-derived glucose (passing through a synthetic sweat matrix) but shows negligible cross-reactivity with known skin metabolic byproducts including lactate, urea, and uric acid (new Supplementary Fig. S8, selectivity data on page S18). This confirms that the sensor signal predominantly reflects blood-originated glucose.\n\nSecond, we now cite and discuss the microdialysis study by Lee et al. (2023, Nature Communications), which used isotope tracing to demonstrate that >85% of glucose in eccrine sweat originates from blood diffusion through the sweat gland rather than local skin metabolism. We have incorporated this reference into our revised Discussion (page 14, lines 8-16) to strengthen the mechanistic justification.\n\nWe acknowledge that a residual contribution from skin metabolism cannot be entirely excluded, and we have added this as a limitation (page 15, lines 3-6). Future studies incorporating simultaneous microdialysis sampling would further clarify the relative contributions.\n\n(Revised manuscript: Supplementary Fig. S8 added, page S18; Discussion expanded, page 14, lines 8-16; Limitations updated, page 15, lines 3-6; all changes highlighted in yellow)",
+          "criteria": [
+            "以外交性承认开头，尊重审稿人对核心科学问题的关切",
+            "提供了至少两条具体的新证据或论据（如特异性实验、文献引用）",
+            "精确映射到修改稿中的具体位置（页码、行号、图表编号）",
+            "承认残余不确定性并作为局限性讨论——而非声称问题已完全解决",
+            "使用了专业的 Quote-Respond-Map 格式"
+          ]
+        },
+        {
+          "id": "rm-06-e3",
+          "type": "scenario",
+          "questionCn": "以下四段回复中，哪一段是**不完整的**——即缺少了修改映射的关键要素？",
+          "passage": "Response A (to R1-3): \"We thank the reviewer for noting the missing confidence intervals. We have added 95% CIs to the calibration curve in Fig. 3B (revised manuscript, page 7). The CIs confirm that the sensor's response is linear across the physiological glucose range (1-30 mM).\"\n\nResponse B (to R3-2): \"We agree that the fabrication description needs more detail. We have expanded Section 2.4 to include nanoparticle synthesis parameters (temperature, reaction time, precursor concentrations), spin-coating conditions (speed, duration), and quality control criteria. All details are on pages 5-6 of the revised manuscript.\"\n\nResponse C (to R2-3): \"We appreciate the reviewer's comment regarding the MARD value. Achieving MARD <10% is indeed the FDA benchmark. We are working on optimizing the sensor surface chemistry to improve accuracy and expect to achieve MARD <10% in future iterations.\"\n\nResponse D (to R3-3): \"We thank the reviewer for this useful suggestion. We have added a comprehensive comparison table (Table 3, page 10) benchmarking NanoSensor-X against five commercial electrochemical glucose sensors (Dexcom G7, Abbott FreeStyle Libre 3, Medtronic Guardian 4, Eversense E3, and Senseonics). The table compares MARD, wear duration, calibration requirements, and cost.\"",
+          "options": [
+            "Response A 不完整——虽然提到了添加置信区间，但没有说明置信区间的具体数值",
+            "Response B 不完整——虽然描述了扩展的内容，但没有使用高亮标注",
+            "Response C 不完整——没有提供任何稿件修改，只承诺了\"未来迭代\"会改进，这是典型的无行动回复",
+            "Response D 不完整——对比表应该放在补充材料而非正文中"
+          ],
+          "correctOption": 2,
+          "explanationCn": "**Response C 不完整**。这是一个典型的\"无行动回复\"——作者承认了 MARD >10% 的问题，但没有在当前稿件中做任何修改。\"We are working on optimizing...\"和\"expect to achieve...in future iterations\"是对未来工作的承诺，而非对当前稿件的修改。审稿人要求的是当前论文满足或讨论 MARD 标准，而不是承诺下一个版本会改进。完整的回复应该：1) 在当前稿件中添加关于 MARD 差距的讨论；2) 分析造成差距的原因；3) 提出具体的改进方向；4) 在局限性中诚实说明当前版本与 FDA 标准的差距。Response A、B、D 都提供了具体的稿件修改和映射。",
+          "explanationEn": "**Response C is incomplete**. This is a classic \"no-action response\" — the author acknowledges the MARD >10% problem but makes no change to the current manuscript. \"We are working on optimizing...\" and \"expect to achieve...in future iterations\" are promises for future work, not changes to the current manuscript. The reviewer asked about the MARD standard in the current paper, not a promise for the next version. A complete response should: 1) add a discussion of the MARD gap in the current manuscript; 2) analyze the reasons for the gap; 3) propose specific improvement directions; 4) honestly acknowledge the gap with the FDA standard in the limitations. Responses A, B, and D all provide specific manuscript changes and mapping."
+        }
+      ]
+    }
+  ]
 }
