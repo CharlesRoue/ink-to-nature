@@ -1,0 +1,78 @@
+{
+  "moduleId": "writing-foundations",
+  "title": "Writing Foundations",
+  "titleCn": "学术写作基石",
+  "descriptionCn": "掌握 Nature 级论文的写作哲学与方法论",
+  "color": "#3B82F6",
+  "lessons": [
+    {
+      "id": "wf-01",
+      "title": "One Core Argument Philosophy",
+      "titleCn": "一个核心论点哲学",
+      "cards": [
+        {
+          "id": "wf-01-c1",
+          "titleCn": "什么是核心论点？",
+          "contentCn": "Nature 级论文的第一原则：**整篇文章服务于一个中心论点**。每一段、每一张图、每一个引用，都必须为这个核心论点服务。如果某个段落与核心论点无关，它就不应该出现在论文中。",
+          "contentEn": "The first principle of Nature-level writing: **the entire paper serves one central argument**. Every paragraph, every figure, every citation must serve the core argument.",
+          "example": {
+            "label": "Central argument example",
+            "text": "\"We demonstrate that protein X drives tumor metastasis through a novel Wnt-independent pathway, revealing a therapeutic target for resistant cancers.\""
+          }
+        },
+        {
+          "id": "wf-01-c2",
+          "titleCn": "核心论点 vs 研究问题",
+          "contentCn": "研究问题（Research Question）是你探索的方向，核心论点（Core Argument）是你找到的答案。一篇论文可以有多个研究问题，但只能有**一个核心论点**。引言的任务就是把读者从问题引向论点。",
+          "contentEn": "A research question is the direction you explore; a core argument is the answer you found. A paper can have multiple research questions but only **one core argument**. The Introduction's job is to lead the reader from question to argument.",
+          "example": {
+            "label": "Question vs Argument",
+            "text": "Question: \"What role does protein X play in cancer progression?\"\nArgument: \"Protein X drives metastasis through a novel Wnt-independent pathway.\""
+          }
+        },
+        {
+          "id": "wf-01-c3",
+          "titleCn": "如何检验你的核心论点",
+          "contentCn": "用一句话写出你的核心论点。如果你写不出来，说明你的论文还没有形成清晰的论点。好的核心论点应该：1）可以被一句话表达；2）是新的（不是已知的）；3）可以被你的数据支撑。",
+          "contentEn": "Write your core argument in one sentence. If you can't, your paper doesn't have a clear argument yet. A good core argument should be: 1) expressible in one sentence, 2) novel, 3) supportable by your data.",
+          "example": {
+            "label": "Self-test",
+            "text": "\"Our central claim, in one sentence: _____\" — If this feels hard, revisit your results."
+          }
+        }
+      ],
+      "exercises": [
+        {
+          "id": "wf-01-e1",
+          "type": "choice",
+          "questionCn": "以下哪个摘要最符合'核心论点'原则？",
+          "options": [
+            "A) \"We studied the effects of three different compounds on cell viability, measured apoptosis rates, and analyzed gene expression changes in breast cancer cells.\"",
+            "B) \"We demonstrate that compound X selectively kills triple-negative breast cancer cells by disrupting mitochondrial fission, providing a new therapeutic strategy for this aggressive subtype.\"",
+            "C) \"Breast cancer is a complex disease with many subtypes. Previous studies have examined various compounds. Here we present our findings.\""
+          ],
+          "correct": 1,
+          "explanationCn": "A 只是描述了做了什么，没有核心论点。C 完全没有给出任何论点。B 清晰地表达了核心论点：compound X 通过干扰线粒体分裂杀死三阴性乳腺癌细胞。",
+          "explanationEn": "A describes activities without an argument. C provides nothing. B states a clear core argument with mechanism and significance."
+        },
+        {
+          "id": "wf-01-e2",
+          "type": "scenario",
+          "questionCn": "以下段落出现在 Discussion 中，它是否违反了核心论点原则？",
+          "passage": "In a separate set of experiments not directly related to our main finding, we also observed that protein Y showed interesting patterns in normal cells, which could be worth exploring in future studies.",
+          "isAcceptable": false,
+          "violatedRule": "Every paragraph must serve the core argument",
+          "options": [
+            "Acceptable — discussion can explore tangential findings",
+            "Unacceptable — paragraph does not serve the core argument",
+            "Acceptable — mentioning future directions is standard practice",
+            "Unacceptable — the sentence is too long"
+          ],
+          "correctOption": 1,
+          "explanationCn": "这段话明确说'与我们的主要发现不直接相关'，违反了'每段都服务于核心论点'的原则。如果要提 future work，应该与核心论点建立联系。",
+          "explanationEn": "The paragraph explicitly says 'not directly related to our main finding,' violating the principle that every paragraph serves the core argument."
+        }
+      ]
+    }
+  ]
+}
