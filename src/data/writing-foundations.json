@@ -73,6 +73,316 @@
           "explanationEn": "The paragraph explicitly says 'not directly related to our main finding,' violating the principle that every paragraph serves the core argument."
         }
       ]
+    },
+    {
+      "id": "wf-02",
+      "title": "Paper Type Taxonomy",
+      "titleCn": "论文类型分类学",
+      "cards": [
+        {
+          "id": "wf-02-c1",
+          "titleCn": "五种论文类型概览",
+          "contentCn": "Nature 级期刊接收的论文可归为五种**功能类型**：**Research Paper**（研究论文）报告新发现；**Methods Paper**（方法论文）提出新技术或新流程；**Hypothesis Paper**（假说论文）提出理论框架或预测模型；**Algorithmic Paper**（算法论文）设计新的计算或数学方法；**Review Paper**（综述论文）系统综合已有知识并指出方向。分类的关键不在于标题关键词，而在于**论文为读者解决的核心问题**。",
+          "contentEn": "Papers in Nature-tier journals fall into five **functional types**: **Research Paper** reports new discoveries; **Methods Paper** introduces new techniques or protocols; **Hypothesis Paper** proposes theoretical frameworks or predictive models; **Algorithmic Paper** designs new computational or mathematical methods; **Review Paper** systematically synthesizes existing knowledge and identifies directions. The key to classification is not title keywords but **the core question the paper answers for its reader**.",
+          "example": {
+            "label": "Type identification",
+            "text": "Title: \"CRISPR-Cas12a enables rapid DNA detection\" → Methods Paper (core question: how does this new technique work?)"
+          }
+        },
+        {
+          "id": "wf-02-c2",
+          "titleCn": "每种类型的读者核心问题",
+          "contentCn": "每种论文类型对应一个读者最先想知道的问题。Research Paper 的读者问：**\"你发现了什么？\"** Methods Paper：**\"我怎么用这个新方法？\"** Hypothesis Paper：**\"为什么会出现这种现象？\"** Algorithmic Paper：**\"这个算法如何工作、性能如何？\"** Review Paper：**\"这个领域目前到了什么阶段？\"** 写作时必须在引言前两段内回答对应问题，否则读者会失去耐心。",
+          "contentEn": "Each paper type maps to the reader's primary question. Research Paper readers ask: **\"What did you find?\"** Methods Paper: **\"How can I use this new method?\"** Hypothesis Paper: **\"Why does this phenomenon occur?\"** Algorithmic Paper: **\"How does this algorithm work and how well does it perform?\"** Review Paper: **\"Where does this field stand now?\"** You must answer the corresponding question within the first two paragraphs of the Introduction, or the reader loses patience.",
+          "example": {
+            "label": "Reader question mismatch",
+            "text": "A Methods paper that opens with 3 paragraphs of background theory before mentioning the method → reader thinks \"just tell me how it works!\""
+          }
+        },
+        {
+          "id": "wf-02-c3",
+          "titleCn": "Research Paper 与 Hypothesis Paper 的区别",
+          "contentCn": "这两种类型最容易被混淆。**Research Paper** 的核心是**数据驱动的发现**——你做了实验，得到了结果，结果揭示了新事实。**Hypothesis Paper** 的核心是**逻辑驱动的框架**——你可能没有新实验数据，但你通过分析已有文献和证据，提出了一个新的理论解释或预测。区分方法：如果去掉实验数据部分，论文是否还成立？如果成立，它更可能是 Hypothesis Paper。",
+          "contentEn": "These two types are most easily confused. A **Research Paper** is **data-driven** — you performed experiments, obtained results, and those results reveal new facts. A **Hypothesis Paper** is **logic-driven** — you may not have new experimental data, but through analysis of existing literature and evidence, you propose a new theoretical explanation or prediction. The test: if you remove the experimental data section, does the paper still hold together? If yes, it is likely a Hypothesis Paper.",
+          "example": {
+            "label": "Distinguishing example",
+            "text": "\"We discovered that X protein binds Y receptor\" → Research Paper (new data)\n\"We propose that X-Y binding explains the paradox in autoimmune signaling\" → Hypothesis Paper (new framework from existing evidence)"
+          }
+        },
+        {
+          "id": "wf-02-c4",
+          "titleCn": "如何根据类型组织论文结构",
+          "contentCn": "论文类型决定了**信息呈现的顺序**。Research Paper 遵循「背景 → 方法 → 结果 → 讨论」经典结构。Methods Paper 应尽早展示方法概览图，把性能对比放在后面。Hypothesis Paper 需要在引言中建立**逻辑链条**（已有证据 → 逻辑缺口 → 新假说），然后用证据逐层验证。Algorithmic Paper 必须先给出**算法伪代码或流程图**，再展示基准测试。选错结构会让读者迷路——用 Research 结构写 Methods 论文是最常见的错误。",
+          "contentEn": "Paper type determines **the order of information presentation**. Research Papers follow the classic \"Background → Methods → Results → Discussion\" structure. Methods Papers should show a method overview diagram early, with performance comparisons later. Hypothesis Papers need to build a **logical chain** in the Introduction (existing evidence → logical gap → new hypothesis), then verify with evidence layer by layer. Algorithmic Papers must present **pseudocode or flowcharts** before benchmarks. Choosing the wrong structure loses readers — using Research structure for a Methods paper is the most common mistake.",
+          "example": {
+            "label": "Structure mismatch",
+            "text": "A Methods paper that buries the protocol description in the Discussion section forces readers to hunt for the very information they came for."
+          }
+        }
+      ],
+      "exercises": [
+        {
+          "id": "wf-02-e1",
+          "type": "choice",
+          "questionCn": "阅读以下摘要，判断这篇论文属于哪种类型：\n\n\"Single-cell RNA sequencing has revealed extensive cellular heterogeneity in tumors, yet current methods cannot resolve spatial gene expression at single-cell resolution in intact tissues. Here we present Slide-seq, a method that uses DNA-barcoded beads on a glass slide to capture spatial transcriptomic data at near-cellular resolution. We demonstrate 10-micrometer resolution across entire tissue sections and apply Slide-seq to map cell-type distributions in mouse cerebellum and human heart.\"",
+          "options": [
+            "A) Research Paper — 报告了新的生物学发现",
+            "B) Methods Paper — 提出了一种新的实验技术",
+            "C) Algorithmic Paper — 设计了新的计算方法",
+            "D) Hypothesis Paper — 提出了新的理论框架"
+          ],
+          "correct": 1,
+          "explanationCn": "摘要明确指出当前方法无法实现单细胞分辨率的空间基因表达检测（问题），然后提出 Slide-seq 这一新方法，并展示了其性能指标（10 微米分辨率）。虽然也展示了应用，但核心贡献是**方法本身**，属于 Methods Paper。",
+          "explanationEn": "The abstract identifies a limitation of current methods, introduces a new technique (Slide-seq), and demonstrates its performance specs (10 μm resolution). While applications are shown, the core contribution is the **method itself**, making this a Methods Paper."
+        },
+        {
+          "id": "wf-02-e2",
+          "type": "choice",
+          "questionCn": "一篇 Review Paper 的读者最想从论文中获得什么？",
+          "options": [
+            "A) 实验步骤的详细复现指南",
+            "B) 该领域当前的知识全景与未来方向",
+            "C) 一个全新的理论假说的数学推导",
+            "D) 新算法的伪代码和基准测试结果"
+          ],
+          "correct": 1,
+          "explanationCn": "Review Paper 的核心读者问题是「这个领域目前到了什么阶段？」——读者想要的是知识全景图和研究方向判断。A 更适合 Methods Paper，C 更适合 Hypothesis Paper，D 更适合 Algorithmic Paper。",
+          "explanationEn": "The core reader question for a Review Paper is \"Where does this field stand now?\" — readers want a knowledge landscape and directional judgment. A suits Methods papers, C suits Hypothesis papers, D suits Algorithmic papers."
+        }
+      ]
+    },
+    {
+      "id": "wf-03",
+      "title": "Reader Psychology",
+      "titleCn": "读者心理学",
+      "cards": [
+        {
+          "id": "wf-03-c1",
+          "titleCn": "五个读者核心问题",
+          "contentCn": "当你提交论文时，审稿人和读者脑中同时运行着五个问题：**1) 这跟我的研究有关吗？（Applicable?）**——决定要不要继续读；**2) 有什么新东西？（Novel?）**——决定值不值得读；**3) 数据靠得住吗？（Credible?）**——决定信不信；**4) 我能用到自己的工作中吗？（Usable?）**——决定会不会引用；**5) 这个发现意味着什么？（Meaningful?）**——决定重要性评级。一篇好论文必须在读者问出下一个问题之前，就回答当前的问题。",
+          "contentEn": "When reviewers and readers evaluate your paper, five questions run simultaneously in their minds: **1) Is this relevant to my work? (Applicable?)** — determines whether to keep reading; **2) What's new? (Novel?)** — determines whether it's worth reading; **3) Is the data trustworthy? (Credible?)** — determines whether to believe it; **4) Can I apply this to my own work? (Usable?)** — determines whether to cite it; **5) What does this finding mean? (Meaningful?)** — determines the significance rating. A good paper must answer each question before the reader moves to the next.",
+          "example": {
+            "label": "Question chain",
+            "text": "Reader opens paper → \"Is this about my protein?\" (Applicable) → Yes → \"What did they find that's new?\" (Novel) → \"They found a new pathway\" → \"Is the evidence solid?\" (Credible) → ..."
+          }
+        },
+        {
+          "id": "wf-03-c2",
+          "titleCn": "问题顺序为什么重要",
+          "contentCn": "五个问题的顺序不是随意的——它们构成一个**决策漏斗**。如果读者在「跟我有关吗？」这一步就得到否定答案，后面再精彩也没人看到。常见的写作失败是在读者还没确认相关性时就急于展示创新性。正确策略是：引言第一段回答「Applicable」和「Novel」，方法部分回答「Credible」，结果和讨论回答「Usable」和「Meaningful」。**不要跳步**——每个问题都是下一个问题的前提。",
+          "contentEn": "The order of these five questions is not arbitrary — they form a **decision funnel**. If the reader gets a negative answer at \"Is this relevant to me?\", no one will see what follows, no matter how brilliant. A common writing failure is rushing to showcase novelty before the reader has confirmed relevance. The correct strategy: answer \"Applicable\" and \"Novel\" in the first paragraph of the Introduction, address \"Credible\" in the Methods section, and cover \"Usable\" and \"Meaningful\" in Results and Discussion. **Do not skip steps** — each question is a prerequisite for the next.",
+          "example": {
+            "label": "Funnel in action",
+            "text": "Nature Introduction template:\nParagraph 1: \"X is critical in [field]...\" (Applicable) + \"yet no study has shown...\" (Novel)\nParagraph 2-3: Preview of approach and key result (Credible + Usable preview)"
+          }
+        },
+        {
+          "id": "wf-03-c3",
+          "titleCn": "隐藏原创性陷阱",
+          "contentCn": "许多研究者犯一个致命错误：**把原创性藏在方法细节里**。读者在引言中寻找「新在哪里」，你却用了三段话描述已知背景，把创新点埋到了第四段甚至方法部分。当读者读到第三段还没有看到新东西时，他们会认为这只是一篇综述或重复性工作。**「隐藏原创性」(Hiding Originality)** 是导致 desk reject 的常见原因之一。修正方法：在引言第一段末尾或第二段开头，用一句清晰的句子声明你的核心创新点。",
+          "contentEn": "Many researchers make a fatal error: **burying their originality in method details**. Readers look for \"what's new\" in the Introduction, yet you spend three paragraphs on known background and hide the innovation in the fourth paragraph or even the Methods section. When readers reach paragraph three without seeing novelty, they assume it is a review or replication. **\"Hiding Originality\"** is a common cause of desk rejection. The fix: declare your core innovation in one clear sentence at the end of the first paragraph or the beginning of the second.",
+          "example": {
+            "label": "Hiding vs. declaring originality",
+            "text": "Hidden: \"We used a modified protocol with adjusted pH and temperature...\" (method detail, novelty unclear)\nDeclared: \"We report the first room-temperature synthesis of perovskite nanocrystals, eliminating the need for inert atmosphere.\" (novelty front and center)"
+          }
+        }
+      ],
+      "exercises": [
+        {
+          "id": "wf-03-e1",
+          "type": "order",
+          "questionCn": "将读者评估论文的五个问题按正确的决策漏斗顺序排列：",
+          "items": [
+            "跟我有关吗？(Applicable?)",
+            "有什么新东西？(Novel?)",
+            "数据靠得住吗？(Credible?)",
+            "我能用到自己的工作中吗？(Usable?)",
+            "这个发现意味着什么？(Meaningful?)"
+          ],
+          "explanationCn": "读者先判断相关性（决定是否继续读），然后评估创新性（决定是否值得读），接着检验可信度（决定是否相信），再考虑实用性（决定是否引用），最后评判意义（决定重要性）。每一步都是下一步的前提。"
+        },
+        {
+          "id": "wf-03-e2",
+          "type": "scenario",
+          "questionCn": "一位审稿人写道：\"The paper presents an interesting technique, but it is unclear how this relates to the broader field of neurodegenerative disease research.\" 这位审稿人在五个问题中的哪一个没有得到满足？",
+          "passage": "The manuscript describes a novel microfluidic device for measuring protein aggregation kinetics with high temporal resolution. The Introduction begins with two paragraphs on microfluidic engineering principles, followed by one paragraph on the device fabrication process. No mention of neurodegenerative disease appears until the Discussion section.",
+          "options": [
+            "Novel? — 审稿人没看到创新点",
+            "Applicable? — 审稿人不确定论文与自己的研究领域的关联",
+            "Credible? — 审稿人质疑数据的可靠性",
+            "Usable? — 审稿人不知道如何应用这个方法"
+          ],
+          "correctOption": 1,
+          "explanationCn": "审稿人说\"不清楚这与神经退行性疾病研究的关系\"——这正是 **Applicable（相关性）** 问题没有得到回答。论文引言用了两段讲微流控工程原理，一段讲器件制造，完全没有建立与神经退行性疾病的联系，导致读者在决策漏斗的第一步就卡住了。",
+          "explanationEn": "The reviewer says \"unclear how this relates to the broader field of neurodegenerative disease research\" — this is the **Applicable** question left unanswered. The Introduction spends two paragraphs on microfluidic engineering and one on device fabrication, never establishing the connection to neurodegenerative disease. The reader gets stuck at the first step of the decision funnel."
+        }
+      ]
+    },
+    {
+      "id": "wf-04",
+      "title": "Terminology Consistency",
+      "titleCn": "术语一致性",
+      "cards": [
+        {
+          "id": "wf-04-c1",
+          "titleCn": "一致性优先于风格",
+          "contentCn": "学术写作中最常见的问题之一是**术语不一致**：同一个概念在论文不同位置使用不同的名称。例如，一段用\"neural progenitor cells\"，下一段换成\"neural precursor cells\"，再后面又变成\"neural stem cells\"——这三个词在生物学上含义不同，但作者可能以为它们是同义词。读者不会觉得你词汇丰富，只会**困惑这三个是不是同一个东西**。**一致性永远优先于风格多样性**：选一个术语，全文统一使用。",
+          "contentEn": "One of the most common problems in academic writing is **terminology inconsistency**: using different names for the same concept across a paper. For example, one paragraph uses \"neural progenitor cells,\" the next switches to \"neural precursor cells,\" and later becomes \"neural stem cells\" — these three terms have distinct biological meanings, yet the author may treat them as synonyms. Readers will not admire your vocabulary; they will **wonder whether these are the same thing**. **Consistency always trumps stylistic variety**: pick one term and use it throughout.",
+          "example": {
+            "label": "Inconsistency cost",
+            "text": "Reviewer comment: \"The authors use 'nanoparticle,' 'nanocarrier,' and 'nanovehicle' interchangeably. Are these the same entity or different constructs? This ambiguity undermines the Methods section.\""
+          }
+        },
+        {
+          "id": "wf-04-c2",
+          "titleCn": "四步术语管理协议",
+          "contentCn": "建立术语一致性的标准流程分为四步：**第一步：识别（Identify）**——通读全文，列出所有专业术语和缩写；**第二步：选定（Choose）**——为每个概念确定唯一的首选形式（包括全称、缩写、大小写格式）；**第三步：建账（Ledger）**——创建术语表（Terminology Ledger），记录每个术语的首选形式、定义、以及首次出现位置；**第四步：审计（Audit）**——用术语表逐一检查全文，标记所有偏离首选形式的地方并修正。",
+          "contentEn": "The standard protocol for establishing terminology consistency has four steps: **Step 1: Identify** — read through the entire manuscript and list all technical terms and abbreviations; **Step 2: Choose** — for each concept, select a single preferred form (including full name, abbreviation, and capitalization); **Step 3: Ledger** — build a Terminology Ledger recording each term's preferred form, definition, and first-appearance location; **Step 4: Audit** — systematically check the full manuscript against the ledger, flagging and correcting every deviation from the preferred form.",
+          "example": {
+            "label": "Protocol in action",
+            "text": "Ledger entry:\nPreferred: \"extracellular vesicles (EVs)\"\nForbidden variants: \"exosomes\" (unless specifically referring to endosome-derived EVs), \"microvesicles\", \"secreted vesicles\"\nFirst appearance: Introduction, paragraph 2"
+          }
+        },
+        {
+          "id": "wf-04-c3",
+          "titleCn": "构建术语台账",
+          "contentCn": "**术语台账（Terminology Ledger）** 是一份动态文档，在写作全程维护。它不仅记录术语，还记录**决策理由**。每个条目包含：1）首选术语及其形式；2）简短定义（1-2句）；3）明确标注哪些变体是禁止使用的；4）首次出现的位置。台账特别重要的场景包括：多作者合作论文（避免每人用自己的习惯用语）、跨学科论文（同一概念在不同领域有不同叫法）、以及系列论文（保持跨篇一致）。",
+          "contentEn": "A **Terminology Ledger** is a living document maintained throughout the writing process. It records not just terms but also the **rationale behind decisions**. Each entry includes: 1) the preferred term and its form; 2) a brief definition (1-2 sentences); 3) explicitly forbidden variants; 4) the location of first appearance. The ledger is especially critical for: multi-author papers (preventing each author's preferred jargon), interdisciplinary papers (where the same concept has different names in different fields), and paper series (maintaining cross-paper consistency).",
+          "example": {
+            "label": "Ledger template",
+            "text": "Term: tumor microenvironment (TME)\nDefinition: The cellular and non-cellular components surrounding tumor cells\nForbidden: \"tumor stroma\", \"tumor niche\", \"cancer microenvironment\"\nRationale: \"TME\" is the consensus term in recent Nature Reviews Cancer articles"
+          }
+        },
+        {
+          "id": "wf-04-c4",
+          "titleCn": "处理歧义术语",
+          "contentCn": "当术语本身有歧义时（例如\"signaling\"可以指通路、过程或分子事件），你需要**在使用前界定含义**。方法有三种：1）**限定修饰**——写\"canonical Wnt signaling pathway\"而非笼统的\"Wnt signaling\"；2）**首次定义**——在术语首次出现时用括号给出操作性定义：\"apoptosis (defined here as caspase-3-dependent programmed cell death)\"；3）**区分标注**——如果必须使用相近术语，明确告知读者区别：\"Throughout this paper, we distinguish 'progenitor cells' (multipotent) from 'precursor cells' (committed).\"",
+          "contentEn": "When a term is inherently ambiguous (e.g., \"signaling\" could mean a pathway, a process, or a molecular event), you must **define its meaning before using it**. Three methods: 1) **Qualifying modifiers** — write \"canonical Wnt signaling pathway\" instead of vague \"Wnt signaling\"; 2) **First-use definition** — provide an operational definition in parentheses at first appearance: \"apoptosis (defined here as caspase-3-dependent programmed cell death)\"; 3) **Explicit distinction** — if you must use similar terms, tell readers the difference: \"Throughout this paper, we distinguish 'progenitor cells' (multipotent) from 'precursor cells' (committed).\"",
+          "example": {
+            "label": "Disambiguation example",
+            "text": "Ambiguous: \"The signaling was altered.\"\nClear: \"The canonical NF-κB signaling pathway was upregulated, as evidenced by increased IκBα phosphorylation.\""
+          }
+        }
+      ],
+      "exercises": [
+        {
+          "id": "wf-04-e1",
+          "type": "scenario",
+          "questionCn": "以下段落中有几处术语不一致？找出具体的不一致之处。",
+          "passage": "We developed a deep learning model for protein structure prediction. The neural network was trained on 150,000 protein structures from the PDB. Our AI system achieved a mean GDT-TS score of 87.3 on the CASP14 benchmark. The deep-learning architecture uses a transformer-based encoder with 48 attention layers. Compared to existing machine learning approaches, our computational model demonstrates superior accuracy in predicting tertiary structures.",
+          "options": [
+            "1处不一致",
+            "2处不一致",
+            "3处不一致",
+            "4处不一致"
+          ],
+          "correctOption": 2,
+          "explanationCn": "存在3处不一致：1）\"deep learning model\" vs \"neural network\" vs \"AI system\" vs \"deep-learning architecture\" vs \"computational model\"——同一个系统用了5个不同名称；2）\"deep learning\"（无连字符）vs \"deep-learning\"（有连字符）格式不统一；3）\"protein structure prediction\" vs \"predicting tertiary structures\"——同一概念两种表述。应该在术语台账中确定唯一名称并全文统一。",
+          "explanationEn": "Three inconsistencies exist: 1) \"deep learning model\" / \"neural network\" / \"AI system\" / \"deep-learning architecture\" / \"computational model\" — five different names for the same system; 2) \"deep learning\" (no hyphen) vs \"deep-learning\" (hyphenated) — formatting inconsistency; 3) \"protein structure prediction\" vs \"predicting tertiary structures\" — the same concept expressed two ways. All should be unified via a terminology ledger."
+        },
+        {
+          "id": "wf-04-e2",
+          "type": "fill",
+          "questionCn": "以下段落存在术语不一致问题。请重写这段文字，使其术语完全统一。选择一个首选术语并坚持使用。\n\n原文：\"The gut microbiome plays a crucial role in immune modulation. Recent studies on intestinal flora have revealed links to autoimmune diseases. Alterations in the gut microbial community can trigger inflammatory responses. We hypothesize that specific members of the intestinal microbiota drive T-cell differentiation.\"",
+          "passage": "The gut microbiome plays a crucial role in immune modulation. Recent studies on intestinal flora have revealed links to autoimmune diseases. Alterations in the gut microbial community can trigger inflammatory responses. We hypothesize that specific members of the intestinal microbiota drive T-cell differentiation.",
+          "modelAnswer": "The gut microbiome plays a crucial role in immune modulation. Recent studies on the gut microbiome have revealed links to autoimmune diseases. Alterations in the gut microbiome can trigger inflammatory responses. We hypothesize that specific members of the gut microbiome drive T-cell differentiation.",
+          "criteria": [
+            "全文统一使用一个术语（如 gut microbiome），不再混用 intestinal flora / gut microbial community / intestinal microbiota",
+            "保持原文的科学含义不变",
+            "句子结构和逻辑关系保持完整"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wf-05",
+      "title": "Writing Abstracts",
+      "titleCn": "撰写摘要",
+      "cards": [
+        {
+          "id": "wf-05-c1",
+          "titleCn": "Nature 摘要的四要素结构",
+          "contentCn": "Nature 级期刊的摘要遵循严格的**四要素结构**：**1) Gap（知识缺口）**——用1-2句指出当前知识的不足或现有方法的局限，让读者知道为什么要做这项研究；**2) Approach（研究方法）**——用1-2句概述你做了什么，关键方法是什么；**3) Result（核心结果）**——用2-3句呈现最重要的发现，包含具体数据；**4) Significance（意义）**——用1-2句说明结果对该领域乃至更广范围的启示。四要素缺一不可，但篇幅分配以 **Result 为核心**（约占摘要 40-50%）。",
+          "contentEn": "Nature-tier journal abstracts follow a strict **four-element structure**: **1) Gap** — 1-2 sentences identifying what is unknown or where current methods fall short, so readers understand why the study was needed; **2) Approach** — 1-2 sentences outlining what you did and the key method; **3) Result** — 2-3 sentences presenting the most important findings with specific data; **4) Significance** — 1-2 sentences explaining the implications for the field and beyond. All four elements are essential, but space allocation centers on the **Result** (approximately 40-50% of the abstract).",
+          "example": {
+            "label": "Four-element abstract",
+            "text": "[Gap] Current CAR-T therapies fail against solid tumors due to immunosuppressive microenvironments. [Approach] Here we engineer CAR-T cells with a synthetic Notch receptor that senses tumor stiffness. [Result] These mechano-sensing CAR-T cells achieved 78% tumor regression in pancreatic cancer xenografts, compared to 12% for conventional CAR-T (p<0.001). [Significance] This strategy opens a path to applying cellular immunotherapy against previously resistant solid tumors."
+          }
+        },
+        {
+          "id": "wf-05-c2",
+          "titleCn": "摘要常见错误",
+          "contentCn": "四个最常见的摘要失败模式：**1) 缺少 Gap**——直接说\"我们做了什么\"，没有告诉读者为什么需要做，读者无法判断是否值得继续读；**2) 结果过于模糊**——写\"显著改善\"\"明显提高\"但不给具体数字，读者无法评估效果大小；**3) Significance 过度夸大**——声称\"彻底改变\"\"颠覆性突破\"但数据支撑不足，引发审稿人反感；**4) 方法描述过多**——花了一半篇幅讲方法细节，压缩了结果和意义。记住：**摘要是推销你的发现，不是推销你的方法**。",
+          "contentEn": "Four most common abstract failure modes: **1) Missing Gap** — jumping straight to \"we did X\" without explaining why, leaving readers unable to judge whether to continue; **2) Vague results** — writing \"significantly improved\" without specific numbers, preventing readers from evaluating effect size; **3) Overstated significance** — claiming \"revolutionary\" or \"paradigm-shifting\" without sufficient data support, antagonizing reviewers; **4) Excessive method detail** — spending half the abstract on methodology, compressing results and significance. Remember: **the abstract sells your findings, not your methods**.",
+          "example": {
+            "label": "Vague vs. specific result",
+            "text": "Vague: \"Our method showed significantly better performance.\"\nSpecific: \"Our method reduced prediction error from 15.3% to 4.7% (3.3-fold improvement, p<0.001) on the ImageNet validation set.\""
+          }
+        },
+        {
+          "id": "wf-05-c3",
+          "titleCn": "字数规则与 Nature 摘要段落",
+          "contentCn": "Nature 主刊摘要通常限制在 **150 词左右**（不含参考文献），Nature 子刊一般 **150-250 词**。超出的每个词都在稀释信息密度。关键策略：**每句话只传递一个信息**，删除所有\"众所周知\"的背景句，用具体数字代替形容词。另外需注意：Nature 论文开头的 **Summary Paragraph**（摘要段）与普通摘要不同——它是为**非专业读者**写的，需要使用更通俗的语言，避免术语堆砌，并在最后一句给出**广泛意义的启示**（例如\"这一发现可能改变我们对 XX 的理解\"）。",
+          "contentEn": "Nature main journal abstracts are typically limited to approximately **150 words** (excluding references); Nature sub-journals generally allow **150-250 words**. Every word beyond the limit dilutes information density. Key strategies: **one idea per sentence**, remove all \"as is well known\" background sentences, replace adjectives with specific numbers. Note also: the **Summary Paragraph** at the start of a Nature paper differs from a standard abstract — it is written for **non-specialist readers**, requiring plainer language, avoidance of jargon stacking, and a closing sentence that provides a **broad-impact statement** (e.g., \"This finding may reshape our understanding of XX\").",
+          "example": {
+            "label": "Summary paragraph vs. abstract",
+            "text": "Abstract: \"We demonstrate that m6A methylation of circRNA recruits YTHDF3 to promote cap-independent translation.\"\nSummary paragraph: \"A chemical tag on circular RNA helps cells make proteins without the usual starting signal, revealing a hidden layer of gene regulation.\""
+          }
+        },
+        {
+          "id": "wf-05-c4",
+          "titleCn": "摘要写作前的四个必答问题",
+          "contentCn": "在动笔写摘要之前，先回答四个问题来**理清逻辑**：**1) 我们解决的具体技术问题是什么？当前方案为什么不够好？**（对应 Gap）；**2) 我们的核心创新点是什么？**（对应 Approach 的亮点）；**3) 这个方法为什么能成功？关键证据是什么？**（对应 Result）；**4) 这个发现给领域带来了什么新视角或新机会？**（对应 Significance）。如果你无法简洁回答这四个问题，说明你的论文可能还没有形成清晰的核心论点——应该先回到 L1 的内容。",
+          "contentEn": "Before drafting the abstract, answer four questions to **clarify the logic**: **1) What specific technical problem do we solve? Why are current solutions insufficient?** (maps to Gap); **2) What is our exact novel contribution?** (maps to Approach highlight); **3) Why does this approach work? What is the key evidence?** (maps to Result); **4) What new perspective or opportunity does this finding offer the field?** (maps to Significance). If you cannot answer these four questions concisely, your paper may not yet have a clear core argument — revisit Lesson 1 first.",
+          "example": {
+            "label": "Pre-writing checklist",
+            "text": "Before writing, fill in:\nGap: _______________\nNovelty: _______________\nKey result + number: _______________\nBroad implication: _______________\nIf any blank is hard to fill, your paper needs more thinking before writing."
+          }
+        }
+      ],
+      "exercises": [
+        {
+          "id": "wf-05-e1",
+          "type": "choice",
+          "questionCn": "阅读以下摘要，判断缺少了哪个四要素：\n\n\"We developed a CRISPR-based diagnostic platform that detects viral RNA in patient saliva samples within 30 minutes. The system uses Cas13a collateral cleavage coupled with a lateral flow readout. Sensitivity reached 10 copies/μL, matching RT-qPCR performance ( concordance rate: 97.2%). Specificity was 99.1% across 12 respiratory virus panels.\"",
+          "options": [
+            "A) 缺少 Gap — 没有说明现有检测方法的局限性",
+            "B) 缺少 Approach — 没有说明使用了什么方法",
+            "C) 缺少 Result — 没有给出具体数据",
+            "D) 缺少 Significance — 没有说明结果的意义"
+          ],
+          "correct": 0,
+          "explanationCn": "这段摘要清楚地描述了方法（CRISPR-Cas13a + 侧流层析）、给出了详细结果（灵敏度 10 copies/μL，特异性 99.1%），但**完全没有 Gap**——读者不知道现有检测方法有什么问题，因此无法理解为什么需要这个新平台。加上类似\"当前 RT-qPCR 需要数小时和专业实验室设备\"的一句话就能补上这个缺口。",
+          "explanationEn": "The abstract clearly describes the approach (CRISPR-Cas13a + lateral flow) and provides detailed results (sensitivity 10 copies/μL, specificity 99.1%), but it **completely lacks a Gap** — readers don't know what's wrong with existing detection methods, so they can't understand why a new platform is needed. Adding something like \"current RT-qPCR requires hours and specialized lab equipment\" would fill this gap."
+        },
+        {
+          "id": "wf-05-e2",
+          "type": "order",
+          "questionCn": "将以下四个摘要句子按正确的 Nature 摘要结构（Gap → Approach → Result → Significance）排列：",
+          "items": [
+            "However, no current method can simultaneously profile transcriptome and proteome in the same single cell.",
+            "This technology enables researchers to directly link gene expression programs to protein-level functional states, opening new avenues for understanding cellular decision-making.",
+            "Here we present CITE-seq, which uses antibody-derived tags with DNA barcodes to quantify surface proteins alongside transcriptomic data from individual cells.",
+            "We applied CITE-seq to 8,000 human peripheral blood cells and identified a previously unrecognized T-cell subset characterized by high CD161 expression and a distinct cytokine signature."
+          ],
+          "explanationCn": "正确顺序：1) Gap（'However, no current method can...'）→ 2) Approach（'Here we present CITE-seq...'）→ 3) Result（'We applied CITE-seq to 8,000 cells and identified...'）→ 4) Significance（'This technology enables researchers to...'）。注意 Gap 句用 'However' 转折词暗示前面的背景，Approach 句用 'Here we present' 标志性开头，Result 句包含具体数据（8,000 cells），Significance 句用 'enables' 和 'opening new avenues' 表达广泛意义。"
+        },
+        {
+          "id": "wf-05-e3",
+          "type": "scenario",
+          "questionCn": "评估以下摘要的主要问题是什么？",
+          "passage": "Cancer remains one of the leading causes of death worldwide. Many researchers have studied various biomarkers for early cancer detection. Machine learning approaches have been increasingly applied to medical diagnostics. Here we developed a deep learning model for cancer biomarker discovery. We trained our model on a large dataset. Our model showed promising results for early-stage cancer detection. This work has the potential to revolutionize cancer diagnostics and save millions of lives.",
+          "options": [
+            "方法描述过多，压缩了结果部分",
+            "结果过于模糊且 Significance 过度夸大",
+            "缺少 Approach 要素",
+            "摘要字数太少，信息密度不够"
+          ],
+          "correctOption": 1,
+          "explanationCn": "这个摘要有两个严重问题：1) **Result 极其模糊**——\"promising results\"没有任何具体数据（准确率？灵敏度？样本量？），读者无法评估实际效果；2) **Significance 过度夸大**——\"revolutionize cancer diagnostics and save millions of lives\"在没有坚实数据支撑的情况下使用这种语言，会让审稿人认为作者缺乏严谨性。此外，前三句全是泛泛的背景介绍，浪费了宝贵的词数空间。",
+          "explanationEn": "This abstract has two critical problems: 1) **Results are extremely vague** — \"promising results\" provides no specific numbers (accuracy? sensitivity? sample size?), making it impossible for readers to evaluate actual performance; 2) **Significance is overstated** — \"revolutionize cancer diagnostics and save millions of lives\" without solid data support will make reviewers question the authors' rigor. Additionally, the first three sentences are generic background, wasting precious word count."
+        }
+      ]
     }
   ]
 }
