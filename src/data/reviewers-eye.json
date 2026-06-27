@@ -4,5 +4,432 @@
   "titleCn": "审稿人之眼",
   "descriptionCn": "用审稿人视角审视自己的论文",
   "color": "#F59E0B",
-  "lessons": []
+  "lessons": [
+    {
+      "id": "re-01",
+      "title": "Nature Review Process",
+      "titleCn": "Nature审稿流程",
+      "cards": [
+        {
+          "id": "re-01-c1",
+          "titleCn": "编辑工作流程",
+          "contentCn": "Nature 级期刊的审稿流程遵循严格的**编辑工作流程（Editorial Workflow）**：**1) 投稿（Submission）**——作者提交稿件和封面信（Cover Letter）；**2) 编辑初筛（Editor Screening）**——值班编辑在数天内评估论文是否符合期刊范围和标准，约 50-70% 的稿件在此阶段被 desk reject；**3) 同行评审（Peer Review）**——通过初筛的稿件被发送给 2-4 位审稿人，审稿周期通常为 2-6 周；**4) 编辑决定（Decision）**——编辑综合审稿意见做出最终决定。理解这个流程至关重要：**desk reject 阶段的筛选标准与同行评审阶段的评判标准截然不同**——前者看广度和吸引力，后者看深度和严谨性。",
+          "contentEn": "Nature-tier journals follow a strict **editorial workflow**: **1) Submission** — authors submit the manuscript and cover letter; **2) Editor Screening** — a handling editor evaluates whether the paper fits the journal's scope and standards within days, with approximately 50-70% of manuscripts desk-rejected at this stage; **3) Peer Review** — papers passing the screen are sent to 2-4 reviewers, typically taking 2-6 weeks; **4) Decision** — the editor synthesizes reviewer reports and makes a final decision. Understanding this workflow is critical: **the criteria at the desk-reject stage differ fundamentally from those at peer review** — the former assesses breadth and appeal, the latter assesses depth and rigor.",
+          "example": {
+            "label": "Workflow stages",
+            "text": "Submission (Day 0) → Editor Screen (Days 1-5, ~60% desk reject) → Peer Review (Weeks 2-6) → Decision Letter (accept / minor revision / major revision / reject)"
+          }
+        },
+        {
+          "id": "re-01-c2",
+          "titleCn": "审稿人的角色：评估而非重写",
+          "contentCn": "审稿人的核心角色是**评估（assess）**而非**重写（rewrite）**。审稿人应该回答的问题是：\"这篇论文的科学质量是否达到发表标准？\"而不是\"如果我来写这篇论文，我会怎么写？\"。**好的审稿意见**指出问题并解释为什么它是问题；**越界的审稿意见**要求作者按照审稿人的研究偏好重写论文。作为作者，理解这一点帮助你区分**必须回应的合理批评**和**可以礼貌拒绝的过度要求**。例如，审稿人要求你添加一组完全新的实验来回答一个与你的核心论点无关的问题——这属于越界，你可以在回复中礼貌地解释为什么不纳入。",
+          "contentEn": "A reviewer's core role is to **assess**, not to **rewrite**. The question a reviewer should answer is: \"Does this paper's scientific quality meet the publication standard?\" — not \"How would I write this paper differently?\" **Good reviews** identify problems and explain why they are problems; **overreaching reviews** demand the author rewrite the paper to match the reviewer's research preferences. As an author, understanding this distinction helps you separate **legitimate criticisms that must be addressed** from **excessive demands that can be politely declined**. For example, if a reviewer demands an entirely new set of experiments to answer a question unrelated to your core argument, this is overreaching — you can respectfully explain why it falls outside the paper's scope.",
+          "example": {
+            "label": "Assess vs. rewrite",
+            "text": "Appropriate review: \"The statistical analysis does not account for multiple comparisons, which may inflate the false positive rate.\"\nOverreaching review: \"The authors should redo the entire study using a different animal model that I prefer.\""
+          }
+        },
+        {
+          "id": "re-01-c3",
+          "titleCn": "四种编辑决定类型",
+          "contentCn": "编辑在审稿后做出四种决定：**1) Accept（接受）**——极罕见在首轮出现，论文无需修改即可发表；**2) Minor Revision（小修）**——论文本质上是健全的，只需要文字澄清、附加分析或小幅修改，通常不需要新实验，**接受概率 >90%**；**3) Major Revision（大修）**——论文有潜力但存在重要问题需要解决，可能需要新实验、重新分析或重大改写，**接受概率约 50-70%**；**4) Reject（拒绝）**——问题太根本性，无法通过修改解决。关键策略：**大修不是拒绝**——它意味着编辑认为你的论文值得再给一次机会。认真回应每一条审稿意见，大修的接受率是很高的。",
+          "contentEn": "Editors make four types of decision after peer review: **1) Accept** — extremely rare in the first round; the paper needs no changes; **2) Minor Revision** — the paper is fundamentally sound, needing only textual clarifications, additional analyses, or small adjustments, typically no new experiments required, **acceptance probability >90%**; **3) Major Revision** — the paper has potential but important issues must be resolved, possibly requiring new experiments, reanalysis, or substantial rewriting, **acceptance probability ~50-70%**; **4) Reject** — problems are too fundamental to resolve through revision. Key strategy: **major revision is not rejection** — it means the editor believes your paper deserves another chance. Respond thoroughly to every reviewer comment; major-revision acceptance rates are high.",
+          "example": {
+            "label": "Decision interpretation",
+            "text": "Minor revision: \"Please clarify the statistical method in paragraph 3 and add error bars to Fig. 2.\"\nMajor revision: \"The central claim requires validation in an independent cohort before publication can be considered.\"\nReject: \"The study design cannot support the causal claims made, and no revision can remedy this fundamental limitation.\""
+          }
+        },
+        {
+          "id": "re-01-c4",
+          "titleCn": "编辑寻找的四个要素",
+          "contentCn": "在初筛和审稿阶段，编辑关注的四个核心要素是：**1) 新颖性（Novelty）**——论文是否报告了以前未知的发现、方法或见解？重复性工作或增量改进不符合标准。**2) 重要性（Significance）**——发现对该领域乃至更广泛的科学有什么影响？如果只有少数专家关心，可能不适合 Nature 级期刊。**3) 严谨性（Rigor）**——实验设计、统计分析和数据是否达到最高标准？任何方法论缺陷都可能被放大。**4) 可读性（Readability）**——论文是否写得清晰、组织得当？即使科学很好，糟糕的写作也会阻碍审稿进程。**编辑的决策本质上是这四个维度的加权评估**——新颖性和重要性决定是否送审，严谨性和可读性决定审稿结果。",
+          "contentEn": "During both screening and review, editors evaluate four core elements: **1) Novelty** — does the paper report previously unknown findings, methods, or insights? Replication or incremental work does not qualify. **2) Significance** — what impact does the finding have on the field and broader science? If only a handful of specialists care, it may not suit a Nature-tier journal. **3) Rigor** — do the experimental design, statistical analysis, and data meet the highest standards? Any methodological flaw can be magnified. **4) Readability** — is the paper clearly written and well-organized? Even excellent science can be undermined by poor writing. **The editor's decision is essentially a weighted assessment across these four dimensions** — novelty and significance determine whether the paper is sent for review; rigor and readability determine the review outcome.",
+          "example": {
+            "label": "Editor's mental checklist",
+            "text": "Novelty: \"Is this genuinely new, or an incremental advance?\"\nSignificance: \"Will researchers outside the immediate sub-field find this useful?\"\nRigor: \"Are the controls adequate? Is the statistics sound?\"\nReadability: \"Can I understand the core claim from the abstract and first figure?\""
+          }
+        }
+      ],
+      "exercises": [
+        {
+          "id": "re-01-e1",
+          "type": "order",
+          "questionCn": "将 Nature 级期刊的编辑工作流程步骤按正确顺序排列：",
+          "items": [
+            "作者投稿并提交封面信 (Submission)",
+            "编辑初筛评估论文范围与吸引力 (Editor Screening)",
+            "稿件送交 2-4 位同行评审人 (Peer Review)",
+            "编辑综合审稿意见做出决定 (Decision)"
+          ],
+          "explanationCn": "Nature 级期刊的标准流程是严格的线性顺序：1) 投稿是起点；2) 编辑初筛是第一道关卡，约 50-70% 的稿件在此被 desk reject；3) 通过初筛的稿件进入同行评审；4) 编辑根据审稿报告做出最终决定。注意编辑初筛在同行评审之前——这是很多作者不理解 desk reject 的原因。"
+        },
+        {
+          "id": "re-01-e2",
+          "type": "choice",
+          "questionCn": "编辑在初筛（desk reject）阶段最可能基于以下哪个原因拒绝一篇论文？",
+          "options": [
+            "A) 统计分析中缺少多重比较校正",
+            "B) 论文的发现仅对极少数专家有意义，不符合期刊的广泛影响力标准",
+            "C) 某个图表的误差线标注不清晰",
+            "D) 补充材料中缺少一个试剂的货号"
+          ],
+          "correct": 1,
+          "explanationCn": "编辑初筛阶段关注的是**新颖性和重要性**（是否适合本刊、是否有广泛影响力），而非技术细节。B 描述的是影响力不足——这是 desk reject 的典型原因。A（统计问题）、C（图表标注）和 D（货号缺失）都是技术层面的问题，属于同行评审阶段才会深入审查的内容。",
+          "explanationEn": "Editor screening focuses on **novelty and significance** (journal fit, broad impact), not technical details. B describes insufficient impact — a classic desk-reject reason. A (statistical issue), C (figure annotation), and D (missing catalog number) are technical matters examined during peer review, not at the screening stage."
+        }
+      ]
+    },
+    {
+      "id": "re-02",
+      "title": "Evaluating Originality",
+      "titleCn": "评估创新性",
+      "cards": [
+        {
+          "id": "re-02-c1",
+          "titleCn": "新颖性三维度：方法/发现/应用",
+          "contentCn": "审稿人评估新颖性时从三个维度考察：**1) 新方法（New Method）**——你是否开发了新技术、新工具或新流程？例如 CRISPR 的首次报告是典型的方法创新。**2) 新发现（New Finding）**——你是否揭示了以前未知的现象、机制或关系？例如首次发现某种蛋白质在特定疾病中的作用。**3) 新应用（New Application）**——你是否将已知方法或发现应用到了全新的领域或场景？例如将深度学习应用于蛋白质结构预测。**一篇论文不需要在三个维度都有创新**——但至少需要在一个维度上有实质性突破，且审稿人会追问：\"这个创新与已有工作的差距有多大？\"",
+          "contentEn": "Reviewers assess novelty across three dimensions: **1) New Method** — did you develop a new technique, tool, or protocol? For example, the first report of CRISPR is a classic method innovation. **2) New Finding** — did you reveal a previously unknown phenomenon, mechanism, or relationship? For example, discovering a protein's role in a specific disease for the first time. **3) New Application** — did you apply a known method or finding to an entirely new domain or context? For example, applying deep learning to protein structure prediction. **A paper does not need innovation in all three dimensions** — but it must have a substantive breakthrough in at least one, and reviewers will ask: \"How large is the gap between this innovation and existing work?\"",
+          "example": {
+            "label": "Novelty dimension mapping",
+            "text": "New method: \"We present a single-molecule sequencing technique that reads epigenetic modifications natively.\"\nNew finding: \"We discover that gut bacteria produce a neurotransmitter previously thought to be synthesized only in neurons.\"\nNew application: \"We adapt AlphaFold's architecture to predict RNA 3D structures.\""
+          }
+        },
+        {
+          "id": "re-02-c2",
+          "titleCn": "增量创新 vs 变革性创新",
+          "contentCn": "审稿人在评估创新性时会区分**增量创新（Incremental Novelty）**和**变革性创新（Transformative Novelity）**。**增量创新**是在已有工作的基础上做了小幅改进——例如将检测灵敏度提高了 10%、将方法应用到了一个新的但类似的细胞系、或在已有模型上增加了一个参数。增量创新不是坏事，但它通常只适合专业期刊。**变革性创新**是开创了新的研究方向或改变了领域的思考方式——例如首次证明某个范式是错误的、开发了全新的技术平台、或建立了跨领域的桥梁。Nature 级期刊要求的是变革性创新或至少是**高度显著的增量创新**。自我检验方法：**如果你的方法被另一篇论文用完全相同的方式做了出来，你的工作是否仍然有独立价值？**",
+          "contentEn": "Reviewers distinguish between **incremental novelty** and **transformative novelty**. **Incremental novelty** makes a small improvement on existing work — for example, increasing detection sensitivity by 10%, applying a method to a new but similar cell line, or adding one parameter to an existing model. Incremental novelty is not bad, but it typically suits only specialist journals. **Transformative novelty** opens new research directions or changes how the field thinks — for example, disproving an established paradigm, developing an entirely new technology platform, or building bridges across disciplines. Nature-tier journals require transformative novelty or at least **highly significant incremental novelty**. Self-test: **if another paper could have done exactly what you did using the same approach, does your work still have independent value?**",
+          "example": {
+            "label": "Incremental vs transformative",
+            "text": "Incremental: \"We improved the resolution of cryo-EM from 2.5 to 2.1 angstroms for protein X.\"\nTransformative: \"We demonstrate that cryo-EM can resolve protein dynamics at room temperature, not just static structures at cryogenic temperatures.\""
+          }
+        },
+        {
+          "id": "re-02-c3",
+          "titleCn": "创新性自评清单",
+          "contentCn": "在投稿前用以下**自评清单（Self-Assessment Checklist）**审视你的创新性：**1) 领域惊喜测试**——\"我领域内的一位同行读到这篇论文，会发现什么让他们惊讶的东西？\"如果答案是\"没有\"，你的创新性不足。**2) 一句话测试**——你能否用一句话说出\"本文首次展示了…\"？如果你写出来的是\"本文改进了…\"或\"本文应用了…\"，检查这是否只是增量工作。**3) 引用差距测试**——你的论文与最接近的先行工作之间，在参考文献列表上的差距有多大？如果你们引用了完全相同的文献，你们的创新可能不够。**4) 五年测试**——五年后，你的论文还会被引用吗？如果它只是一次性的改进，长期引用价值有限。",
+          "contentEn": "Before submission, use this **self-assessment checklist** to evaluate your originality: **1) Field-surprise test** — \"What would a colleague in my field find surprising about this paper?\" If the answer is \"nothing,\" your novelty is insufficient. **2) One-sentence test** — can you state \"This paper is the first to show…\" in one sentence? If what you write is \"This paper improves…\" or \"This paper applies…\", check whether it is merely incremental. **3) Citation-gap test** — how different is your reference list from the closest prior work? If you cite exactly the same papers, your innovation may be insufficient. **4) Five-year test** — will your paper still be cited in five years? If it is a one-off improvement, its long-term citation value is limited.",
+          "example": {
+            "label": "Self-assessment in practice",
+            "text": "Field-surprise test: \"Would my colleague be surprised that we found protein X in mitochondria?\" — If yes (it was thought to be nuclear-only), you have genuine novelty.\nFive-year test: \"Will people cite our 10% sensitivity improvement in 2029?\" — If no, reconsider the target journal's novelty threshold."
+          }
+        }
+      ],
+      "exercises": [
+        {
+          "id": "re-02-e1",
+          "type": "scenario",
+          "questionCn": "判断以下研究的创新性属于增量创新还是变革性创新：",
+          "passage": "A research group develops a variant of an existing CRISPR base editor. The original editor could modify adenine (A→G) or cytosine (C→T), but not both at the same genomic position simultaneously. The new variant fuses two deaminase domains and achieves simultaneous A→G and C→T editing at the same target site with 85% efficiency. The authors test the editor in human cell lines on 15 disease-associated loci.",
+          "options": [
+            "变革性创新——开创了全新的基因编辑能力维度",
+            "增量创新——虽然技术上有进步，但核心概念（碱基编辑）和架构（融合蛋白）都是已有的，属于高度显著的增量创新",
+            "不算创新——只是将两个已知的结构域拼接在一起",
+            "无法判断——需要更多信息"
+          ],
+          "correctOption": 1,
+          "explanationCn": "这项研究属于**高度显著的增量创新**。虽然\"同时编辑同一位置的两种碱基\"是一个重要的技术突破，但核心概念（碱基编辑）和工程策略（蛋白融合）都是已知的。它没有开创全新的研究方向或改变范式——它是在已有框架内的重大改进。这种工作可以发表在 Nature Biotechnology 或 Nature Methods 等顶级子刊上，但不太可能达到 Nature 主刊的变革性门槛。",
+          "explanationEn": "This research qualifies as **highly significant incremental novelty**. While \"simultaneously editing two bases at the same position\" is an important technical advance, the core concept (base editing) and engineering strategy (protein fusion) are already established. It does not open an entirely new research direction or shift the paradigm — it is a major improvement within an existing framework. Such work could be published in top sub-journals like Nature Biotechnology or Nature Methods, but may not meet the transformative threshold of the main Nature journal."
+        },
+        {
+          "id": "re-02-e2",
+          "type": "choice",
+          "questionCn": "以下哪项最准确地体现了一篇论文的\"新颖性声明\"（novelty claim）？",
+          "options": [
+            "A) \"We applied the well-established X method to study Y, consistent with previous reports.\"",
+            "B) \"We optimized the protocol by adjusting the pH from 7.0 to 7.4, resulting in a modest improvement in yield.\"",
+            "C) \"We report the first observation of room-temperature superconductivity in a hydrogen-rich compound at ambient pressure, challenging the prevailing belief that high pressures are required.\"",
+            "D) \"Our results confirm the findings of Smith et al. (2023) using a similar experimental setup.\""
+          ],
+          "correct": 2,
+          "explanationCn": "C 包含了完整的变革性新颖性声明：**首次观察**（first observation）+ **挑战已有认知**（challenging the prevailing belief）+ **具体的新发现**（室温超导）。A 和 D 都是确认性工作（applied well-established / confirm findings），没有新颖性。B 是小幅增量改进（modest improvement），新颖性声明很弱。",
+          "explanationEn": "C contains a complete transformative novelty claim: **first observation** + **challenges existing belief** + **specific new finding** (room-temperature superconductivity). A and D are confirmatory work (applied well-established / confirm findings) with no novelty. B is a minor incremental improvement (modest improvement) with a weak novelty claim."
+        }
+      ]
+    },
+    {
+      "id": "re-03",
+      "title": "Evaluating Technical Soundness",
+      "titleCn": "评估技术可靠性",
+      "cards": [
+        {
+          "id": "re-03-c1",
+          "titleCn": "对照与基线",
+          "contentCn": "审稿人评估技术可靠性的第一步是检查**对照（Controls）和基线（Baselines）**是否充分。**阳性对照（Positive Control）**——已知应该产生预期结果的实验组，验证实验系统正常工作。**阴性对照（Negative Control）**——已知不应该产生结果的实验组，排除假阳性。例如，Western blot 的 loading control、基因编辑中的未处理对照、算法测试中的已知答案数据集。**基线对比（Baseline Comparison）**——你的方法必须与当前最优方法（state-of-the-art）或标准方法进行比较，且比较条件必须公平（相同数据集、相同评价指标、相同预处理流程）。审稿人最常提出的问题：\"你的实验结果是否可能由对照缺失导致的假阳性？\"以及\"你的对比基线是否被不公平地弱化了？\"",
+          "contentEn": "A reviewer's first step in evaluating technical soundness is checking whether **controls and baselines** are adequate. **Positive control** — an experimental group known to produce the expected result, verifying the system works correctly. **Negative control** — a group known not to produce a result, ruling out false positives. Examples include loading controls for Western blots, untreated controls for gene editing, and known-answer datasets for algorithm testing. **Baseline comparison** — your method must be compared against the current state-of-the-art or standard methods, and the comparison must be fair (same dataset, same metrics, same preprocessing pipeline). The two questions reviewers ask most often: \"Could your results be a false positive caused by a missing control?\" and \"Was your comparison baseline unfairly weakened?\"",
+          "example": {
+            "label": "Control audit",
+            "text": "Missing negative control: \"We treated cells with compound X and observed cell death.\" (Without untreated cells, how do you know the cells weren't dying on their own?)\nUnfair baseline: \"Our model outperformed the CNN baseline.\" (But you trained your model on augmented data while the CNN used raw data — the comparison is not fair.)"
+          }
+        },
+        {
+          "id": "re-03-c2",
+          "titleCn": "统计严谨性：p值、效应量与置信区间",
+          "contentCn": "Nature 级期刊对统计严谨性有极高要求。**p 值**只告诉你\"如果零假设为真，观察到当前或更极端结果的概率\"——它不告诉你效应有多大，也不告诉你假说为真的概率。**效应量（Effect Size）**告诉你差异的实际大小——Cohen's d、odds ratio、Pearson's r 等。**置信区间（Confidence Interval）**告诉你估计的精度——95% CI 表示在重复抽样中，95% 的区间会包含真实值。审稿人的标准：**三者缺一不可**。只报告 p < 0.05 而不报告效应量会被要求补充信息。另外需要警惕：**p-hacking**（选择性报告、多次检验直到 p < 0.05）和 **HARKing**（先看结果再编假说）是严重的学术不端行为——Nature 编辑对此零容忍。",
+          "contentEn": "Nature-tier journals have extremely high statistical rigor requirements. A **p-value** only tells you \"the probability of observing the current or more extreme result if the null hypothesis is true\" — it does not tell you the size of the effect or the probability that the hypothesis is true. **Effect size** tells you the practical magnitude of the difference — Cohen's d, odds ratio, Pearson's r, etc. **Confidence intervals** tell you the precision of the estimate — a 95% CI means that in repeated sampling, 95% of such intervals would contain the true value. The reviewer's standard: **all three are essential**. Reporting only p < 0.05 without effect size will trigger requests for additional information. Also be alert: **p-hacking** (selective reporting, repeated testing until p < 0.05) and **HARKing** (fabricating hypotheses after seeing results) are serious academic misconduct — Nature editors have zero tolerance for these.",
+          "example": {
+            "label": "Statistical completeness",
+            "text": "Incomplete: \"Group A was significantly different from Group B (p = 0.03).\"\nComplete: \"Group A showed higher expression than Group B (mean difference: 1.8-fold, 95% CI: 1.1–2.9, p = 0.03, Welch's t-test, Cohen's d = 0.72, n = 20 per group).\""
+          }
+        },
+        {
+          "id": "re-03-c3",
+          "titleCn": "可复现性要求",
+          "contentCn": "Nature 的**可复现性（Reproducibility）**要求意味着另一位合格研究者仅凭论文描述（加补充材料）就能独立重复你的核心实验。审稿人会检查：**1) 试剂和材料**——来源、货号、批号、纯度是否明确？\"按照制造商说明书操作\"不可接受。**2) 实验条件**——温度、时间、浓度、pH 等参数是否逐一列出？**3) 分析流程**——软件名称、版本号、关键参数、随机种子是否报告？**4) 数据和代码可用性**——原始数据是否存放在公共数据库（如 GEO、PRIDE、GitHub）？审稿人最常提出的复现性问题包括：关键参数被藏在补充材料中无法找到、使用了自定义脚本但未提供代码、以及样本量太小导致结果不可靠。",
+          "contentEn": "Nature's **reproducibility** requirement means another qualified researcher should be able to independently replicate your core experiments using only the paper's description (plus supplementary materials). Reviewers check: **1) Reagents and materials** — are sources, catalog numbers, lot numbers, and purity clearly stated? \"Performed according to manufacturer's instructions\" is unacceptable. **2) Experimental conditions** — are temperature, time, concentration, pH, and other parameters listed individually? **3) Analysis pipeline** — are software names, version numbers, key parameters, and random seeds reported? **4) Data and code availability** — is raw data deposited in public repositories (e.g., GEO, PRIDE, GitHub)? The most common reproducibility issues reviewers raise include: critical parameters buried in supplementary materials and impossible to locate, custom scripts used but code not provided, and sample sizes too small for reliable results.",
+          "example": {
+            "label": "Reproducibility gap",
+            "text": "Non-reproducible: \"Cells were treated with the drug and analyzed by flow cytometry.\"\nReproducible: \"HeLa cells (ATCC CCL-2, passage 12-18) were treated with 10 μM compound X (Selleck S7890, lot #L2024) in DMEM + 10% FBS at 37°C for 24 h, then stained with anti-CD45-APC (BioLegend 304012, 1:100) and analyzed on a BD FACSCanto II using FlowJo v10.9. Gating strategy is shown in Supplementary Fig. S3.\""
+          }
+        },
+        {
+          "id": "re-03-c4",
+          "titleCn": "数据可用性标准",
+          "contentCn": "Nature 要求论文提供明确的**数据可用性声明（Data Availability Statement）**，说明读者如何获取支撑论文结论的原始数据。标准要求包括：**1) 原始数据存放**——基因组数据提交至 GEO/SRA，蛋白质组数据提交至 PRIDE，晶体结构提交至 PDB，代码提交至 GitHub/Zenodo。**2) 处理后的关键数据**——如果原始数据量太大，至少提供处理后的关键数据表（Source Data 文件），使读者能验证论文中的数字。**3) Source Data**——Nature 要求每张图的每个数据点都可追溯到原始数据文件。**审稿人会特别关注**：当你声称\"数据可根据合理请求获取\"（data available on reasonable request）时——这通常被视为数据共享承诺不足的信号，越来越多的期刊已不接受这种表述。",
+          "contentEn": "Nature requires a clear **Data Availability Statement** explaining how readers can access the raw data supporting the paper's conclusions. Standard requirements include: **1) Raw data deposition** — genomic data to GEO/SRA, proteomics data to PRIDE, crystal structures to PDB, code to GitHub/Zenodo. **2) Processed key data** — if raw data volumes are too large, at minimum provide processed key data tables (Source Data files) enabling readers to verify the numbers in the paper. **3) Source Data** — Nature requires every data point in every figure to be traceable to the original data file. **Reviewers pay special attention** when you write \"data available on reasonable request\" — this is increasingly seen as an insufficient data-sharing commitment, and many journals no longer accept this phrasing.",
+          "example": {
+            "label": "Data availability comparison",
+            "text": "Weak: \"All data are available from the corresponding author upon reasonable request.\"\nStrong: \"Raw sequencing data have been deposited in GEO (accession GSE123456). Processed count matrices and analysis code are available at https://github.com/lab/project (archived at Zenodo DOI: 10.5281/zenodo.1234567). Source data for all figures are provided as Supplementary Tables.\""
+          }
+        }
+      ],
+      "exercises": [
+        {
+          "id": "re-03-e1",
+          "type": "scenario",
+          "questionCn": "以下实验设计缺少了什么关键对照？",
+          "passage": "A study tests whether a new drug compound X reduces tumor growth in mice. The experimental design includes two groups: (1) mice with tumors treated with compound X, and (2) mice with tumors treated with compound X plus an immune checkpoint inhibitor. Tumor volume was measured at days 0, 7, 14, and 21. The authors report that compound X reduced tumor volume by 45% at day 21 compared to the combination group.",
+          "options": [
+            "缺少阳性对照——应该使用已知有效的化疗药物作为对照",
+            "缺少阴性对照（Vehicle Control）——没有仅接受溶剂处理的荷瘤小鼠组，无法判断肿瘤是自然缩小还是药物导致缩小",
+            "缺少空白对照——应该使用无肿瘤的健康小鼠",
+            "对照设计没有问题"
+          ],
+          "correctOption": 1,
+          "explanationCn": "实验最关键的缺失是**阴性对照（Vehicle Control）**——仅接受溶剂（不含药物）处理的荷瘤小鼠组。没有这个对照，你无法知道肿瘤在没有治疗的情况下会如何生长。当前设计只比较了\"药物 X\"和\"药物 X + 免疫检查点抑制剂\"，但如果肿瘤本身在 21 天内会自然缩小 45%，那药物的效果可能被高估了。审稿人会立即指出这个问题并要求补充。",
+          "explanationEn": "The most critical missing element is a **vehicle control** — tumor-bearing mice receiving only the solvent (no drug). Without this control, you cannot determine whether tumors would shrink naturally over 21 days. The current design only compares \"drug X\" against \"drug X + checkpoint inhibitor.\" If tumors naturally shrink by 45% in 21 days without treatment, the drug's effect may be overestimated. Reviewers would immediately flag this and demand the missing control."
+        },
+        {
+          "id": "re-03-e2",
+          "type": "choice",
+          "questionCn": "以下哪个统计问题对论文结论的威胁最为严重？",
+          "options": [
+            "A) 使用了 p < 0.05 的显著性阈值而非 p < 0.01",
+            "B) 对 20 个基因进行了表达差异检验但未进行多重比较校正（如 Bonferroni 或 FDR 校正）",
+            "C) 样本量 n=5，但报告了 Cohen's d 和置信区间",
+            "D) 使用了双尾检验而非单尾检验"
+          ],
+          "correct": 1,
+          "explanationCn": "B 是最严重的问题：**对 20 个基因进行检验而不校正多重比较**意味着在零假设为真时，预期有 1 个基因（20 × 0.05）会\"偶然显著\"。如果作者恰好报告了这些\"显著\"基因，论文结论可能完全基于假阳性。A（阈值选择）和 D（单双尾）影响较小。C 不是问题——报告效应量和置信区间是正确的做法，即使样本量小。",
+          "explanationEn": "B is the most severe problem: **testing 20 genes without multiple comparison correction** means that under the null hypothesis, 1 gene (20 × 0.05) is expected to be \"accidentally significant.\" If the authors report only these \"significant\" genes, the paper's conclusions may be entirely based on false positives. A (threshold choice) and D (one-tailed vs two-tailed) have smaller impact. C is not a problem — reporting effect sizes and confidence intervals is correct practice even with small samples."
+        }
+      ]
+    },
+    {
+      "id": "re-04",
+      "title": "Evaluating Readability",
+      "titleCn": "评估可读性",
+      "cards": [
+        {
+          "id": "re-04-c1",
+          "titleCn": "行话审计：非专业读者无法理解的术语",
+          "contentCn": "审稿人评估可读性时首先做**行话审计（Jargon Audit）**——找出非本领域读者无法理解的术语。行话分为两类：**必要行话**（你的领域内无法避免的专业术语，如 \"apoptosis\"、\"CRISPR\"）和**不必要行话**（有更通俗的替代表达的术语）。**行话规则：** 1) 每个必要行话在首次出现时必须定义——写 \"programmed cell death (apoptosis)\" 而非直接使用 \"apoptosis\"（Nature 读者除外）。2) 避免缩写堆砌——一句话中超过三个未定义的缩写就是可读性灾难。3) 检查\"行话密度\"——如果一段话中超过 30% 的词汇是专业术语，非专业读者会放弃阅读。**实用方法：请一位不同领域的同事阅读你的摘要，标记所有他们不认识的词。**",
+          "contentEn": "When evaluating readability, reviewers first perform a **jargon audit** — identifying terms that non-specialist readers cannot understand. Jargon falls into two categories: **necessary jargon** (field-specific terms that cannot be avoided, such as \"apoptosis\" or \"CRISPR\") and **unnecessary jargon** (terms with more accessible alternatives). **Jargon rules:** 1) Every necessary jargon term must be defined at first use — write \"programmed cell death (apoptosis)\" rather than using \"apoptosis\" directly (except for Nature readers). 2) Avoid abbreviation stacking — more than three undefined abbreviations in one sentence is a readability disaster. 3) Check \"jargon density\" — if over 30% of the words in a paragraph are technical terms, non-specialist readers will give up. **Practical method: have a colleague from a different field read your abstract and flag every word they do not recognize.**",
+          "example": {
+            "label": "Jargon audit",
+            "text": "Heavy jargon: \"The PI3K/AKT/mTOR axis phosphorylates TSC2, relieving Rheb-mediated activation of mTORC1 and suppressing autophagy through ULK1 complex inhibition.\"\nAccessible rewrite: \"A key signaling pathway (involving proteins PI3K, AKT, and mTOR) controls whether cells recycle their own components — a process called autophagy — by switching off the recycling machinery when nutrients are abundant.\""
+          }
+        },
+        {
+          "id": "re-04-c2",
+          "titleCn": "概念脚手架：从已知到未知",
+          "contentCn": "可读性高的论文使用**概念脚手架（Conceptual Scaffolding）**——从读者已知的概念出发，逐步引入未知概念。每一层新概念都必须建立在前一层的基础上，不能跳跃。**三层结构：** 1) **锚点层**——用读者熟悉的概念建立起点（\"正如免疫系统识别外来病原体一样…\"）；2) **桥梁层**——用类比或过渡句连接已知和未知（\"类似地，肿瘤细胞表面也有一种'分子标签'…\"）；3) **目标层**——引入新概念（\"我们发现的受体 X 就是识别这种标签的传感器\"）。审稿人经常指出的可读性问题是\"概念跳跃\"——从已知直接跳到完全陌生的概念，中间缺少桥梁。",
+          "contentEn": "Highly readable papers use **conceptual scaffolding** — starting from concepts the reader already knows and gradually introducing unknown ones. Each new concept layer must build on the previous one, with no leaps. **Three-layer structure:** 1) **Anchor layer** — start with familiar concepts (\"Just as the immune system recognizes foreign pathogens…\"); 2) **Bridge layer** — connect known to unknown through analogy or transition (\"Similarly, tumor cells also display a type of 'molecular tag' on their surface…\"); 3) **Target layer** — introduce the new concept (\"The receptor X we discovered is the sensor that recognizes this tag\"). A common readability issue reviewers flag is a \"conceptual leap\" — jumping from a known idea directly to a completely unfamiliar one without a bridge.",
+          "example": {
+            "label": "Scaffolding comparison",
+            "text": "Conceptual leap (bad): \"We identified the m6A methyltransferase complex as a regulator of circRNA translation.\" (Non-specialist reader: What is m6A? What are circRNAs? How do they translate?)\nScaffolded (good): \"RNA molecules can carry chemical tags that alter how they are read by the cell. One such tag, called m6A, is added by a group of enzymes known as the methyltransferase complex. We found that this tag controls whether a special class of circular RNA molecules can be translated into proteins.\""
+          }
+        },
+        {
+          "id": "re-04-c3",
+          "titleCn": "\"聪明同事\"测试",
+          "contentCn": "**\"聪明同事\"测试（Smart Colleague Test）**是评估可读性的最终标准：请一位聪明的、受过科学训练但不在你细分领域的同事阅读你的论文，然后请他们回答三个问题：**1) 你发现了什么？（What did you find?）**——如果他们无法用一句话概括，说明你的核心论点不够清晰。**2) 为什么这很重要？（Why does it matter?）**——如果他们说不出来，说明你的意义陈述失败了。**3) 证据充分吗？（Is the evidence sufficient?）**——如果他们不确定，说明你的结果呈现不够有说服力。如果\"聪明同事\"在任何一步卡住了，你的论文就需要修改。这个测试特别有效，因为它模拟了审稿人的状态——**审稿人通常是你广义领域的专家，但不是你细分领域的专家。**",
+          "contentEn": "The **Smart Colleague Test** is the ultimate readability evaluation: have a smart, scientifically trained colleague who is not in your sub-field read your paper, then ask them three questions: **1) What did you find?** — if they cannot summarize it in one sentence, your core argument is not clear enough. **2) Why does it matter?** — if they cannot answer, your significance statement has failed. **3) Is the evidence sufficient?** — if they are unsure, your results presentation lacks persuasiveness. If your \"smart colleague\" gets stuck at any step, your paper needs revision. This test is especially effective because it simulates the reviewer's situation — **reviewers are typically experts in your broad field but not in your specific sub-field.**",
+          "example": {
+            "label": "Smart Colleague Test in practice",
+            "text": "Colleague's feedback:\nQ1 \"What did you find?\" — \"Something about protein X and mitochondria... I think?\" → FAIL (core argument unclear)\nQ2 \"Why does it matter?\" — \"It could help treat diseases?\" → FAIL (significance too vague)\nQ3 \"Is the evidence sufficient?\" — \"You only tested one cell line, right?\" → FAIL (insufficient validation scope flagged)"
+          }
+        }
+      ],
+      "exercises": [
+        {
+          "id": "re-04-e1",
+          "type": "scenario",
+          "questionCn": "以下句子中有几处未定义的行话？找出所有非专业读者无法理解的术语。",
+          "passage": "We demonstrate that H3K27me3-mediated silencing of the INK4a/ARF locus via EZH2 recruitment is essential for maintaining CSC pluripotency through EMT-TF activation, consistent with recent findings in the TME of PDAC.",
+          "options": [
+            "3处未定义的行话",
+            "5处未定义的行话",
+            "7处未定义的行话",
+            "9处未定义的行话"
+          ],
+          "correctOption": 2,
+          "explanationCn": "句中包含至少 7 处未定义的缩写/行话：**H3K27me3**（组蛋白修饰标记）、**INK4a/ARF**（基因座名称）、**EZH2**（酶名称）、**CSC**（肿瘤干细胞）、**pluripotency**（多能性，虽非缩写但属于专业概念）、**EMT-TF**（上皮-间质转化转录因子）、**PDAC**（胰腺导管腺癌）、**TME**（肿瘤微环境）。整句几乎完全由缩写构成，行话密度远超 30%——非专业读者完全无法理解。应该展开所有缩写并简化句子结构。",
+          "explanationEn": "The sentence contains at least 7 undefined abbreviations/jargon terms: **H3K27me3** (histone modification mark), **INK4a/ARF** (locus name), **EZH2** (enzyme name), **CSC** (cancer stem cell), **pluripotency** (professional concept though not an abbreviation), **EMT-TF** (epithelial-mesenchymal transition transcription factor), **PDAC** (pancreatic ductal adenocarcinoma), and **TME** (tumor microenvironment). The sentence is almost entirely composed of abbreviations, with jargon density far exceeding 30% — completely inaccessible to non-specialists. All abbreviations should be expanded and the sentence structure simplified."
+        },
+        {
+          "id": "re-04-e2",
+          "type": "fill",
+          "questionCn": "以下句子行话过多，非专业读者无法理解。请重写使其在不丢失科学含义的前提下更容易理解。要求展开所有缩写，使用概念脚手架策略。",
+          "passage": "The PRR-mediated activation of the NLRP3 inflammasome via mtROS signaling leads to IL-1β maturation and pyroptotic cell death in BMDMs.",
+          "modelAnswer": "When immune cells called macrophages detect danger signals through specialized sensors (pattern recognition receptors), they activate a molecular alarm system known as the NLRP3 inflammasome. This activation is triggered by reactive oxygen species produced by the cell's mitochondria — the cell's energy factories. Once activated, the alarm system processes a signaling protein called IL-1β into its active form and causes the cell to burst open in a controlled form of inflammatory cell death called pyroptosis.",
+          "criteria": [
+            "展开了所有缩写（PRR、NLRP3、mtROS、IL-1β、BMDMs）或使用通俗解释替代",
+            "使用了概念脚手架——从读者已知的概念（如 immune cells, danger signals）出发",
+            "保持了核心科学含义不变（PRR 激活 → inflammasome → IL-1β → pyroptosis）",
+            "非生物学专业但受过科学训练的读者能够理解"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "re-05",
+      "title": "Writing Review Reports",
+      "titleCn": "撰写审稿报告",
+      "cards": [
+        {
+          "id": "re-05-c1",
+          "titleCn": "审稿报告结构：摘要→主要问题→次要问题→建议",
+          "contentCn": "一份专业的审稿报告遵循严格的**四层结构**：**1) 摘要（Summary）**——用 2-3 句话概括论文做了什么、核心发现是什么，表明你仔细阅读了全文。这建立了你作为审稿人的可信度。**2) 主要问题（Major Issues）**——影响论文核心结论的问题，如实验设计缺陷、统计错误、缺少关键对照、创新性不足。每个主要问题都应该解释**为什么它是问题**以及**如何解决**。**3) 次要问题（Minor Issues）**——不影响核心结论但影响论文质量的问题，如图表标注不清晰、某些段落需要重写、引用遗漏。按重要性排序，不要列成流水账。**4) 建议（Suggestions）**——可选的改进方向，不是必须执行的。这个结构不仅适用于正式审稿，也适用于**自审**——在投稿前按这个结构审视自己的论文。",
+          "contentEn": "A professional review report follows a strict **four-layer structure**: **1) Summary** — 2-3 sentences summarizing what the paper did and its core findings, demonstrating you read the manuscript carefully. This establishes your credibility as a reviewer. **2) Major Issues** — problems that affect the paper's core conclusions, such as experimental design flaws, statistical errors, missing critical controls, or insufficient novelty. Each major issue should explain **why it is a problem** and **how to fix it**. **3) Minor Issues** — problems that do not affect core conclusions but reduce paper quality, such as unclear figure labels, paragraphs needing rewriting, or missing citations. Order by importance, not as a laundry list. **4) Suggestions** — optional improvement directions that are not mandatory. This structure applies not only to formal reviews but also to **self-review** — audit your own paper using this framework before submission.",
+          "example": {
+            "label": "Report structure",
+            "text": "Summary: \"This study develops a fluorescent probe for detecting hydrogen sulfide in live cells, demonstrating sub-second response times and nanomolar sensitivity.\"\nMajor Issue 1: \"The probe's selectivity has not been tested against structurally similar thiols (cysteine, glutathione), making the specificity claim unsupported.\"\nMinor Issue 1: \"Fig. 3b axis labels are too small to read at print size.\"\nSuggestion: \"Consider adding a comparison with the existing WSP-5 probe to contextualize the performance improvement.\""
+          }
+        },
+        {
+          "id": "re-05-c2",
+          "titleCn": "建设性语气",
+          "contentCn": "审稿报告的**语气（tone）**直接影响作者是否愿意认真回应你的意见。**建设性批评**指出问题并提供解决方向：\"统计方法未考虑多重比较问题，建议使用 Bonferroni 校正或 FDR 控制。\"**破坏性批评**只指出问题不给方向，甚至带有贬损语气：\"统计方法完全错误。\"审稿人应该始终记住：**你的目标是帮助提升论文质量，而不是证明你比作者聪明。**避免的用语包括：\"Obviously\"（暗示作者显然应该知道）、\"Trivially\"（贬低工作的复杂性）、\"The authors should have known\"（指责而非指导）。即使是拒绝意见，也可以用建设性方式表达：\"虽然当前数据无法支撑因果关系的声明，但如果作者能提供 [具体实验] 的数据，这个声明可能成立。\"",
+          "contentEn": "The **tone** of a review report directly influences whether authors engage seriously with your feedback. **Constructive criticism** identifies the problem and suggests a direction: \"The statistical method does not account for multiple comparisons; Bonferroni correction or FDR control is recommended.\" **Destructive criticism** only identifies problems without guidance, or uses disparaging language: \"The statistical method is completely wrong.\" Reviewers should always remember: **your goal is to help improve the paper, not to prove you are smarter than the authors.** Avoid phrasing such as: \"Obviously\" (implies the authors should have known), \"Trivially\" (diminishes the work's complexity), \"The authors should have known\" (blaming rather than guiding). Even rejection can be framed constructively: \"While the current data cannot support the causal claim, if the authors could provide data from [specific experiment], this claim could become tenable.\"",
+          "example": {
+            "label": "Tone comparison",
+            "text": "Destructive: \"The experimental design is fatally flawed and the authors should have known better.\"\nConstructive: \"The experimental design lacks a vehicle control group, which makes it impossible to distinguish drug effects from natural tumor regression. Adding a vehicle-treated group would resolve this concern.\""
+          }
+        },
+        {
+          "id": "re-05-c3",
+          "titleCn": "3+1 格式：三个独立视角加一个综合评估",
+          "contentCn": "在正式的 Nature 级审稿中，编辑通常邀请 **3 位独立审稿人**，每位审稿人从自己的专业视角提出意见。**3+1 格式**指的是：3 个独立审稿报告 + 1 个编辑综合评估。编辑综合评估不是简单地把三份报告加在一起，而是**权衡不同审稿人的意见**，识别共识和分歧，做出最终判断。对作者的启示是：**不要试图取悦每一位审稿人**——有时审稿人之间的意见是矛盾的（例如审稿人 1 要求更多实验，审稿人 2 认为实验已经够了）。你应该在回复中**直接回应每一条意见**，但最终的修改策略应该与编辑的综合方向一致，而非逐条满足每位审稿人的所有要求。",
+          "contentEn": "In formal Nature-tier reviews, editors typically invite **3 independent reviewers**, each providing opinions from their own expertise. The **3+1 format** refers to: 3 independent review reports + 1 editorial synthesis. The editorial synthesis is not simply summing up three reports — it **weighs different reviewers' opinions**, identifies consensus and disagreements, and makes the final judgment. The implication for authors: **do not try to please every reviewer** — sometimes reviewers' opinions conflict (e.g., Reviewer 1 demands more experiments, Reviewer 2 thinks experiments are sufficient). You should **respond directly to every comment** in your rebuttal, but your revision strategy should align with the editor's overall direction rather than mechanically satisfying every reviewer demand.",
+          "example": {
+            "label": "3+1 in practice",
+            "text": "Reviewer 1: \"Novel finding but needs in vivo validation.\"\nReviewer 2: \"Technically sound but the writing is hard to follow.\"\nReviewer 3: \"The statistical approach is questionable.\"\nEditor synthesis: \"All three reviewers see potential. The authors should prioritize in vivo validation (R1), improve readability (R2), and adopt a mixed-effects model (R3). Major revision warranted.\""
+          }
+        },
+        {
+          "id": "re-05-c4",
+          "titleCn": "基于证据的批评：引用具体段落",
+          "contentCn": "有效的审稿意见必须**引用论文中的具体段落、图表或数据**来支撑你的批评。**模糊批评**：\"论文的讨论部分过度推断了结果。\"——作者不知道你说的是哪一段。**具体批评**：\"讨论第 3 段声称'X 是 Y 的直接原因'（第 12 页第 4 行），但图 4 只展示了相关性数据（r = 0.65），没有因果实验证据。建议改为'X 与 Y 强相关'。\"基于证据的批评有三个好处：1) 作者知道具体要修改哪里；2) 编辑可以独立验证你的判断是否正确；3) 避免了误解——你引用的段落可能在上下文中含义不同。**自审时也应遵循这个原则**——标记问题时写下具体位置和内容。",
+          "contentEn": "Effective review comments must **cite specific passages, figures, or data** from the paper to support your criticism. **Vague criticism**: \"The discussion over-interprets the results.\" — the author does not know which paragraph you mean. **Specific criticism**: \"Discussion paragraph 3 claims 'X is the direct cause of Y' (page 12, line 4), but Fig. 4 only shows correlational data (r = 0.65) with no causal experimental evidence. Suggest revising to 'X is strongly correlated with Y.'\" Evidence-based criticism has three benefits: 1) the author knows exactly what to revise; 2) the editor can independently verify your judgment; 3) it avoids misunderstandings — the passage you cite may mean something different in context. **When self-reviewing, follow this principle too** — flag issues by noting the specific location and content.",
+          "example": {
+            "label": "Evidence-based criticism",
+            "text": "Vague: \"The methods section is insufficient.\"\nEvidence-based: \"Methods section 2.3 (page 5, lines 12-18) states that 'RNA-seq was performed using standard protocols' but does not specify the sequencing platform, read depth, or alignment tool. Without these details, the analysis cannot be reproduced.\""
+          }
+        }
+      ],
+      "exercises": [
+        {
+          "id": "re-05-e1",
+          "type": "choice",
+          "questionCn": "以下哪条审稿意见最具建设性？",
+          "options": [
+            "A) \"The sample size is too small. This is a fundamental flaw that undermines the entire study.\"",
+            "B) \"The sample size (n=5 per group) may be insufficient to detect the reported effect size (Cohen's d = 0.6) with adequate statistical power. A power analysis suggests n ≥ 12 per group would be needed for 80% power at α = 0.05. The authors should either increase sample size or temper the strength of their conclusions.\"",
+            "C) \"Obviously, n=5 is not enough for any meaningful statistical analysis.\"",
+            "D) \"The authors should have used larger sample sizes. This is well known in the field.\""
+          ],
+          "correct": 1,
+          "explanationCn": "B 是最具建设性的意见：1) **引用了具体数据**（n=5, Cohen's d = 0.6）；2) **解释了为什么是问题**（统计功效不足）；3) **提供了具体解决方案**（增加样本量到 n ≥ 12 或弱化结论）。A 只指出问题不给方向。C 使用贬损语言（\"Obviously\"）。D 同样只批评不给建议且使用了 \"well known\" 这种暗示作者应该知道的说法。",
+          "explanationEn": "B is the most constructive comment: 1) **Cites specific data** (n=5, Cohen's d = 0.6); 2) **Explains why it is a problem** (insufficient statistical power); 3) **Provides a concrete solution** (increase to n ≥ 12 or temper conclusions). A identifies the problem without offering direction. C uses disparaging language (\"Obviously\"). D criticizes without guidance and uses \"well known\" which implies the authors should have known better."
+        },
+        {
+          "id": "re-05-e2",
+          "type": "order",
+          "questionCn": "将审稿报告的各部分按正确的结构顺序排列：",
+          "items": [
+            "Summary: 2-3 句话概括论文的核心工作和发现",
+            "Major Issues: 影响核心结论的重要问题（如缺少关键对照、统计方法不当）",
+            "Minor Issues: 不影响结论但影响质量的次要问题（如图表标注、文字表述）",
+            "Suggestions: 可选的改进方向（如建议添加比较实验、扩展讨论范围）"
+          ],
+          "explanationCn": "审稿报告的标准结构是：1) Summary——首先证明你仔细阅读了论文，建立可信度；2) Major Issues——最重要的问题优先讨论，因为它们决定论文是否能发表；3) Minor Issues——次要问题按重要性排序；4) Suggestions——可选建议放在最后。这个顺序确保了最关键的信息最先被传达。"
+        }
+      ]
+    },
+    {
+      "id": "re-06",
+      "title": "Mock Review Exercise",
+      "titleCn": "模拟审稿实战",
+      "cards": [
+        {
+          "id": "re-06-c1",
+          "titleCn": "模拟论文场景",
+          "contentCn": "以下是本实战练习使用的**模拟论文场景**：一篇题为 \"DeepBind: A Deep Learning Framework for Predicting Protein-Protein Interaction Affinity from Sequence Alone\" 的论文投稿至 Nature Methods。**核心声明**：作者开发了一种深度学习模型 DeepBind，仅从蛋白质氨基酸序列就能预测蛋白质-蛋白质相互作用的结合亲和力（Kd 值），无需任何结构信息。**方法**：使用 transformer 架构，在 50,000 对已知 Kd 值的蛋白质对上训练。**主要结果**：在独立测试集上，DeepBind 的预测值与实验值的相关系数 r = 0.72（p < 0.001），优于现有的基于结构的方法（r = 0.65）。**应用**：作者将 DeepBind 应用于筛选 1,000 个候选药物靶点蛋白的相互作用网络，发现了 3 个潜在的新药靶点。**局限性声明**：论文声称 \"the model captures the physical principles of protein binding\" 但只在一个蛋白质家族（激酶）上进行了测试。现在请用审稿人的视角从创新性、技术可靠性和综合写作三个角度评估这篇论文。",
+          "contentEn": "The following is the **mock paper scenario** for this exercise: A paper titled \"DeepBind: A Deep Learning Framework for Predicting Protein-Protein Interaction Affinity from Sequence Alone\" is submitted to Nature Methods. **Core claim**: The authors developed a deep learning model, DeepBind, that predicts protein-protein interaction binding affinity (Kd) from amino acid sequence alone, without any structural information. **Method**: A transformer architecture trained on 50,000 protein pairs with known Kd values. **Key result**: On an independent test set, DeepBind's predicted values correlated with experimental values at r = 0.72 (p < 0.001), outperforming existing structure-based methods (r = 0.65). **Application**: The authors applied DeepBind to screen interaction networks of 1,000 candidate drug target proteins and identified 3 potential new drug targets. **Limitation claim**: The paper states \"the model captures the physical principles of protein binding\" but testing was performed on only one protein family (kinases). Now evaluate this paper from a reviewer's perspective across originality, technical soundness, and writing quality.",
+          "example": {
+            "label": "Mock paper key facts",
+            "text": "Title: DeepBind\nClaim: Predict PPI affinity from sequence alone\nMethod: Transformer, 50K training pairs\nResult: r = 0.72 vs. r = 0.65 (structure-based)\nApplication: Screened 1000 targets, found 3 candidates\nOverreach: Claims \"captures physical principles\" but tested only on kinases"
+          }
+        }
+      ],
+      "exercises": [
+        {
+          "id": "re-06-e1",
+          "type": "scenario",
+          "questionCn": "评估 DeepBind 论文的创新性。根据你对该模拟场景的理解，以下哪种创新性评估最为准确？",
+          "passage": "DeepBind claims to predict protein-protein interaction affinity from sequence alone using a transformer model, achieving r = 0.72 on an independent test set. The method is trained on 50,000 protein pairs. Existing methods use 3D structural information and achieve r = 0.65. The authors apply DeepBind to screen 1,000 drug target candidates.",
+          "options": [
+            "变革性创新——完全摒弃了结构信息，开创了全新的蛋白质相互作用预测范式",
+            "高度显著的增量创新——用序列替代结构是一个重要的方法简化，但 transformer 用于蛋白质预测并非首创，且测试范围有限",
+            "纯增量创新——只是将已有的深度学习架构应用到了新的数据集上",
+            "不算创新——相关系数 0.72 不够高，预测精度不足以构成有意义的贡献"
+          ],
+          "correctOption": 1,
+          "explanationCn": "DeepBind 属于**高度显著的增量创新**。它的创新点在于\"仅用序列预测亲和力\"——这比需要结构信息的方法更实用，是一个重要的简化。但 transformer 架构用于蛋白质任务（如 AlphaFold）已非首创，且仅在激酶家族上测试、相关系数 0.72（虽有统计学显著性但仍有改进空间）限制了其变革性。对于 Nature Methods 来说，这是一个合适的创新级别——不一定需要开创全新范式，但需要在方法上有实质性的推进。",
+          "explanationEn": "DeepBind qualifies as **highly significant incremental novelty**. Its innovation lies in \"predicting affinity from sequence alone\" — a practical simplification over structure-requiring methods. However, using transformers for protein tasks (e.g., AlphaFold) is not unprecedented, and testing only on the kinase family plus a moderate r = 0.72 limits its transformative potential. For Nature Methods, this is an appropriate novelty level — groundbreaking paradigm shifts are not required, but substantive methodological advances are."
+        },
+        {
+          "id": "re-06-e2",
+          "type": "scenario",
+          "questionCn": "评估 DeepBind 论文的技术可靠性。以下哪个问题对论文结论的威胁最为严重？",
+          "passage": "DeepBind was trained on 50,000 protein pairs with known Kd values. The independent test set showed r = 0.72. The authors claim the model \"captures the physical principles of protein binding.\" However, all training and testing data were drawn exclusively from the kinase protein family. The authors applied the model to screen 1,000 diverse drug target proteins (including GPCRs, ion channels, and transcription factors) and reported 3 novel candidates. The paper does not report whether the training and test sets share sequence homology, nor does it provide confidence intervals for the r = 0.72 estimate.",
+          "options": [
+            "训练集和测试集可能存在序列同源性（sequence homology），导致数据泄露——模型可能只是\"记住\"了相似序列而非真正学到了预测规律",
+            "仅在激酶家族上训练却在多种蛋白质家族上应用，泛化能力未经验证——这是一个严重的过度推广问题",
+            "缺少 r = 0.72 的置信区间——无法评估预测精度的不确定性",
+            "以上三个问题都很严重，但 B 对论文核心结论的威胁最大，因为它直接质疑了论文最重要的应用声明"
+          ],
+          "correctOption": 3,
+          "explanationCn": "三个问题都很严重，但 **B 对核心结论威胁最大**。A（序列同源性）是方法层面的潜在问题，可以通过补充实验验证。C（缺少置信区间）是报告规范问题，容易修正。但 **B 直接质疑了论文最有野心的声明**——作者声称模型\"捕捉了蛋白质结合的物理原理\"并将其应用于激酶以外的蛋白质家族（GPCR、离子通道等），但模型只在激酶上训练和验证。如果模型不能泛化到其他家族，那 3 个\"新药靶点\"的筛选结果可能是不可靠的。审稿人应该在主要问题中指出：需要至少在 2-3 个不同蛋白质家族上验证泛化能力，或者将应用范围限定在激酶家族内。",
+          "explanationEn": "All three issues are serious, but **B poses the greatest threat to the paper's core conclusions**. A (sequence homology) is a methodological concern that can be tested with additional experiments. C (missing confidence intervals) is a reporting-standard issue that is easily fixed. But **B directly undermines the paper's most ambitious claim** — the authors state the model \"captures the physical principles of protein binding\" and apply it to protein families beyond kinases (GPCRs, ion channels, etc.), yet the model was trained and validated only on kinases. If the model cannot generalize to other families, the 3 \"novel drug target\" screening results may be unreliable. A reviewer should flag this as a major issue: validation on at least 2-3 different protein families is needed, or the application scope should be restricted to kinases."
+        },
+        {
+          "id": "re-06-e3",
+          "type": "fill",
+          "questionCn": "请为 DeepBind 论文撰写一条**建设性的主要审稿意见**。要求：1) 引用论文中的具体内容；2) 指出问题及其原因；3) 提供具体的修改建议；4) 使用建设性语气。",
+          "passage": "参考场景：DeepBind 论文声称 \"the model captures the physical principles of protein binding\"，但训练和测试数据仅来自激酶家族。作者将模型应用于 GPCR、离子通道和转录因子等非激酶蛋白质家族。",
+          "modelAnswer": "The authors claim that DeepBind \"captures the physical principles of protein binding\" (page 8, Discussion paragraph 2), yet the model was trained and evaluated exclusively on kinase-family protein pairs. This raises a significant generalizability concern: the learned sequence-affinity relationships may be specific to the kinase fold and may not transfer to structurally distinct protein families such as GPCRs or ion channels. The screening of 1,000 diverse drug targets (page 6, Results section 3.4) therefore rests on an unvalidated assumption of cross-family generalization. I recommend that the authors either (1) validate DeepBind on at least 2-3 additional protein families with experimentally measured Kd values and report family-specific performance, or (2) temper the claim by revising it to \"the model captures kinase-specific binding principles\" and restrict the screening application to kinase targets.",
+          "criteria": [
+            "引用了论文中的具体声明（如 'captures the physical principles of protein binding'）",
+            "解释了为什么仅用激酶数据训练是一个问题（泛化能力未验证）",
+            "提供了至少一个具体的修改建议（验证更多家族或限定范围）",
+            "使用了建设性语气（避免贬损性语言）",
+            "结构完整：指出问题→解释原因→提出解决方案"
+          ]
+        }
+      ]
+    }
+  ]
 }
