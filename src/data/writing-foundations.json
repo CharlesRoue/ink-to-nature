@@ -383,6 +383,380 @@
           "explanationEn": "This abstract has two critical problems: 1) **Results are extremely vague** — \"promising results\" provides no specific numbers (accuracy? sensitivity? sample size?), making it impossible for readers to evaluate actual performance; 2) **Significance is overstated** — \"revolutionize cancer diagnostics and save millions of lives\" without solid data support will make reviewers question the authors' rigor. Additionally, the first three sentences are generic background, wasting precious word count."
         }
       ]
+    },
+    {
+      "id": "wf-06",
+      "title": "Writing Introductions",
+      "titleCn": "撰写引言",
+      "cards": [
+        {
+          "id": "wf-06-c1",
+          "titleCn": "逻辑漏斗结构",
+          "contentCn": "Nature 级论文的引言遵循**逻辑漏斗（Logic Funnel）**结构：从**宽泛背景**逐步收窄到**具体贡献**。第一段建立研究领域的重要性（\"X 是 Y 领域的核心问题\"），让广泛读者理解相关性；第二段收窄到具体的知识空白或技术瓶颈（\"然而，现有方法无法解决 Z\"），制造紧迫感；第三段提出你的贡献（\"本文通过…，我们展示了…\"），回答读者的期待。**漏斗的每一层都必须有明确的逻辑转折词**——\"However\"、\"Yet\"、\"Here we show\"——这些词是引导读者思维的信号灯。",
+          "contentEn": "Nature-tier introductions follow a **Logic Funnel** structure: narrowing from **broad context** to **specific contribution**. Paragraph 1 establishes the field's importance (\"X is a central problem in Y\"), so a wide audience understands relevance. Paragraph 2 narrows to a specific knowledge gap or technical bottleneck (\"However, existing methods cannot address Z\"), creating urgency. Paragraph 3 presents your contribution (\"Here we show...\"), answering the reader's expectation. **Each funnel layer needs explicit transition signals** — \"However\", \"Yet\", \"Here we show\" — these words are beacons guiding the reader's reasoning.",
+          "example": {
+            "label": "Funnel structure",
+            "text": "P1 (broad): \"Antibiotic resistance threatens global public health, causing an estimated 1.27 million deaths annually.\"\nP2 (narrow): \"However, no existing class of antibiotics can overcome the outer membrane barrier of Gram-negative bacteria.\"\nP3 (contribution): \"Here we show that compound X bypasses this barrier by hijacking the BamA folding machinery.\""
+          }
+        },
+        {
+          "id": "wf-06-c2",
+          "titleCn": "三个必备动作：语境/缺口/贡献",
+          "contentCn": "引言必须完成三个**修辞动作（Rhetorical Moves）**：**1) 建立语境（Establish Context）**——用1-2段说明研究领域的现状和重要性，让读者确认\"这篇论文与我相关\"。**2) 揭示缺口（Identify Gap）**——明确指出已有研究的局限、矛盾或未解问题，制造\"知识悬念\"。缺口可以表现为：方法不足（\"现有技术无法…\"）、知识空白（\"尚不清楚是否…\"）、或理论矛盾（\"A 模型预测 X，但 B 实验观察到 Y\"）。**3) 声明贡献（Announce Contribution）**——用\"Here we show/demonstrate/report\"句式直接陈述核心发现。三个动作缺一不可：缺少语境则读者迷失，缺少缺口则读者无动力，缺少贡献则读者不知道你的价值。",
+          "contentEn": "The introduction must accomplish three **rhetorical moves**: **1) Establish Context** — use 1-2 paragraphs to describe the field's status and importance, confirming \"this paper is relevant to me.\" **2) Identify Gap** — explicitly state limitations, contradictions, or open questions in prior work, creating \"knowledge suspense.\" Gaps may manifest as: methodological insufficiency (\"current techniques cannot...\"), knowledge voids (\"it remains unclear whether...\"), or theoretical contradictions (\"Model A predicts X, but Experiment B observes Y\"). **3) Announce Contribution** — use \"Here we show/demonstrate/report\" to directly state your core finding. All three moves are essential: without context readers are lost, without a gap they lack motivation, without a contribution they see no value.",
+          "example": {
+            "label": "Three moves in practice",
+            "text": "Context: \"Perovskite solar cells have reached >25% efficiency, rivaling silicon.\"\nGap: \"However, their long-term stability under humidity remains unsolved — no encapsulation strategy has exceeded 1,000 hours at 85% RH.\"\nContribution: \"Here we demonstrate a self-healing encapsulation layer that maintains >95% efficiency after 3,000 hours at 85% RH.\""
+          }
+        },
+        {
+          "id": "wf-06-c3",
+          "titleCn": "引用策略与篇幅控制",
+          "contentCn": "引言中的引用承担**双重功能**：既展示你对领域的掌握，又为读者提供溯源路径。**引用策略**：每个主张配1-3篇最具代表性的引用，避免\"引用堆砌\"（一串5-10篇引用只证明一个常识性观点）；优先引用高影响力的原始研究而非综述；争议性主张必须引用正反双方的关键文献。**篇幅控制**：Nature 主刊引言通常 **1,000-1,500 词**（约4-6段），Nature 子刊可放宽至 2,000 词。引言过长通常意味着：背景铺陈过多（砍掉读者已知的常识）、或试图在引言中预告所有结果（留给正文）。**黄金法则：引言的每个句子都应该让读者更想知道你的发现。**",
+          "contentEn": "Citations in the introduction serve a **dual function**: demonstrating your command of the field and providing traceability for readers. **Citation strategy**: assign 1-3 representative citations per claim, avoiding \"citation stacking\" (5-10 references for one common-knowledge point); prioritize high-impact original research over reviews; controversial claims must cite key papers from both sides. **Length control**: Nature main journal introductions are typically **1,000-1,500 words** (~4-6 paragraphs); Nature sub-journals allow up to 2,000 words. Overly long introductions usually indicate: excessive background (trim what readers already know) or attempting to preview all results in the introduction (save them for the body). **Golden rule: every sentence in the introduction should make the reader more eager to learn your findings.**",
+          "example": {
+            "label": "Citation density",
+            "text": "Bad: \"CRISPR has been widely adopted (refs 1-12).\" (12 citations for a well-known fact)\nGood: \"CRISPR-Cas9 enables programmable genome editing (Jinek et al., 2012), but off-target effects remain a major concern (Fu et al., 2013; Tsai et al., 2015).\" (key citations with specific context)"
+          }
+        }
+      ],
+      "exercises": [
+        {
+          "id": "wf-06-e1",
+          "type": "order",
+          "questionCn": "将以下引言段落按正确的逻辑漏斗顺序（宽泛背景 → 收窄问题 → 揭示缺口 → 声明贡献）排列：",
+          "items": [
+            "Neurodegenerative diseases such as Alzheimer's and Parkinson's affect over 50 million people worldwide, and their prevalence is projected to triple by 2050.",
+            "Current therapeutic strategies target symptomatic relief but fail to halt disease progression, largely because the molecular triggers of neuronal death remain poorly understood.",
+            "However, a critical gap exists: no study has examined whether mitochondrial DNA release into the cytosol acts as an early trigger for neuroinflammation in vivo.",
+            "Here we show that cytosolic mtDNA activates the cGAS-STING pathway in microglia, driving neuroinflammation and neuronal loss in a mouse model of early-stage Alzheimer's disease."
+          ],
+          "explanationCn": "正确顺序遵循逻辑漏斗：1) 宽泛背景——神经退行性疾病的全球负担（最广）；2) 收窄问题——现有治疗只能缓解症状（收窄到治疗困境）；3) 揭示缺口——用 'However' 指出无人研究过 mtDNA 释放的作用（制造悬念）；4) 声明贡献——用 'Here we show' 直接给出核心发现。注意每层的转折词和逐步收窄的范围。"
+        },
+        {
+          "id": "wf-06-e2",
+          "type": "scenario",
+          "questionCn": "以下引言段落缺少了逻辑漏斗的哪一个关键要素？",
+          "passage": "Machine learning has transformed drug discovery, enabling virtual screening of billions of compounds. Deep learning models such as graph neural networks can predict molecular properties with high accuracy. Reinforcement learning has been applied to optimize drug-like molecules. Transfer learning allows models trained on large chemical databases to be fine-tuned for specific targets. In this work, we present DrugGPT, a generative pre-trained transformer for de novo molecular design that achieves state-of-the-art performance on multiple benchmarks.",
+          "options": [
+            "缺少宽泛背景——没有介绍机器学习在药物发现中的应用",
+            "缺少知识缺口——没有指出现有方法的局限性或未解决的问题",
+            "缺少贡献声明——没有明确说明本文的创新点",
+            "引用策略不当——缺少对已有工作的引用"
+          ],
+          "correctOption": 1,
+          "explanationCn": "这段引言列举了多种机器学习方法在药物发现中的应用（GNN、强化学习、迁移学习），但**完全没有指出这些方法的不足**——没有\"However\"、\"Yet\"、\"remain\"等转折词，读者看不出为什么要做新工作。它直接跳到了\"In this work, we present DrugGPT\"，中间缺少了揭示缺口的关键一步。读者会疑惑：既然已有这么多方法，为什么还需要 DrugGPT？",
+          "explanationEn": "This introduction lists multiple ML approaches in drug discovery (GNNs, reinforcement learning, transfer learning) but **never identifies their limitations** — no \"However\", \"Yet\", or \"remain\" signals. It jumps straight to \"In this work, we present DrugGPT\" without the crucial gap-identification step. Readers will wonder: if so many methods already exist, why do we need DrugGPT?"
+        }
+      ]
+    },
+    {
+      "id": "wf-07",
+      "title": "Related Work",
+      "titleCn": "相关工作",
+      "cards": [
+        {
+          "id": "wf-07-c1",
+          "titleCn": "相关工作的目的是定位而非罗列",
+          "contentCn": "相关工作章节的核心目的不是总结别人的论文，而是**定位你的贡献在学术地图上的坐标**。每一篇引用的论文都应该回答一个问题：\"我的工作与这项研究有什么不同？\"**定位式写作**的结构是：先承认前人工作的价值，再指出其局限，最后暗示你的方法如何解决。例如：\"Smith et al. (2020) 首次证明了 X 在 Y 中的作用，但其方法无法区分直接效应和间接效应。本研究通过 Z 技术解决了这一区分问题。\"**避免综述式写作**：不要用\"A 做了这个，B 做了那个，C 做了另一个\"的流水账格式，这种写法只展示你读了什么，不展示你思考了什么。",
+          "contentEn": "The Related Work section's purpose is not to summarize others' papers but to **position your contribution on the academic map**. Every cited paper should answer: \"How does my work differ from this study?\" **Positioning-style writing** follows a structure: acknowledge the prior work's value, identify its limitation, then imply how your approach addresses it. For example: \"Smith et al. (2020) first demonstrated X's role in Y, but their method could not distinguish direct from indirect effects. Our study resolves this distinction using Z technique.\" **Avoid survey-style writing**: do not use \"A did this, B did that, C did something else\" — this format only shows what you read, not what you thought.",
+          "example": {
+            "label": "Positioning vs. listing",
+            "text": "Listing (bad): \"Zhang et al. used CNNs for protein folding. Lee et al. applied transformers. Wang et al. combined both approaches.\"\nPositioning (good): \"While CNN-based approaches (Zhang et al., 2021) capture local structural motifs, they miss long-range dependencies that transformers address (Lee et al., 2022). However, existing hybrid methods (Wang et al., 2023) treat these architectures as independent modules rather than integrating them — a gap our unified attention framework fills.\""
+          }
+        },
+        {
+          "id": "wf-07-c2",
+          "titleCn": "三种组织策略：主题/时间/方法",
+          "contentCn": "相关工作有三种主流组织策略，选择取决于你的论文类型和贡献性质：**1) 按主题（Thematic）**——将文献按子话题分组，每组讨论一个与你工作相关的方向。适合跨领域或多贡献的论文。**2) 按时间线（Chronological）**——按领域发展脉络组织，展示研究如何一步步演进到你的贡献。适合方法演进型论文。**3) 按方法（Methodological）**——将现有方法按技术路线分类，对比各路线的优劣。适合方法论文或基准测试论文。**关键原则：组织方式应该服务于你的论证逻辑**，而非简单按发表年份或字母顺序排列。每个分组末尾都应该有一个小结句，将文献讨论引回你的贡献。",
+          "contentEn": "Three mainstream organization strategies exist for Related Work, chosen based on paper type and contribution nature: **1) Thematic** — group literature by subtopics, each discussing a direction relevant to your work. Suits cross-disciplinary or multi-contribution papers. **2) Chronological** — organize by the field's developmental trajectory, showing how research evolved toward your contribution. Suits method-evolution papers. **3) Methodological** — classify existing methods by technical approach, comparing strengths and weaknesses of each line. Suits methods papers or benchmarking studies. **Key principle: organization should serve your argumentative logic**, not merely follow publication year or alphabetical order. Each group should end with a bridging sentence that connects the literature discussion back to your contribution.",
+          "example": {
+            "label": "Organization choice",
+            "text": "Thematic: \"2.1 Protein structure prediction methods ... 2.2 Language models for biology ... 2.3 Multi-modal learning approaches\"\nChronological: \"From homology modeling (1990s) → fragment assembly (2000s) → deep learning (2018-2023) → foundation models (2024-present)\"\nMethodological: \"2.1 Template-based approaches ... 2.2 Template-free approaches ... 2.3 Hybrid approaches\""
+          }
+        },
+        {
+          "id": "wf-07-c3",
+          "titleCn": "引用支撑原则与常见陷阱",
+          "contentCn": "**引用支撑原则（Cite-to-Support）**：每个引用必须为你的论点服务——要么支撑你的前提假设，要么作为你改进的基线对比，要么提供你论证所需的证据。如果一个引用既不支持你的论点也不构成你需要回应的对立观点，它不应该出现。**常见陷阱**：**1) 洗衣单式罗列（Laundry List）**——逐篇描述每篇论文做了什么，没有分析和综合；**2) 稻草人对比**——选择最弱的已有工作作为对比对象，回避真正的竞争方法；**3) 自我引用过度**——大量引用自己团队的前期工作，给人\"小圈子\"印象；**4) 遗漏关键文献**——审稿人恰好是该领域的专家，发现你没引用他的重要工作。应对策略：写完后请一位同行检查是否有遗漏的关键引用。",
+          "contentEn": "**Cite-to-Support principle**: every citation must serve your argument — either supporting your premises, serving as a baseline for comparison, or providing evidence for your claims. If a citation neither supports your argument nor constitutes an opposing view you must address, it should not appear. **Common traps**: **1) Laundry List** — describing each paper sequentially without analysis or synthesis; **2) Straw-man comparison** — comparing against the weakest prior work while ignoring real competitors; **3) Excessive self-citation** — heavily citing your own group's prior work, creating an \"echo chamber\" impression; **4) Missing key literature** — a reviewer who is an expert in the field notices you omitted their important work. Mitigation: after drafting, ask a colleague to check for missing key references.",
+          "example": {
+            "label": "Laundry list vs. analytical",
+            "text": "Laundry list: \"Brown et al. (2019) proposed method A. Green et al. (2020) proposed method B. White et al. (2021) proposed method C.\"\nAnalytical: \"Methods A-C (Brown et al., 2019; Green et al., 2020; White et al., 2021) all rely on supervised training with labeled data, limiting their applicability to well-annotated domains. Our self-supervised approach removes this dependency.\""
+          }
+        }
+      ],
+      "exercises": [
+        {
+          "id": "wf-07-e1",
+          "type": "scenario",
+          "questionCn": "以下相关工作段落存在什么问题？",
+          "passage": "Several studies have investigated protein-ligand binding prediction. AutoDock (Morris et al., 2009) uses a genetic algorithm to search conformational space. Glide (Friesner et al., 2004) employs a hierarchical filtering approach. GOLD (Jones et al., 1997) applies genetic algorithms with a different scoring function. DeepDTA (Nguyen et al., 2021) uses deep neural networks. OnionNet (Manzini et al., 2022) applies 1D-CNNs to ligand fingerprints. Pafnucy (Stepniewska-Dziubinska et al., 2018) uses 3D-CNNs on atomic grids. EquiBind (Stärk et al., 2022) employs equivariant graph networks. DiffDock (Corso et al., 2023) uses diffusion models for docking pose generation.",
+          "options": [
+            "引用过多，应该删减一半",
+            "典型的洗衣单式罗列——逐篇描述各方法做了什么，缺少分析综合和与本文工作的关联",
+            "组织策略不当，应该按时间顺序而非按方法排列",
+            "缺少对每篇论文实验结果的详细报告"
+          ],
+          "correctOption": 1,
+          "explanationCn": "这是典型的**洗衣单式罗列（Laundry List）**问题。段落列举了8种方法，逐一描述它们使用了什么技术（遗传算法、层次过滤、深度神经网络等），但完全没有：1) 分析这些方法的共同局限；2) 综合归纳它们的优缺点；3) 说明本文的方法如何解决这些局限。读者读完只知道这些方法存在，但不知道它们与本文工作的关系。改写应先分类（传统方法 vs 深度学习方法），再指出共同问题，最后引向本文贡献。",
+          "explanationEn": "This is a textbook **laundry list** problem. The paragraph lists 8 methods, briefly describing each one's technique (genetic algorithms, hierarchical filtering, deep neural networks, etc.), but completely fails to: 1) analyze their shared limitations; 2) synthesize their strengths and weaknesses; 3) explain how the current work addresses these gaps. Readers learn only that these methods exist, not how they relate to the present study. A rewrite should first categorize (traditional vs. deep learning), then identify shared problems, and finally bridge to the paper's contribution."
+        },
+        {
+          "id": "wf-07-e2",
+          "type": "choice",
+          "questionCn": "一篇关于新型蛋白质结构预测方法的论文，其相关工作部分应采用哪种组织策略？",
+          "options": [
+            "按主题分组——将文献按\"结构预测\"\"功能预测\"\"相互作用预测\"等子话题分组",
+            "按时间线组织——从同源建模到片段组装到深度学习到大模型，展示技术演进脉络",
+            "按方法分类——将现有方法分为\"基于模板\"\"自由建模\"\"混合方法\"三大技术路线，比较各路线优劣",
+            "按字母顺序排列所有引用，让读者自行查找"
+          ],
+          "correct": 2,
+          "explanationCn": "对于**方法论文**，按方法分类（Methodological）组织最合适。将现有蛋白质结构预测方法按技术路线分为\"基于模板\"\"自由建模\"\"混合方法\"三大类，比较各类方法的优劣势，自然引出你的新方法属于哪个类别、填补了哪类方法的技术空白。按时间线（B）也有一定合理性，但对于方法论文来说，读者更关心的是技术路线的对比而非历史演进。按主题（A）更适合综述论文。按字母顺序（D）完全不可取。",
+          "explanationEn": "For a **methods paper**, methodological organization is optimal. Classifying existing protein structure prediction methods into \"template-based\", \"free modeling\", and \"hybrid\" categories, comparing each category's strengths and weaknesses, naturally leads to where your new method fits and which technical gap it fills. Chronological (B) has some merit but for methods papers, readers care more about technical comparisons than historical evolution. Thematic (A) suits review papers better. Alphabetical ordering (D) is never appropriate."
+        }
+      ]
+    },
+    {
+      "id": "wf-08",
+      "title": "Methods & Experiments",
+      "titleCn": "方法与实验",
+      "cards": [
+        {
+          "id": "wf-08-c1",
+          "titleCn": "可复现性标准",
+          "contentCn": "Nature 级论文的方法部分必须满足**可复现性标准（Reproducibility Standard）**：另一位合格的研究者仅凭论文描述（加上补充材料）就能独立重复你的实验。这意味着你需要报告：试剂的具体来源和货号、仪器的型号和关键参数、软件版本号和随机种子、样本量和统计检验方法。**可复现性不是选项，而是底线**——近年来 Nature 推出了\"Reporting Summary\"清单，要求作者在投稿时逐项声明可复现性信息。常见的不充分描述包括：\"按照制造商的说明书操作\"（应给出具体步骤）、\"数据经标准流程处理\"（应说明具体使用了哪些工具和参数）、\"结果具有统计学显著性\"（应报告具体 p 值和效应量）。",
+          "contentEn": "Methods sections in Nature-tier papers must meet the **Reproducibility Standard**: another qualified researcher should be able to independently replicate your experiment using only the paper's description (plus supplementary materials). This means reporting: reagent sources and catalog numbers, instrument models and key parameters, software versions and random seeds, sample sizes and statistical tests. **Reproducibility is not optional — it is the baseline.** Nature now requires a \"Reporting Summary\" checklist where authors declare reproducibility information item by item. Common insufficient descriptions include: \"performed according to manufacturer's instructions\" (provide specific steps), \"data were processed using standard pipelines\" (name the specific tools and parameters), \"results were statistically significant\" (report exact p-values and effect sizes).",
+          "example": {
+            "label": "Reproducibility gap",
+            "text": "Insufficient: \"Cells were cultured using standard protocols.\"\nSufficient: \"HeLa cells (ATCC CCL-2, passage 15-25, mycoplasma-negative) were cultured in DMEM (Gibco 11965-092) supplemented with 10% FBS (Gibco 10270-106) at 37°C, 5% CO₂. Cells were passaged at 80% confluence using 0.25% trypsin-EDTA (Gibco 25200-056).\""
+          }
+        },
+        {
+          "id": "wf-08-c2",
+          "titleCn": "方法部分的结构：概览→细节→验证",
+          "contentCn": "方法部分应遵循**概览→细节→验证**的三层结构：**第一层：方法概览**——用一段文字加一张示意图，让读者理解整体策略和关键步骤，不陷入细节。这是最重要的层次——大多数读者只读到这里。**第二层：技术细节**——逐步描述实验流程、计算参数、数据处理管道。每个步骤应该回答\"做了什么\"\"为什么这样做\"\"用了什么具体条件\"三个问题。**第三层：方法验证**——用对照实验或已知数据集验证方法的可靠性。例如\"我们用已知晶体结构的10种蛋白质测试了预测管线，准确率达 95%\"。验证步骤是建立读者信任的关键——没有验证，读者无法确信你的方法是否真的有效。",
+          "contentEn": "The Methods section should follow a three-layer **Overview → Details → Validation** structure: **Layer 1: Method Overview** — one paragraph plus a schematic figure, letting readers grasp the overall strategy and key steps without drowning in details. This is the most important layer — most readers stop here. **Layer 2: Technical Details** — step-by-step descriptions of experimental procedures, computational parameters, and data processing pipelines. Each step should answer \"what was done\", \"why it was done this way\", and \"what specific conditions were used.\" **Layer 3: Method Validation** — verify reliability through control experiments or known datasets, e.g., \"We tested the prediction pipeline on 10 proteins with known crystal structures, achieving 95% accuracy.\" Validation is critical for building reader trust — without it, readers cannot be confident the method actually works.",
+          "example": {
+            "label": "Three-layer structure",
+            "text": "Overview: \"Our pipeline integrates single-cell RNA-seq with spatial transcriptomics using a shared latent space.\"\nDetails: \"We used 10x Genomics Chromium for scRNA-seq (v3.1 chemistry) and Visium for spatial data. Integration was performed using Seurat v5's WNN framework with 30 principal components and k=20 nearest neighbors.\"\nValidation: \"We validated integration quality using known cell-type markers (CD3, CD19, CD68), confirming that spatial locations matched expected immune cell distributions in lymph node tissue.\""
+          }
+        },
+        {
+          "id": "wf-08-c3",
+          "titleCn": "正文 vs 补充材料的分配原则",
+          "contentCn": "方法与实验部分需要合理分配在**正文**和**补充材料（Supplementary Information）**之间。**正文应包含**：对理解结果至关重要的方法描述、关键实验条件、核心分析流程。**补充材料应包含**：完整试剂清单和货号、详细实验步骤（SOP 级别）、所有参数设置、附加对照实验、完整数据表。**分配原则**：问自己\"如果删掉这个细节，读者还能理解图 X 的含义吗？\"如果不能，它应该在正文中；如果删除后理解不受影响，但复现需要，它应该在补充材料中。**特别注意**：不要把所有方法细节都塞进正文——过长的方法部分会打断论文叙事流，让读者失去耐心。同样，不要把理解结果所必需的关键参数藏进补充材料——读者不应该被迫翻阅几十页附录才能看懂一张图。",
+          "contentEn": "Methods and experiments must be properly allocated between **main text** and **Supplementary Information (SI)**. **Main text should include**: method descriptions essential for understanding results, key experimental conditions, and core analysis pipelines. **SI should include**: complete reagent lists with catalog numbers, detailed experimental protocols (SOP-level), all parameter settings, additional control experiments, and full data tables. **Allocation principle**: ask yourself \"If I remove this detail, can readers still understand Figure X?\" If not, it belongs in the main text; if understanding is unaffected but replication requires it, it belongs in SI. **Important**: do not cram all method details into the main text — an overly long Methods section breaks narrative flow and loses reader patience. Equally, do not hide critical parameters needed to understand results in SI — readers should not have to wade through pages of appendices to interpret a figure.",
+          "example": {
+            "label": "Allocation decision",
+            "text": "Main text: \"RNA was extracted using TRIzol (Invitrogen) and sequenced on Illumina NovaSeq 6000 (150bp paired-end, ~50M reads/sample). Reads were aligned to GRCh38 using STAR v2.7.10a with default parameters.\"\nSI: \"STAR alignment parameters: --outFilterMultimapNmax 10, --alignSJoverhangMin 8, --alignSJDBoverhangMin 1, --outFilterMismatchNmax 5...\" (full parameter list)"
+          }
+        },
+        {
+          "id": "wf-08-c4",
+          "titleCn": "统计报告规范",
+          "contentCn": "Nature 级期刊对统计报告有**严格要求**：**1) 报告精确 p 值**而非阈值——写\"p = 0.023\"而非\"p < 0.05\"；**2) 报告效应量（Effect Size）**——p 值只告诉你差异是否\"显著\"，效应量告诉你差异有多大，两者缺一不可；**3) 报告置信区间**——比单一 p 值更 informatively 展示估计精度；**4) 明确说明多重比较校正**——如果进行了多次统计检验，必须说明是否进行了 Bonferroni 或 FDR 校正；**5) 声明样本量和统计功效**——说明为什么选择当前样本量，是否进行了功效分析。**常见错误**：将\"p > 0.05\"解读为\"没有差异\"（正确解读是\"未检测到统计学显著差异\"，可能是样本量不足导致的假阴性）。",
+          "contentEn": "Nature-tier journals have **strict statistical reporting requirements**: **1) Report exact p-values** rather than thresholds — write \"p = 0.023\" not \"p < 0.05\"; **2) Report effect sizes** — p-values only indicate whether a difference is \"significant\"; effect sizes indicate how large the difference is; both are essential; **3) Report confidence intervals** — more informatively display estimation precision than a single p-value; **4) Declare multiple comparison corrections** — if multiple statistical tests were performed, state whether Bonferroni or FDR correction was applied; **5) State sample sizes and statistical power** — explain why the current sample size was chosen and whether a power analysis was conducted. **Common error**: interpreting \"p > 0.05\" as \"no difference\" (correct interpretation: \"no statistically significant difference was detected,\" which could be a false negative due to insufficient sample size).",
+          "example": {
+            "label": "Statistical reporting",
+            "text": "Bad: \"Group A was significantly different from Group B (p < 0.05).\"\nGood: \"Group A showed higher expression than Group B (mean difference: 2.3-fold, 95% CI: 1.4-3.8, p = 0.002, Welch's t-test, n = 12 per group, Cohen's d = 1.1). Power analysis (α = 0.05, power = 0.80) indicated n ≥ 10 per group was required to detect a 2-fold difference.\""
+          }
+        }
+      ],
+      "exercises": [
+        {
+          "id": "wf-08-e1",
+          "type": "scenario",
+          "questionCn": "以下方法描述存在什么主要问题？",
+          "passage": "Single-cell RNA sequencing was performed on tumor samples from 15 patients. Cells were clustered and annotated using standard bioinformatics pipelines. Differential expression analysis identified genes significantly upregulated in resistant versus sensitive tumors. Pathway enrichment analysis was conducted to interpret the biological significance of the identified genes. All analyses were performed using R.",
+          "options": [
+            "方法描述过于详细，应该简化",
+            "缺少具体细节——未说明测序平台、聚类算法、差异表达工具、显著性阈值和统计方法，无法复现",
+            "不应该在方法部分提及患者样本",
+            "统计分析方法选择错误"
+          ],
+          "correctOption": 1,
+          "explanationCn": "这段方法描述严重违反**可复现性标准**。\"standard bioinformatics pipelines\"没有指定具体工具（是 Seurat？Scanpy？）、\"clustered and annotated\"没有说明聚类算法和分辨率参数、\"differential expression analysis\"没有说明使用的统计检验方法（Wilcoxon？MAST？）和显著性阈值、\"All analyses were performed using R\"没有给出 R 版本和包版本。另一位研究者完全无法根据这段描述重复实验。应该逐一补充平台型号（如 10x Chromium v3）、工具名称和版本号、关键参数值。",
+          "explanationEn": "This methods description severely violates the **reproducibility standard**. \"Standard bioinformatics pipelines\" does not specify the tool (Seurat? Scanpy?); \"clustered and annotated\" does not state the clustering algorithm or resolution parameter; \"differential expression analysis\" does not name the statistical test (Wilcoxon? MAST?) or significance threshold; \"All analyses were performed using R\" omits the R version and package versions. Another researcher cannot replicate the experiment from this description alone. Each element needs supplementation: platform model (e.g., 10x Chromium v3), tool names and versions, and key parameter values."
+        },
+        {
+          "id": "wf-08-e2",
+          "type": "choice",
+          "questionCn": "以下哪项信息最应该放在补充材料而非正文中？",
+          "options": [
+            "核心实验的关键条件和参数（如药物浓度、处理时间），因为这些直接影响对结果图的理解",
+            "所有抗体的完整清单，包括货号、稀释倍数、供应商和验证数据",
+            "统计分析方法的名称和显著性阈值",
+            "实验设计的整体策略描述（如使用何种对照）"
+          ],
+          "correct": 1,
+          "explanationCn": "抗体的完整清单（货号、稀释倍数、供应商等）属于**复现所需但不影响理解结果**的细节——读者看 Western Blot 图时不需要知道每个抗体的货号，但想要重复实验的人需要。这些信息应该放在补充材料中。而 A（核心实验条件）、C（统计方法）和 D（实验设计策略）都是理解结果所必需的，必须在正文中出现。分配原则始终是：影响理解 → 正文；仅影响复现 → 补充材料。",
+          "explanationEn": "A complete antibody catalog (catalog numbers, dilutions, suppliers) is **needed for replication but not for understanding results** — readers interpreting a Western blot don't need each antibody's catalog number, but replicating researchers do. This belongs in SI. Options A (core experimental conditions), C (statistical methods), and D (experimental design strategy) are all essential for understanding results and must appear in the main text. The allocation principle is always: affects understanding → main text; affects only replication → SI."
+        }
+      ]
+    },
+    {
+      "id": "wf-09",
+      "title": "Conclusions & Discussion",
+      "titleCn": "结论与讨论",
+      "cards": [
+        {
+          "id": "wf-09-c1",
+          "titleCn": "重述论点而非复述结果",
+          "contentCn": "结论和讨论部分最常见的错误是**变成\"第二个结果部分\"**——逐条重复结果章节的数据和发现。讨论的核心任务是**解释结果意味着什么**，而非重述结果本身。好的讨论应该：1) 将核心发现与引言中提出的知识缺口重新对接——\"我们的发现填补了引言中提出的 XX 空白\"；2) 解释你的结果为什么重要——不仅报告\"X 增加了 Y\"，还要解释\"这意味着 Z\"；3) 将你的发现放在更大的学术语境中——与已有理论的关系是什么？是否挑战了某个假说？**黄金法则：结果部分回答\"我们发现了什么\"，讨论部分回答\"这意味着什么\"。** 如果一段话可以原封不动地移到结果部分，它就不应该出现在讨论中。",
+          "contentEn": "The most common error in Conclusions and Discussion is **becoming a \"second Results section\"** — repeating data and findings point by point. The Discussion's core task is to **explain what results mean**, not restate them. A good Discussion should: 1) reconnect core findings to the knowledge gap raised in the Introduction — \"Our findings address the XX gap identified in the Introduction\"; 2) explain why your results matter — not just \"X increased Y\" but \"this implies Z\"; 3) place your findings in the broader scholarly context — what is the relationship with existing theories? Does it challenge a hypothesis? **Golden rule: Results answer \"what we found\"; Discussion answers \"what it means.\"** If a paragraph could be moved to Results without modification, it does not belong in Discussion.",
+          "example": {
+            "label": "Results vs. Discussion",
+            "text": "Results (what): \"Compound X reduced tumor volume by 67% compared to vehicle control (p = 0.001).\"\nDiscussion (meaning): \"The 67% reduction in tumor volume by Compound X suggests that targeting the Wnt-independent pathway is a viable therapeutic strategy, particularly for tumors resistant to conventional Wnt inhibitors. This finding aligns with Lee et al.'s (2022) observation that Wnt-independent signaling compensates in resistant subtypes.\""
+          }
+        },
+        {
+          "id": "wf-09-c2",
+          "titleCn": "诚实讨论启示与局限性",
+          "contentCn": "讨论部分必须**同时呈现启示（Implications）和局限性（Limitations）**，两者缺一不可。**启示**应该从你的数据出发，向更广的范围推演：你的发现对临床实践有什么指导意义？对理论框架有什么修正？对其他领域有什么启发？但启示必须有数据支撑，不能过度延伸。**局限性**是审稿人最关注的部分之一——如果你不主动讨论，审稿人会替你讨论（而且措辞会更严厉）。好的局限性讨论应该：1) 明确承认局限的存在；2) 解释为什么这个局限存在（样本量、技术限制、模型简化等）；3) 说明这个局限对结论的影响程度。**关键句式**：\"Our study has several limitations. First, ... Second, ... Despite these limitations, our central finding remains robust because...\"",
+          "contentEn": "The Discussion must **present both Implications and Limitations** — neither can be omitted. **Implications** should extrapolate from your data to broader scope: what guidance does your finding offer clinical practice? What revisions to theoretical frameworks? What inspiration for other fields? But implications must be data-supported and not over-extended. **Limitations** are among the most scrutinized elements — if you don't discuss them proactively, reviewers will (often more harshly). Good limitation discussion should: 1) explicitly acknowledge the limitation's existence; 2) explain why it exists (sample size, technical constraints, model simplifications); 3) state the degree to which the limitation affects your conclusions. **Key phrasing**: \"Our study has several limitations. First, ... Second, ... Despite these limitations, our central finding remains robust because...\"",
+          "example": {
+            "label": "Balanced limitations",
+            "text": "Weak: \"Our study has some limitations.\"\nBalanced: \"Our study has three key limitations. First, the sample size (n=45) limits generalizability to broader populations. Second, our in vitro model does not fully recapitulate the tumor microenvironment's complexity. Third, the 6-month follow-up period cannot assess long-term durability. Despite these constraints, our central finding — that Compound X targets Wnt-independent resistance — is supported by both in vitro and xenograft data.\""
+          }
+        },
+        {
+          "id": "wf-09-c3",
+          "titleCn": "从局限性推导未来方向",
+          "contentCn": "讨论部分的**未来方向（Future Directions）**不应该是一个独立的清单（\"未来可以研究 A、B、C\"），而应该**直接从你的局限性推导出来**。每个未来方向都应该是解决某个具体局限性的自然延伸。这种写法有三个好处：1) 让未来方向显得有逻辑根据而非凭空想象；2) 向读者展示你对领域发展的深入思考；3) 为后续论文埋下伏笔。**另一个重要原则：讨论不是\"第二个引言\"。**不要在讨论中重新铺陈领域背景、重新介绍研究动机、或引入大量新的文献引用。讨论应该向内聚焦于你的研究，而非向外发散到整个领域。如果一段话读起来像引言的内容，它要么应该被删掉，要么说明你的引言没有写到位。",
+          "contentEn": "**Future Directions** in the Discussion should not be a standalone list (\"Future work could explore A, B, C\") but should **derive directly from your limitations**. Each future direction should be a natural extension addressing a specific limitation. This approach has three benefits: 1) future directions appear logically grounded rather than arbitrary; 2) it demonstrates deep thinking about the field's development; 3) it plants seeds for subsequent papers. **Another critical principle: the Discussion is not a \"second Introduction.\"** Do not re-establish field background, re-introduce research motivation, or introduce extensive new citations in the Discussion. The Discussion should focus inward on your study, not outward on the entire field. If a paragraph reads like Introduction content, it should either be deleted or it signals that your Introduction was insufficient.",
+          "example": {
+            "label": "Limitation-driven future work",
+            "text": "Weak: \"Future studies could explore applications in other cancer types, combine with immunotherapy, and investigate molecular mechanisms.\"\nStrong: \"Our in vitro model's inability to capture immune cell interactions (Limitation 2) motivates future work using organoid co-culture systems to test whether Compound X synergizes with immune checkpoint inhibitors — a question our current data cannot address.\""
+          }
+        }
+      ],
+      "exercises": [
+        {
+          "id": "wf-09-e1",
+          "type": "scenario",
+          "questionCn": "以下讨论段落存在什么主要问题？",
+          "passage": "In this study, we found that Compound X reduced tumor volume by 67%. We also observed that gene expression of Wnt targets was significantly downregulated. Western blot analysis confirmed decreased β-catenin levels. Immunohistochemistry showed reduced Ki-67 staining in treated tumors. Body weight measurements indicated no significant toxicity at the tested dose. Survival analysis showed a median survival extension of 45 days in the treatment group.",
+          "options": [
+            "结论过度夸大，声称了数据不支持的意义",
+            "缺少对未来方向的讨论",
+            "这是\"第二个结果部分\"——逐条复述了结果数据，没有解释这些发现意味着什么",
+            "局限性讨论不充分"
+          ],
+          "correctOption": 2,
+          "explanationCn": "这段文字是典型的**结果复述（Results Rehash）**——它只是把结果部分的数据重新列了一遍（肿瘤体积减少 67%、基因表达下调、蛋白水平下降、Ki-67 减少、无毒性、生存延长），但完全没有解释这些发现**意味着什么**。一个好的讨论应该把这些结果综合起来解释：它们共同说明了什么机制？对治疗耐药性肿瘤有什么启示？与已有知识的关系是什么？目前的写法让读者自己去推断意义，这是讨论部分最大的失败。",
+          "explanationEn": "This paragraph is a textbook **Results Rehash** — it merely re-lists the data from the Results section (67% tumor reduction, downregulated gene expression, decreased protein levels, reduced Ki-67, no toxicity, extended survival) without ever explaining what these findings **mean**. A good Discussion should synthesize these results: what mechanism do they collectively suggest? What implications for treating resistant tumors? What is the relationship to existing knowledge? The current writing forces readers to infer meaning themselves, which is the Discussion's greatest failure."
+        },
+        {
+          "id": "wf-09-e2",
+          "type": "choice",
+          "questionCn": "以下哪种局限性表述方式最为恰当？",
+          "options": [
+            "A) \"Our study has some limitations that should be noted.\"",
+            "B) \"Despite several limitations, our findings provide important insights. Future studies with larger samples are warranted.\"",
+            "C) \"Our study has three key limitations. First, the retrospective design (n=120) introduces selection bias that may overestimate treatment effects. Second, the single-center setting limits geographic generalizability. Third, we lacked genomic data to identify responder subpopulations. Despite these constraints, the consistent effect across all three primary endpoints supports the robustness of our central finding.\"",
+            "D) \"We acknowledge that our study is not perfect, but the results are still meaningful.\""
+          ],
+          "correct": 2,
+          "explanationCn": "C 是最佳的局限性表述：1) **具体**——列出了三个明确的局限性（回顾性设计、单中心、缺少基因组数据）；2) **解释原因**——说明每个局限为什么存在及其影响（选择偏差、地理限制、无法识别响应者亚群）；3) **评估影响**——最后一句说明尽管有这些局限，核心发现仍然稳健，因为三个主要终点一致。**A 太模糊**（\"some limitations\"不具体），**B 太套路**（\"important insights\"和\"future studies are warranted\"是空话），**D 太防御性**（\"not perfect\"的语气显得不专业）。",
+          "explanationEn": "C is the best limitation statement: 1) **Specific** — lists three clear limitations (retrospective design, single-center, lack of genomic data); 2) **Explains why** — states why each limitation exists and its impact (selection bias, geographic constraints, inability to identify responder subpopulations); 3) **Assesses impact** — the final sentence states that despite these limitations, the central finding remains robust because all three primary endpoints are consistent. **A is too vague** (\"some limitations\" is unspecific), **B is too formulaic** (\"important insights\" and \"future studies are warranted\" are empty phrases), **D is too defensive** (\"not perfect\" sounds unprofessional)."
+        }
+      ]
+    },
+    {
+      "id": "wf-10",
+      "title": "Nature Summary Paragraph",
+      "titleCn": "Nature 摘要段落",
+      "cards": [
+        {
+          "id": "wf-10-c1",
+          "titleCn": "格式硬性约束",
+          "contentCn": "Nature 主刊和多数子刊要求论文开头有一段**摘要段落（Summary Paragraph）**，它与普通摘要有严格的格式约束：**1) 必须是单一连续段落**——不能分段，不能有小标题；**2) 不使用任何格式标记**——不能有粗体、斜体、下划线、引用编号或脚注；**3) 字数限制通常不超过 150 词**（部分子刊放宽到约 250 词，但越短越好）；**4) 面向非专业读者**——第一段的一两句话必须让本领域以外受过科学训练的人也能理解。这些约束不是建议而是硬性要求——违反格式约束的论文可能在编辑初筛阶段就被退回要求修改。**核心挑战：在极短的篇幅内完成从背景到意义的完整叙事。**",
+          "contentEn": "Nature main journal and most sub-journals require a **Summary Paragraph** at the paper's opening, with strict format constraints distinct from a regular abstract: **1) Must be a single continuous paragraph** — no paragraph breaks, no subheadings; **2) No formatting marks** — no bold, italics, underlining, citation numbers, or footnotes; **3) Word limit typically under 150 words** (some sub-journals allow ~250 words, but shorter is better); **4) Written for non-specialist readers** — the first one or two sentences must be comprehensible to a scientifically trained person outside your field. These constraints are mandatory, not advisory — papers violating format rules may be returned for revision at the editorial screening stage. **Core challenge: complete a full narrative arc from context to significance within an extremely tight word budget.**",
+          "example": {
+            "label": "Format compliance",
+            "text": "Compliant: single paragraph, ~140 words, no bold/italic, no citation numbers, accessible opening sentence.\nNon-compliant: uses bold text for emphasis, includes [1,2,3] citation markers, splits into two paragraphs, or exceeds 200 words."
+          }
+        },
+        {
+          "id": "wf-10-c2",
+          "titleCn": "七步叙事结构",
+          "contentCn": "Nature 摘要段落遵循严格的**七步叙事结构**：**1) 宽泛语境（1-2句）**——让非专业读者也能理解的领域重要性；**2) 具体语境（2-3句）**——收窄到具体的系统或现象，引入必要术语；**3) 问题识别（1句）**——用明确的句子指出未解答的问题，常见格式为\"However, ... remains unknown/unclear/unresolved\"；**4) 核心发现（1句）**——用\"Here we show\"或\"Here we report\"开头，直接陈述主要发现；**5) 即时解读（2-3句）**——解释发现的意义，与已有认知对比而非简单罗列数据；**6) 广泛影响（1-2句）**——向更广的科学影响扩展，但不能夸大；**7) 前瞻（可选）**——如果篇幅允许，简述未来应用方向。核心结构（步骤1-6）约 **190 词**，加上步骤7约 **250 词**。",
+          "contentEn": "The Nature Summary Paragraph follows a strict **seven-step narrative structure**: **1) Broad context (1-2 sentences)** — field importance accessible to non-specialists; **2) Specific context (2-3 sentences)** — narrow to the specific system or phenomenon, introducing only essential terminology; **3) Problem identification (1 sentence)** — clearly state the unanswered question, often as \"However, ... remains unknown/unclear/unresolved\"; **4) Core finding (1 sentence)** — begin with \"Here we show\" or \"Here we report,\" directly stating the main discovery; **5) Immediate interpretation (2-3 sentences)** — explain the finding's meaning, contrasting with prior knowledge rather than merely listing data; **6) Broader impact (1-2 sentences)** — expand to wider scientific implications without exaggeration; **7) Outlook (optional)** — briefly mention future applications if space permits. Core structure (steps 1-6) is approximately **190 words**; with step 7, approximately **250 words**.",
+          "example": {
+            "label": "Seven-step example",
+            "text": "[1-Broad] Cells communicate through chemical signals that coordinate tissue behavior. [2-Specific] In the brain, astrocytes release molecules that modulate synaptic activity, but the identity of these signals remains debated. [3-Problem] However, whether astrocytes directly release neurotransmitters in vivo has not been demonstrated. [4-Finding] Here we show that astrocytes release glutamate through Bestrophin-1 channels in the hippocampus. [5-Interpretation] This release occurs within 50 milliseconds of neuronal firing, far faster than previously assumed passive diffusion models predict. [6-Impact] Our results redefine the role of astrocytes as active participants in synaptic transmission. [7-Outlook] This mechanism may inform therapeutic strategies for epilepsy.\""
+          }
+        },
+        {
+          "id": "wf-10-c3",
+          "titleCn": "摘要段落 vs 普通摘要的区别",
+          "contentCn": "许多作者混淆 Nature 的**摘要段落（Summary Paragraph）**和**普通摘要（Abstract）**，导致写作失败。关键区别：**1) 受众不同**——摘要段落面向跨学科的科学读者（包括编辑和不同领域的审稿人），普通摘要面向同领域的专业读者；**2) 语言风格不同**——摘要段落必须避免专业术语堆砌，使用通俗表达，普通摘要可以正常使用领域术语；**3) 结构不同**——摘要段落有严格的七步结构和字数限制，普通摘要结构更灵活；**4) 功能不同**——摘要段落是论文的\"电梯演讲\"，目的是让广泛读者快速理解核心价值，普通摘要是论文的\"内容预览\"，目的是让专业读者决定是否深读。**实用建议**：先写普通摘要理清逻辑，再将其改写为摘要段落——这个过程会迫使你简化语言、突出核心价值。",
+          "contentEn": "Many authors confuse Nature's **Summary Paragraph** with a regular **Abstract**, leading to writing failures. Key differences: **1) Audience** — the Summary Paragraph targets interdisciplinary scientific readers (including editors and reviewers from other fields), while the Abstract targets specialists; **2) Language style** — the Summary Paragraph must avoid jargon stacking and use accessible expressions, while the Abstract can use standard field terminology; **3) Structure** — the Summary Paragraph has a strict seven-step structure and word limit, while the Abstract has more flexible structure; **4) Function** — the Summary Paragraph is the paper's \"elevator pitch\" for broad readers to quickly grasp core value, while the Abstract is a \"content preview\" for specialists to decide whether to read further. **Practical advice**: write the Abstract first to clarify logic, then rewrite it as a Summary Paragraph — this process forces you to simplify language and highlight core value.",
+          "example": {
+            "label": "Abstract vs. Summary Paragraph",
+            "text": "Abstract: \"We demonstrate that m6A methylation of circRNA recruits YTHDF3 to promote cap-independent translation initiation via eIF4G2 interaction.\"\nSummary Paragraph: \"A chemical tag on circular RNA acts as a molecular beacon, recruiting a reader protein that enables protein synthesis without the usual cellular starting signal — revealing a hidden layer of gene regulation.\""
+          }
+        },
+        {
+          "id": "wf-10-c4",
+          "titleCn": "常见退修触发因素",
+          "contentCn": "Nature 编辑在初筛阶段会因为以下**摘要段落问题**而退回论文要求修改：**1) 开头过于专业**——第一句就使用高度专业术语，非本领域读者无法理解（\"The PI3K/AKT/mTOR signaling cascade...\"）；**2) 缺少明确的问题陈述**——读者读完整段不知道你在回答什么问题；**3) \"Here we show\"位置不当**——放在段落开头太突兀（缺乏语境），放在末尾太迟（读者已失去耐心）；**4) 结果罗列而非解读**——列出一堆数据但没有解释它们意味着什么；**5) 结尾夸大**——\"This work will revolutionize the field\"这类无支撑的宏大声明；**6) 超字数**——超过期刊限制会被直接要求缩减。**修改策略**：写完后让一位非同领域的同事阅读，如果他们无法在30秒内说出论文的核心发现，就需要修改。",
+          "contentEn": "Nature editors return papers for revision during initial screening due to these **Summary Paragraph issues**: **1) Overly specialized opening** — first sentence uses highly technical terms that non-specialists cannot parse (\"The PI3K/AKT/mTOR signaling cascade...\"); **2) Missing clear problem statement** — readers finish the paragraph without knowing what question you're answering; **3) \"Here we show\" misplaced** — at the opening it's too abrupt (lacking context), at the end it's too late (readers have lost patience); **4) Results listed without interpretation** — data points listed without explaining their meaning; **5) Overstated ending** — unsupported grand claims like \"This work will revolutionize the field\"; **6) Exceeding word limit** — papers over the limit are returned for trimming. **Revision strategy**: after writing, have a colleague from a different field read it — if they cannot state your core finding within 30 seconds, revision is needed.",
+          "example": {
+            "label": "Rejection trigger check",
+            "text": "Ask after writing:\n1. Can a biologist from another field understand sentence 1? (If no → simplify opening)\n2. Is there a clear \"However, X remains unknown\" sentence? (If no → add problem statement)\n3. Does \"Here we show\" appear around the paragraph's midpoint? (If no → reposition)\n4. Are results interpreted, not just listed? (If no → add meaning)\n5. Does the last sentence avoid unsupported grandeur? (If no → tone down)\n6. Is word count under 150? (If no → cut background)"
+          }
+        }
+      ],
+      "exercises": [
+        {
+          "id": "wf-10-e1",
+          "type": "fill",
+          "questionCn": "以下摘要段落存在多处问题（超字数、开头过于专业、缺少明确问题陈述）。请重写使其符合 Nature 摘要段落规范，控制在 150 词以内，使用通俗语言开头，并包含清晰的问题陈述和\"Here we show\"句。",
+          "passage": "The mechanistic target of rapamycin complex 1 (mTORC1) integrates amino acid availability, growth factor signaling, and cellular energy status through the Rag GTPase-Ragulator scaffold and the TSC1/2-Rheb axis to control anabolic metabolism and autophagy. Recent cryo-EM structures have revealed the architecture of mTORC1 bound to Rheb, yet the conformational dynamics underlying allosteric activation remain unresolved. Furthermore, how mTORC1 senses lysosomal amino acid flux in real time has not been visualized in living cells. Here we show, using lattice light-sheet microscopy combined with a genetically encoded mTORC1 activity reporter, that mTORC1 undergoes rapid (sub-second) conformational oscillations on lysosomal surfaces in response to amino acid pulses. These oscillations are abolished by RagA/B knockout and enhanced by Rheb overexpression, revealing a dynamic sensing mechanism distinct from the static on/off model. Our findings redefine mTORC1 as a real-time metabolic sensor with implications for rapamycin-based therapeutic strategies.",
+          "modelAnswer": "Cells must constantly decide whether to grow or conserve energy based on nutrient availability. A master regulator called mTORC1 sits at the center of this decision, but how it dynamically senses nutrients in real time has remained unclear. Previous studies captured static snapshots of its structure but could not observe its behavior in living cells. Here we show that mTORC1 undergoes rapid conformational oscillations on the surface of lysosomes in response to amino acid pulses, using advanced live-cell imaging with a custom fluorescent reporter. These oscillations occur within one second and depend on specific regulatory proteins, revealing that mTORC1 acts as a dynamic nutrient sensor rather than a simple on-off switch. This finding redefines our understanding of cellular nutrient sensing and may inform more precise therapeutic strategies targeting mTORC1 in cancer and metabolic diseases.",
+          "criteria": [
+            "开头使用通俗语言，非 mTOR 领域读者也能理解",
+            "包含清晰的问题陈述（如 'has remained unclear'）",
+            "包含 'Here we show' 句且位置在段落中部",
+            "结果有解读而非简单罗列数据",
+            "结尾有广泛影响但不夸大",
+            "总词数控制在 150 词以内",
+            "不使用任何格式标记（粗体、斜体、引用编号）"
+          ]
+        },
+        {
+          "id": "wf-10-e2",
+          "type": "scenario",
+          "questionCn": "以下摘要段落的主要格式问题是什么？",
+          "passage": "Climate change is accelerating the loss of Arctic sea ice, with profound implications for global weather patterns. Recent satellite observations reveal that summer ice extent has decreased by approximately 13% per decade since 1979. **However**, the mechanistic link between sea ice loss and mid-latitude extreme weather events remains debated. Several hypotheses have been proposed, including jet stream meandering (Francis & Vavrus, 2012) and stratospheric pathway disruption (Kim et al., 2014). Here we show, using a coupled ocean-atmosphere model (CESM2) constrained by 40 years of reanalysis data, that Arctic sea ice loss in the Barents-Kara Sea region triggers a stratospheric polar vortex weakening that propagates to mid-latitudes within 2-3 weeks, increasing the probability of extreme cold events by 40% (p < 0.01). This finding reconciles previously conflicting hypotheses and has immediate implications for seasonal weather forecasting in populated mid-latitude regions. Our results suggest that continued ice loss will further amplify mid-latitude weather extremes, underscoring the urgency of climate mitigation efforts.",
+          "options": [
+            "缺少核心发现声明",
+            "使用了格式标记（粗体、引用编号），违反了摘要段落的无格式要求",
+            "问题陈述不够明确",
+            "结尾过于夸大"
+          ],
+          "correctOption": 1,
+          "explanationCn": "这段摘要段落内容质量很高——有清晰的语境、明确的问题陈述、核心发现和广泛影响。但存在**格式违规**：使用了**粗体标记**（'**However**'）和**引用编号**（'Francis & Vavrus, 2012'、'Kim et al., 2014'）。Nature 摘要段落严格禁止任何格式标记和文献引用。另外，这段文字约 185 词，可能超过某些期刊的 150 词限制。修改方法：删除粗体标记、移除引用、适当精简。",
+          "explanationEn": "This Summary Paragraph has strong content — clear context, explicit problem statement, core finding, and broad impact. But it contains **formatting violations**: **bold text** ('**However**') and **citation references** ('Francis & Vavrus, 2012'; 'Kim et al., 2014'). Nature Summary Paragraphs strictly prohibit any formatting marks and literature citations. Additionally, at approximately 185 words, it may exceed some journals' 150-word limit. Fix: remove bold formatting, delete citations, and trim as needed."
+        },
+        {
+          "id": "wf-10-e3",
+          "type": "choice",
+          "questionCn": "以下 Nature 摘要段落的结构错误是什么？\n\n\"CRISPR-Cas9 has been widely adopted for genome editing across diverse organisms. Base editors enable precise single-nucleotide changes without double-strand breaks. Prime editors further expand the toolkit by allowing insertions, deletions, and all 12 transition and transversion mutations. Adenine and cytosine base editors have been applied in thousands of studies. We find that a new class of deaminase domains, discovered through metagenomic mining, enables simultaneous adenine and cytosine editing with 95% efficiency and <0.1% bystander editing in human cell lines.\"",
+          "options": [
+            "开头过于专业，第一句使用了过多技术术语",
+            "缺少明确的问题陈述（'However, ... remains ...'），导致读者不知道为什么需要新的编辑器",
+            "'Here we show'出现太晚，应该放在段落开头",
+            "结尾缺少广泛影响的讨论"
+          ],
+          "correct": 1,
+          "explanationCn": "这段摘要段落的主要问题是**缺少明确的问题陈述**。前四句都是背景介绍（CRISPR-Cas9、碱基编辑器、先导编辑器），最后一句直接跳到\"We find that...\"，但中间没有\"However, current editors cannot...\"这样的转折句来告诉读者现有方法的局限。读者不知道为什么要开发新的脱氨酶结构域——现有编辑器不是已经够用了吗？加上类似\"However, no existing editor can simultaneously modify both adenine and cytosine at the same position\"的一句就能解决这个问题。另外，'We find'不如'Here we show'符合 Nature 摘要段落的惯例。",
+          "explanationEn": "The main structural error is the **missing clear problem statement**. The first four sentences are all background (CRISPR-Cas9, base editors, prime editors), and the last sentence jumps directly to \"We find that...\" without a transitional \"However, current editors cannot...\" sentence explaining existing limitations. Readers have no reason to understand why new deaminase domains are needed — aren't existing editors sufficient? Adding something like \"However, no existing editor can simultaneously modify both adenine and cytosine at the same position\" would resolve this. Additionally, \"We find\" is less conventional than \"Here we show\" for Nature Summary Paragraphs."
+        }
+      ]
     }
   ]
 }
