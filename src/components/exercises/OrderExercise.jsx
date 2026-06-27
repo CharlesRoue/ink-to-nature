@@ -65,8 +65,8 @@ export default function OrderExercise({ exercise, moduleColor, onResult }) {
               <span className="flex-1">{item.text}</span>
               {!submitted && (
                 <div className="flex flex-col gap-1">
-                  <button onClick={() => moveItem(i, -1)} className="text-gray-400 hover:text-gray-600 text-xs">▲</button>
-                  <button onClick={() => moveItem(i, 1)} className="text-gray-400 hover:text-gray-600 text-xs">▼</button>
+                  <button onClick={() => moveItem(i, -1)} className="w-8 h-8 flex items-center justify-center text-gray-400 hover:text-gray-600 dark:hover:text-gray-300 rounded hover:bg-gray-100 dark:hover:bg-gray-700 text-base">▲</button>
+                  <button onClick={() => moveItem(i, 1)} className="w-8 h-8 flex items-center justify-center text-gray-400 hover:text-gray-600 dark:hover:text-gray-300 rounded hover:bg-gray-100 dark:hover:bg-gray-700 text-base">▼</button>
                 </div>
               )}
             </div>

@@ -60,7 +60,7 @@ export default function ModulePage() {
                 <p className="font-medium text-sm truncate">{lesson.titleCn}</p>
                 <p className="text-xs text-gray-400 truncate">{lesson.title}</p>
               </div>
-              <span className="text-xs text-gray-400 flex-shrink-0">
+              <span className="text-xs text-gray-400 flex-shrink-0 hidden sm:inline">
                 {lesson.cards.length} 卡片 · {lesson.exercises.length} 练习
               </span>
             </Link>

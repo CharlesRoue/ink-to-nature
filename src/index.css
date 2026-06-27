@@ -16,3 +16,13 @@ body {
   background-color: #1a1a2e;
   color: #e0e0e0;
 }
+
+html, body {
+  overflow-x: hidden;
+}
+
+@media (pointer: coarse) {
+  button, a, [role="button"] {
+    -webkit-tap-highlight-color: transparent;
+  }
+}

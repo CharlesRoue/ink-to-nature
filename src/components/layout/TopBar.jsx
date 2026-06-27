@@ -29,14 +29,14 @@ export default function TopBar() {
   const crumbs = buildBreadcrumbs(location.pathname)
 
   return (
-    <header className="sticky top-0 z-50 bg-white dark:bg-[#1a1a2e] border-b border-gray-200 dark:border-gray-700 px-6 py-3">
+    <header className="sticky top-0 z-50 bg-white dark:bg-[#1a1a2e] border-b border-gray-200 dark:border-gray-700 px-4 sm:px-6 py-3">
       <div className="max-w-5xl mx-auto flex items-center justify-between">
-        <nav className="flex items-center gap-2 text-sm">
+        <nav className="flex items-center gap-2 text-sm min-w-0">
           {crumbs.map((crumb, i) => (
             <span key={crumb.path} className="flex items-center gap-2">
               {i > 0 && <span className="text-gray-400">/</span>}
               {i === crumbs.length - 1 ? (
-                <span className="font-medium text-gray-900 dark:text-white">{crumb.label}</span>
+                <span className="font-medium text-gray-900 dark:text-white truncate">{crumb.label}</span>
               ) : (
                 <Link to={crumb.path} className="text-gray-500 hover:text-gray-900 dark:hover:text-white transition-colors">
                   {crumb.label}

@@ -16,9 +16,9 @@ export default function HomePage() {
 
   return (
     <div className="space-y-12">
-      <div className="text-center space-y-4 py-8">
-        <h1 className="text-4xl font-bold tracking-tight">Ink to Nature</h1>
-        <p className="text-gray-500 dark:text-gray-400 text-lg">
+      <div className="text-center space-y-4 py-4 sm:py-8">
+        <h1 className="text-2xl sm:text-4xl font-bold tracking-tight">Ink to Nature</h1>
+        <p className="text-gray-500 dark:text-gray-400 text-base sm:text-lg">
           From first draft to Nature-level writing, one lesson at a time.
         </p>
         <div className="inline-flex items-center gap-3 text-sm text-gray-400">
