@@ -11,7 +11,7 @@ const COMPONENTS = {
   scenario: ScenarioExercise,
 }
 
-export default function ExerciseRenderer({ exercises, moduleColor, onComplete }) {
+export default function ExerciseRenderer({ exercises, moduleColor, onFinish }) {
   const [index, setIndex] = useState(0)
   const [results, setResults] = useState([])
 
@@ -30,11 +30,11 @@ export default function ExerciseRenderer({ exercises, moduleColor, onComplete })
           练习完成！{passed}/{exercises.length} 题正确
         </p>
         <button
-          onClick={onComplete}
+          onClick={onFinish}
           className="px-6 py-2 rounded-lg text-white hover:opacity-90 transition-opacity"
           style={{ backgroundColor: moduleColor }}
         >
-          完成本课 ✓
+          继续 →
         </button>
       </div>
     )

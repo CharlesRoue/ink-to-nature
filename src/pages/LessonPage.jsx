@@ -1,7 +1,6 @@
 import { useState, useEffect } from 'react'
 import { useParams, useNavigate } from 'react-router-dom'
 import { getModuleById, getLessonById } from '../data/modules'
-import { useProgressContext } from '../context/ProgressContext'
 import CardViewer from '../components/cards/CardViewer'
 import ExerciseRenderer from '../components/exercises/ExerciseRenderer'
 
@@ -10,10 +9,8 @@ export default function LessonPage() {
   const navigate = useNavigate()
   const mod = getModuleById(moduleId)
   const lesson = getLessonById(moduleId, lessonId)
-  const { completeLesson, isLessonComplete } = useProgressContext()
 
   const [mode, setMode] = useState('learn')
-  const alreadyComplete = lesson ? isLessonComplete(lesson.id) : false
 
   // Reset mode when navigating to a different lesson
   useEffect(() => {
@@ -24,8 +21,7 @@ export default function LessonPage() {
     return <div className="text-center text-gray-500 py-12">课程未找到</div>
   }
 
-  const handleComplete = () => {
-    completeLesson(lesson.id)
+  const handleFinish = () => {
     const lessonIndex = mod.lessons.findIndex((l) => l.id === lessonId)
     const nextLesson = mod.lessons[lessonIndex + 1]
     if (nextLesson) {
@@ -65,12 +61,6 @@ export default function LessonPage() {
         </button>
       </div>
 
-      {alreadyComplete && (
-        <div className="text-xs text-green-600 dark:text-green-400 bg-green-50 dark:bg-green-900/20 px-3 py-2 rounded-lg inline-block">
-          ✓ 已完成此课
-        </div>
-      )}
-
       {mode === 'learn' ? (
         <CardViewer
           cards={lesson.cards}
@@ -82,7 +72,7 @@ export default function LessonPage() {
           key={lessonId}
           exercises={lesson.exercises}
           moduleColor={mod.color}
-          onComplete={handleComplete}
+          onFinish={handleFinish}
         />
       )}
     </div>
