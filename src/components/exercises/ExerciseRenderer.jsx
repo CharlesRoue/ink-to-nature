@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import ChoiceExercise from './ChoiceExercise'
 import FillExercise from './FillExercise'
 import OrderExercise from './OrderExercise'
@@ -14,6 +14,12 @@ const COMPONENTS = {
 export default function ExerciseRenderer({ exercises, moduleColor, onComplete }) {
   const [index, setIndex] = useState(0)
   const [results, setResults] = useState([])
+
+  // Reset state when exercises change (e.g. navigating between lessons)
+  useEffect(() => {
+    setIndex(0)
+    setResults([])
+  }, [exercises])
 
   if (index >= exercises.length) {
     const passed = results.filter(Boolean).length
@@ -64,6 +70,7 @@ export default function ExerciseRenderer({ exercises, moduleColor, onComplete })
       </p>
 
       <Component
+        key={exercise.id || index}
         exercise={exercise}
         moduleColor={moduleColor}
         onResult={handleResult}

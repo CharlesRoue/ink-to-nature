@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { useParams, useNavigate } from 'react-router-dom'
 import { getModuleById, getLessonById } from '../data/modules'
 import { useProgressContext } from '../context/ProgressContext'
@@ -14,6 +14,11 @@ export default function LessonPage() {
 
   const [mode, setMode] = useState('learn')
   const alreadyComplete = lesson ? isLessonComplete(lesson.id) : false
+
+  // Reset mode when navigating to a different lesson
+  useEffect(() => {
+    setMode('learn')
+  }, [lessonId])
 
   if (!mod || !lesson) {
     return <div className="text-center text-gray-500 py-12">课程未找到</div>
@@ -74,6 +79,7 @@ export default function LessonPage() {
         />
       ) : (
         <ExerciseRenderer
+          key={lessonId}
           exercises={lesson.exercises}
           moduleColor={mod.color}
           onComplete={handleComplete}
